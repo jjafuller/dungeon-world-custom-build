@@ -1,0 +1,221 @@
+
+/* CSS styles for Kindle and ePub readers  */
+   /* null out device default values */
+   body, h1, h2, h3, p, ul { margin: 0; padding: 0; }
+   h1, h2, h3, p { font-size: 1em; background: transparent}
+   a { text-decoration: none; }
+   img { border: none; }
+ 
+   /* my styles */
+   body {margin-top: 0em;
+         margin-left: 0.5em;}
+ 
+   h1 {
+      font-size: 20px;
+      font-style: normal;
+       color: black;
+       margin-top: 6px;
+       margin-bottom: 3px;
+       page-break-before: always;      
+       }
+ 
+   h2 {font-size: 16px;
+       color: black;
+       margin-top: 6px;
+       margin-bottom: 3px;
+}
+ 
+   h3 {font-size: 12px;
+       font-style: italic;
+       color: #e10052;
+       margin-top: 6px;
+       margin-bottom: 3px;}
+ 
+ /* note normal class  is just p but could create to modify for text */
+   p  {font-size: 1em;
+       font-style: normal;
+       color: black;
+       text-indent: 1em;
+       margin-top: 0.25em;
+       margin-bottom: 0.25em;}
+ 
+   ul {margin-top: 0;
+       margin-left: 2.5em;}
+ 
+   li {list-style-type: disc;
+       list-style-position: outside;
+       font-size: 1em;
+       font-style: normal;
+       margin-top: 0;
+       margin-left: 0;
+       padding-bottom: 0;
+       padding-left: 0;}
+ 
+   hr {color: #e10052;
+       margin-top: 0;
+       margin-bottom: 1em; }
+ 
+   /* classes */
+   .italic { font-style: italic;
+             font-size: 1em;
+             text-indent: 0.4em;
+             margin-top: 0.5em;
+             margin-right: 2em;
+             margin-bottom: 0.5em;
+             margin-left: 1.5em; }
+ 
+   .bar    { background: #e10052;
+             width: 60%;
+             border-top: none;
+             border-right: none;
+             border-bottom: none;
+             border-left: none;
+             padding: 0.5em;
+             margin-bottom: 0.5em;
+             page-break-before: always;}
+ 
+   .center { text-align: center;
+             margin-top: 1em;
+             margin-bottom: 1em;}
+ 
+   .first  { font-size: 1em;
+             font-style: normal;
+             color: black;
+             text-indent: 0;
+             margin-top: 0em;
+             margin-bottom: 0.25em;}
+ 
+   .list  {  font-size: 1em;
+             font-style: normal; 
+             color: black;
+             text-indent: 0;
+             margin-top: 0.25em;
+             margin-bottom: 0.25em;}
+
+/* the classes below correspond to the L4S added named styles used in the word processor. */
+/* styles toc anchor text   */
+a.toc_cls_1  {
+	font-size: 16px;
+          color: red;
+         }
+
+a.toc_cls_2  {
+	font-size: 14px;
+          color: green;
+          margin-left: 2em;
+       }
+
+
+a.toc_cls_3  {
+	font-size: 14px;
+	font-style: italic;
+          color: green;
+         margin-left: 3em;
+      }
+
+
+a.toc_cls_4  {
+	font-size: 10px;
+          color: green;
+	font-style: italic;
+           margin-left: 4em;
+          }
+
+/* styles  author text   */
+
+p.authors  {
+	font-size: 14px;
+	font-style: italic;
+          color: green;
+         margin-left: 3em;
+      }
+
+/* title styles */
+
+ h3.title_1 {
+ 	font-size: 14px;
+	font-style: italic;
+          color: green;
+         text-align: center;
+}
+
+
+p.title_1  {
+	font-size: 14px;
+	font-style: italic;
+          color: green;
+         text-align: center;
+      }
+
+p.title_2  {
+	font-size: 14px;
+	font-style: italic;
+          color: green;
+         text-align: center;
+      }
+
+p.title_3  {
+	font-size: 12px;
+	font-style: italic;
+          color: green;
+         margin-left: 1em;
+      }
+
+/*  ch1,ch2,ch3,ch4  classes to style heading1, heading2 etc, don't need them unless 
+you are using h tags in other parts of your html, if so you can define h1.ch1 etc to give 
+independent styles to your headings */ 
+
+
+
+p.img_captions  {
+	font-size: 16px;
+	font-weight: bold;
+          color: black;
+         text-align:center;
+      }
+
+.table_captions  {
+	font-size: 16px;
+	font-weight: bold;
+          color: black;
+         text-align:center;
+      }
+
+table.table_1{
+         text-align:center;
+}
+
+table.table_2{
+         text-align:center;
+}
+
+
+table.table_3{
+         text-align:center;
+}
+
+
+img.image_1{
+         text-align:center;
+}
+
+img.image_2{
+         text-align:center;
+}
+
+img.image_3{
+         text-align:center;
+}
+
+
+p.user_1{
+         text-align:left;
+}
+
+p.user_2{
+         text-align:left;
+}
+
+p.user_3{
+         text-align:left;
+}

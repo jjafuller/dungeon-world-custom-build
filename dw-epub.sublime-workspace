@@ -1,0 +1,347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jjafuller/Dropbox/Roleplaying/Cortex Plus/Marvel/MHR_Cheat_Sheets/Watcher/mhr_watcher_pp_sheet.tex",
+		"/home/jjafuller/Dropbox/Roleplaying/D&D/RPGA/Lair Assault/Attack of the Tyrant Claw/Wilden-Avenger-Assasin",
+		"/home/jjafuller/Dropbox/Roleplaying/D&D/RPGA/Lair Assault/Attack of the Tyrant Claw/Human-Cleric-Fighter.txt",
+		"/home/jjafuller/Dropbox/Roleplaying/D&D/RPGA/Lair Assault/Attack of the Tyrant Claw/Shifter-Ranger-Cleric.txt",
+		"/home/jjafuller/Dropbox/Notebooks/Untitled Game Setting/BookProperties.plist",
+		"/home/jjafuller/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/home/jjafuller/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+		"/home/jjafuller/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+		"/home/jjafuller/Dropbox/Roleplaying/D&D Next/Fake from FATE/Brainstorming.txt",
+		"/home/jjafuller/Desktop/sg-reply.html",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/for_sale.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/romantic-getaways.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/style.css",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/menu.js",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/menu.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/date.js",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/saugatuck-specials-packages.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/themes/king/style.css",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/themes/king/ajax_event_calendar.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/themes/king/google_calendar.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/saugatuck-mi-suites.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/photo-gallery-pages/dining.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/policies.htm",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/location.htm",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/photo-gallery.htm",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/bed-and-breakfast-guest-comments/guestcomments.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/db/addons/guestcomments.addon.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/themes/king/header.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/themes/king/header-home.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/guestroom.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/site-map.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-load.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/dining.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/guestcomments.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/amenities.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/plugins/nextgen-gallery/view/gallery-carousel.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/plugins/nextgen-gallery-selector/nextgen-gallery-selector.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/plugins/nextgen-gallery-selector/nextgen-gallery-selector-admin.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/themes/king/nggallery/gallery-featured.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/plugins/featured_block/featured_block_admin.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/plugins/featured_block/featured_block.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/wp/wp-content/plugins/nextgen-gallery/admin/addgallery.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/db/config.sys.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/.htaccess",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/html/db/cms_tables.sys.php",
+		"/home/jjafuller/Sites/bol/kingsleyhouse.com/dev/migrations/2011-09-01 2250 - Add sort_order to kng_rooms.sql",
+		"/home/jjafuller/Dropbox/Roleplaying/Dungeon World/source/text/Damage and HP.xml",
+		"/home/jjafuller/Dropbox/Roleplaying/Dungeon World/source/text/Fronts.xml",
+		"/home/jjafuller/Dropbox/Roleplaying/Dungeon World/source/text/Title Page.xml",
+		"/home/jjafuller/Dropbox/Roleplaying/Dungeon World/source/text/GM Rules.xml",
+		"/home/jjafuller/Dropbox/Roleplaying/Dungeon World/source/text/Character Creation.xml",
+		"/home/jjafuller/Dropbox/Roleplaying/Dungeon World/source/text/Monsters.xml",
+		"/home/jjafuller/Dropbox/Roleplaying/Dungeon World/source/text/Cavern Dwellers.xml",
+		"/home/jjafuller/Dropbox/Roleplaying/Dungeon World/source/text/Advancement.xml",
+		"/home/jjafuller/Desktop/invoke_action_point.xml",
+		"/home/jjafuller/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+		"/home/jjafuller/Sites/jjaf/they.misled.us/branches/2.0/sync.txt",
+		"/home/jjafuller/Sites/jjaf/they.misled.us/branches/2.0/dev/scripts/down-sync.php",
+		"/home/jjafuller/Sites/jjaf/they.misled.us/branches/2.0/dev/scripts/sync/rsync_exclude.txt",
+		"/home/jjafuller/Sites/jjaf/they.misled.us/branches/2.0/dev/scripts/sync/deploy.php",
+		"/home/jjafuller/Dropbox/PIM/Blog/Effects of Magic on the Real World.txt",
+		"/home/jjafuller/Dropbox/PIM/Blog/Strands of Fate.txt",
+		"/home/jjafuller/Sites/bol/shavinsharp.com/branches/1.0/wp/wp-content/themes/simpleshavin/style.css"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"theme",
+			"menu.php",
+			"menu",
+			"calendar",
+			"760",
+			"width=760",
+			"760",
+			"860",
+			"rooms",
+			"width=800",
+			"width=780",
+			"width=760",
+			"add-gall",
+			"oscimp",
+			"results2",
+			"everyone has to ",
+			"smart",
+			"ass",
+			"add them together",
+			"<em>",
+			"’",
+			"“",
+			"”",
+			"“",
+			"<",
+			"\\<MonsterDescription\\>([.\\s\\S]*)\\<\\/MonsterDescription\\>",
+			"$im",
+			"$img",
+			"nimages"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"960",
+			"width=860",
+			"width=800",
+			"width=780",
+			"ngselector",
+			"'",
+			"``",
+			"''",
+			"``",
+			"$dict",
+			"count"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"for",
+				"html/for_sale.php"
+			],
+			[
+				"romant",
+				"html/romantic-getaways.php"
+			],
+			[
+				"saug",
+				"html/saugatuck-mi-suites.php"
+			],
+			[
+				"style",
+				"html/style.css"
+			],
+			[
+				"menu.js",
+				"html/menu.js"
+			],
+			[
+				"menu.php",
+				"html/menu.php"
+			],
+			[
+				"kingstyle",
+				"html/wp/wp-content/themes/king/style.css"
+			],
+			[
+				"calendar",
+				"html/wp/wp-content/themes/king/google_calendar.php"
+			],
+			[
+				"guestcomm",
+				"html/bed-and-breakfast-guest-comments/guestcomments.php"
+			],
+			[
+				"guestcom",
+				"html/db/addons/guestcomments.addon.php"
+			],
+			[
+				"dining.php",
+				"html/photo-gallery-pages/dining.php"
+			],
+			[
+				"dining",
+				"html/photo-gallery-pages/dining.php"
+			],
+			[
+				"pol",
+				"html/policies.htm"
+			],
+			[
+				"loca",
+				"html/location.htm"
+			],
+			[
+				"photo",
+				"html/photo-gallery.htm"
+			],
+			[
+				"header-hom",
+				"html/wp/wp-content/themes/king/header-home.php"
+			],
+			[
+				"photo-ga",
+				"html/photo-gallery.htm"
+			],
+			[
+				"wp-load",
+				"html/wp/wp-load.php"
+			],
+			[
+				"site-map",
+				"html/site-map.php"
+			],
+			[
+				"romantic",
+				"html/romantic-getaways.php"
+			],
+			[
+				"sauage",
+				"html/saugatuck-specials-packages.php"
+			],
+			[
+				"guestro",
+				"html/guestroom.php"
+			],
+			[
+				"guestcomments",
+				"html/bed-and-breakfast-guest-comments/guestcomments.php"
+			],
+			[
+				"guest",
+				"html/guestcomments.php"
+			],
+			[
+				"photo-",
+				"html/photo-gallery.htm"
+			],
+			[
+				"dinin",
+				"html/photo-gallery-pages/dining.php"
+			],
+			[
+				"suites",
+				"html/saugatuck-mi-suites.php"
+			],
+			[
+				"config",
+				"html/db/config.sys.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true
+}
