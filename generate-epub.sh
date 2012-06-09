@@ -23,8 +23,8 @@ find wip/ -type f -exec sed -i 's/ClassName/h1/ig' {} \;
 echo 'FIXING TITLES...'
 
 sed -i 's/The world/The World/' wip/16-The\ World.html
-sed -i 's/Cavern Dwellers/Denizens of the Murky Swamp/' wip/17b-Denizens\ of\ the\ Murky\ Swamp.html
-sed -i 's/Cavern Dwellers/Legions of the Undead/' wip/17c-Legions\ of\ the\ Undead.html
+#sed -i 's/Cavern Dwellers/Denizens of the Murky Swamp/' wip/17b-Denizens\ of\ the\ Murky\ Swamp.html
+#sed -i 's/Cavern Dwellers/Legions of the Undead/' wip/17c-Legions\ of\ the\ Undead.html
 
 sed -i 's/Moves in Detail/Class Moves in Detail/' wip/18a-Class\ Moves\ Discussion.html
 
@@ -71,4 +71,7 @@ pandoc -S --epub-stylesheet=epub.css --epub-metadata=metadata.xml -o dungeon-wor
 	wip/18-Moves\ Discussion.html \
 	wip/18a-Class\ Moves\ Discussion.html \
 	wip/19-Advanced\ Delving.html \
-	wip/a1-Thanks.html
+	wip/a1-Thanks.html \
+	wip/a2-Teaching.html \
+	wip/a3-Conversion.html \
+	wip/a4-NPCs.html
