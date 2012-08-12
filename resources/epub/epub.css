@@ -2,7 +2,7 @@
 /* CSS styles for Kindle and ePub readers  */
    /* null out device default values */
    body, h1, h2, h3, p, ul { margin: 0; padding: 0; }
-   h1, h2, h3, p { font-size: 1em; background: transparent}
+   h1, h2, h3, p { background: transparent}
    a { text-decoration: none; }
    img { border: none; }
  
@@ -11,24 +11,17 @@
          margin-left: 0.5em;}
  
    h1 {
-      font-size: 20px;
-      font-style: normal;
-       color: black;
+      
        margin-top: 6px;
        margin-bottom: 3px;
        page-break-before: always;      
        }
  
-   h2 {font-size: 16px;
-       color: black;
-       margin-top: 6px;
+   h2 {margin-top: 6px;
        margin-bottom: 3px;
 }
  
-   h3 {font-size: 12px;
-       font-style: italic;
-       color: #e10052;
-       margin-top: 6px;
+   h3 {margin-top: 6px;
        margin-bottom: 3px;}
  
  /* note normal class  is just p but could create to modify for text */

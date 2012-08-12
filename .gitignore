@@ -1,3 +1,4 @@
-wip/
+.DS_Store
+build/tex
 *.sublime-project
 *.sublime-workspace
