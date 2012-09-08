@@ -166,6 +166,12 @@ h2{
 	margin-bottom:-20px;
 }
 
+h2 em {
+	font-size: 0.76em;
+	float: right;
+	color: #222;
+}
+
 h3{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size:1.25em;
@@ -415,7 +421,20 @@ h1 a:visited;{
 	font-style: italic;
 }
 
+p.SpellName {
+	font-weight: bold;
+	padding-left: 350px;
+}
 
+p.SpellName em {
+	float: right;
+}
+
+span.SpellName {
+	float: left;
+	margin-left: -350px;
+	font-size: 1.1em;
+}
 
 
 
@@ -672,9 +691,6 @@ width:100%;
 			height:auto;
 			margin-left:0px;	
 			}
-	
-	
-	
 
 }
 
