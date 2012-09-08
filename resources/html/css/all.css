@@ -166,6 +166,12 @@ h2{
 	margin-bottom:-20px;
 }
 
+h2 em {
+	font-size: 0.76em;
+	float: right;
+	color: #222;
+}
+
 h3{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size:1.25em;
