@@ -59,7 +59,8 @@ input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
 
 table { border-collapse: collapse; border-spacing: 0; }
-td { vertical-align: top; }
+td,th { vertical-align: top; border: 3px solid #222; text-align: center; }
+th { background: #222; color: #fff; }
 
 
 /* ==|== primary styles =====================================================

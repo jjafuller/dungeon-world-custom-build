@@ -25,7 +25,7 @@ find build/html/ -type f -exec sed -i 's/<\/Story>/<\/Body>/ig' {} \;
 
 echo 'CONVERT WRAPPER TO XHTML...'
 
-indesign_root='<\?xml version=\"1\.0\" encoding=\"UTF-8\" standalone=\"yes\"\?>\r?\n(<\?xml-stylesheet type=\"text\/xsl\" href=\"dungeon-world-class\.xsl\"\?>\r?\n)?<Root xmlns:aid=\"http:\/\/ns\.adobe\.com\/AdobeInDesign\/4\.0\/\">'
+indesign_root='<\?xml version=\"1\.0\" encoding=\"UTF-8\" standalone=\"yes\"\?>\r?\n(<\?xml-stylesheet type=\"text\/xsl\" href=\"dungeon-world.*\.xsl\"\?>\r?\n)?<Root xmlns:aid=\"http:\/\/ns\.adobe\.com\/AdobeInDesign\/4\.0\/\">'
 
 xhtml_root='<!DOCTYPE html PUBLIC "-\/\/W3C\/\/DTD XHTML 1.0 Transitional\/\/EN"
 "http:\/\/www.w3.org\/TR\/xhtml1\/DTD\/xhtml1-transitional.dtd">
@@ -87,6 +87,11 @@ done
 echo 'FIXING TITLES...'
 
 sed -i 's/Moves in Detail/Class Moves in Detail/' ./build/html/Class_Moves_Discussion.html
+sed -i 's/The world/The World/' ./build/html/The_World.html
+
+echo 'FIXING TABLES...'
+
+./scripts/fix-tables-in.py ./build/html/Character_Creation.html
 
 echo 'COPYING HTML RESOURCES...'
 

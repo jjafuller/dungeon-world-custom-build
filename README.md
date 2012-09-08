@@ -16,4 +16,4 @@ Currently, there are scripts for generating the following formats:
 TODO
 ====
 
-# Figure out why the header of the Cleric Spells file is not being replaced correctly
+# Create Open Dyslexic Version of HTML and PDF
