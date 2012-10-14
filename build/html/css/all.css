@@ -436,6 +436,9 @@ span.SpellName {
 	font-size: 1.1em;
 }
 
+#alignment h3 {
+	padding-top: 20px;
+}
 
 
 /* ==|== non-semantic helper classes ======================================== */
