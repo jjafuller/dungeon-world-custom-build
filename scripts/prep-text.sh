@@ -3,7 +3,7 @@
 echo 'UPDATING SOURCE FROM GITHUB...'
 
 cd source
-git pull
+git pull -u
 cd ..
 
 echo 'COPYING SOURCE TO WORKING DIRECTORY...'
