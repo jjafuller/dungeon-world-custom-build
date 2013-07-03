@@ -134,9 +134,9 @@ echo 'FIXING TITLES...'
 perl -p -i -e 's/Moves in Detail/Class Moves in Detail/' ./build/html/Class_Moves_Discussion.html
 perl -p -i -e 's/The world/The World/' ./build/html/The_World.html
 
-echo 'FIXING TABLES...'
+#echo 'FIXING TABLES...'
 
-./scripts/fix-tables-in.py ./build/html/Character_Creation.html
+#./scripts/fix-tables-in.py ./build/html/Character_Creation.html
 
 echo 'COPYING HTML RESOURCES...'
 

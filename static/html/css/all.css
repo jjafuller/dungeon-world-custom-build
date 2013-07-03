@@ -1,0 +1,22 @@
+#content {
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 979px) {
+    #content {
+        margin-top: 0px;
+    }
+
+    .navbar .brand {
+        margin: 3px 0 0 5px;
+    }
+
+    .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+        padding: 0;
+    }
+
+    .nav-collapse .nav {
+        padding: 5px;
+    }
+}
