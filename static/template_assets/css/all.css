@@ -63,15 +63,19 @@ div.MoveOneLine .last {
 
 @media only screen and (max-width: 979px) {
     #content {
-        margin-top: 0px;
+        margin-top: 55px;
     }
 
     .navbar .brand {
         margin: 3px 0 0 5px;
     }
 
+    .navbar-fixed-top {
+        position: fixed;
+    }
+
     .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
-        padding: 0;
+        padding: 0 20px;
     }
 
     .nav-collapse .nav {
