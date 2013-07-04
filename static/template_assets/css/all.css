@@ -51,6 +51,16 @@ div.MoveOneLine .last {
     margin-bottom: 30px;
 }
 
+.InstructionsAfterHeader,
+.Instructions {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.InstructionsAfterHeader {
+    margin-top: 10px;
+}
+
 @media only screen and (max-width: 979px) {
     #content {
         margin-top: 0px;
