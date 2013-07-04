@@ -1,268 +1,413 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ravenous Hordes</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/css/all.css">
-	<link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
+    <title>Ravenous Hordes</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
-<body><h1>Ravenous Hordes</h1>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">Dungeon World</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Introduction.html">Introduction</a></li>
-                        <li><a href="Playing_the_Game.html">Playing the Game</a></li>
-                        <li><a href="Character_Creation.html">Character Creation</a></li>
-                        <li><a href="Moves.html">Moves</a></li>
-                        <li><a href="Equipment.html">Equipment</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Bard.html">Bard</a></li>
-                        <li><a href="Cleric.html">Cleric</a></li>
-                        <li><a href="Cleric_Spells.html"><em>Cleric Spells</em></a></li>
-                        <li><a href="Druid.html">Druid</a></li>
-                        <li><a href="Fighter.html">Fighter</a></li>
-                        <li><a href="Paladin.html">Paladin</a></li>
-                        <li><a href="Ranger.html">Ranger</a></li>
-                        <li><a href="Thief.html">Thief</a></li>
-                        <li><a href="Wizard.html">Wizard</a></li>
-                        <li><a href="Wizard_Spells.html"><em>Wizard Spells</em></a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="GM.html">GM</a></li>
-                        <li><a href="First_Session.html">First Session</a></li>
-                        <li><a href="Fronts.html">Fronts</a></li>
-                        <li><a href="The_World.html">The World</a></li>
-                        <li><a href="Advanced_Delving.html">Advanced Delving</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Monsters.html">Overview</a></li>
-                        <li><a href="monster_settings/Caverns.html">Cavern Dwellers</a></li>
-                        <li><a href="monster_settings/Swamp.html">Swamp Denizens</a></li>
-                        <li><a href="monster_settings/Undead.html">Legions of the Undead</a></li>
-                        <li><a href="monster_settings/Woods.html">Gnarled Woods</a></li>
-                        <li><a href="monster_settings/Hordes.html">Ravenous Hordes</a></li>
-                        <li><a href="monster_settings/Experiments.html">Twisted Experiments</a></li>
-                        <li><a href="monster_settings/Depths.html">Lower Depths</a></li>
-                        <li><a href="monster_settings/Planes.html">Planar Powers</a></li>
-                        <li><a href="monster_settings/Folk.html">Folk of the Realm</a></li>
-                    </ul>
-                </li>
-                
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="appendices/Thanks.html">Thanks</a></li>
-                        <li><a href="appendices/Teaching.html">Teaching</a></li>
-                        <li><a href="appendices/Conversion.html">Conversion</a></li>
-                        <li><a href="appendices/NPCs.html">NPCs</a></li>
-                    </ul>
-                </li>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">Dungeon World</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="playing_the_game.html">Playing the Game</a></li>
+                <li><a href="example.html">Example of Play</a></li>
+                <li><a href="character_creation.html">Character Creation</a></li>
+                <li><a href="moves_discussion.html">Moves</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="bard.html">Bard</a></li>
+                <li><a href="cleric.html">Cleric</a></li>
+                <li><a href="cleric_spells.html"><em>Cleric Spells</em></a></li>
+                <li><a href="druid.html">Druid</a></li>
+                <li><a href="fighter.html">Fighter</a></li>
+                <li><a href="paladin.html">Paladin</a></li>
+                <li><a href="ranger.html">Ranger</a></li>
+                <li><a href="thief.html">Thief</a></li>
+                <li><a href="wizard.html">Wizard</a></li>
+                <li><a href="wizard_spells.html"><em>Wizard Spells</em></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="gm.html">GM</a></li>
+                <li><a href="first_session.html">First Session</a></li>
+                <li><a href="fronts.html">Fronts</a></li>
+                <li><a href="the_world.html">The World</a></li>
+                <li><a href="advanced_delving.html">Advanced Delving</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="monsters.html">Overview</a></li>
+                <li><a href="monsters_caverns.html">Cavern Dwellers</a></li>
+                <li><a href="monsters_swamp.html">Swamp Denizens</a></li>
+                <li><a href="monsters_undead.html">Legions of the Undead</a></li>
+                <li><a href="monsters_woods.html">Gnarled Woods</a></li>
+                <li><a href="monsters_hordes.html">Ravenous Hordes</a></li>
+                <li><a href="monsters_experiments.html">Twisted Experiments</a></li>
+                <li><a href="monsters_depths.html">Lower Depths</a></li>
+                <li><a href="monsters_planes.html">Planar Powers</a></li>
+                <li><a href="monsters_folk.html">Folk of the Realm</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="appendices_thanks.html">Thanks</a></li>
+                <li><a href="appendices_teaching.html">Teaching</a></li>
+                <li><a href="appendices_conversion.html">Conversion</a></li>
+                <li><a href="appendices_npcs.html">NPCs</a></li>
+              </ul>
+            </li>
 
-                <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
-              <!--
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              -->
-            </ul>
-          </div>
+            <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Official</li>
+                <li><a href="http://www.dungeon-world.com/">Dungeon World</a></li>
+                <li><a href="http://codex.dungeon-world.com/">Monster Builder</a></li>
+                <li class="nav-header">Community</li>
+                <li><a href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a></li>
+                <li><a href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a></li>
+                <li><a href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a></li>
+              </ul>
+            </li>
+
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="content" class="container"><h2>Formian Drone	<em>Horde, Organized, Cautious</em></h2>
+  <div id="content" class="container">
+    
+
+<h1>Ravenous Hordes</h1>
+
+<h2>Formian Drone	<em>Horde, Organized, Cautious</em></h2>
+
 <p class="MonsterStats">Bite (d6 damage)	7 HP	4 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Hive connection, Insectoid</p>
+
 <p class="MonsterDescription">With good cause, they say that these creatures (like all insects, really) are claimed by the powers of Law. They are order made flesh—a perfectly stratified society in which every larva, hatchling and adult knows its place in the great hive. The formian is some strange intersection of men and ants. (Though there are winged tribes that look like wasps out in the Western Desert, I’ve heard. And some with great sawtooth arms like mantids in the forests of the east.) Tall, with a hard shell and a harder mind, these particular formians are the bottom caste. They work the hills and honeycombs with single-minded joy that can be known only by such an alien mind. <em>Instinct</em>: To follow orders</p>
+
 <ul><li>Raise the alarm</li>
+
 <li>Create value for the hive</li>
+
 <li>Assimilate</li></ul>
+
 <h2>Formian Taskmaster	<em>Group, Organized, Intelligent</em></h2>
+
 <p class="MonsterStats">Spiked whip (d8 damage)	6 HP	3 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Hive connection, Insectoid</p>
+
 <p class="MonsterDescription">It takes two hands to rule an empire: one to wield the scepter and one to crack the whip. These ant-folk are that whip. Lucky for them, with two extra arms, that’s a lot of whip to crack. They oversee the vast swarms of worker drones that set to build the mighty caverns and ziggurats that dot the places that formians can be found. One in a hundred, these brutes stand two or three feet taller than their pale, near-mindless kin and have a sharper, crueler wit to match. They’ll often ignore the soft races (as we’re known) if we don’t interfere in a project, but get in the way of The Great Work and expect nothing less than their full attention. You don’t want their full attention. <em>Instinct</em>: To command</p>
+
 <ul><li>Order drones into battle</li>
+
 <li>Set great numbers in motion</li></ul>
+
 <h2>Formian Centurion	<em>Horde, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Barbed spear (b[2d6]+2 damage)	7 HP	3 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Hive connection, Insectoid, Wings</p>
+
 <p class="MonsterDescription">Whether in the form of a legionnaire, part of the formian standing army, or as a praetorian guard to the queen, every formian hive contains a great number of these most dangerous insectoids. Darker in carapace, often scarred with furrows and the ceremonial markings that set them apart from their drones, the formian centurions are their fighting force and rightly so. Born, bred and living for the singular purpose of killing the enemies of their hive, they fight with one mind and a hundred swords. Thus far, the powers of Law have seen fit to spare mankind a great war with these creatures, but we’ve seen them in skirmish—descending sometimes on border towns with their wings flickering in the heat or spilling up from a sandy mound to wipe clean a newly-dug mine. Theirs is an orderly bloodshed, committed with no pleasure but the completion of a goal. <em>Instinct</em>: To fight as ordered</p>
+
 <ul><li>Advance as one</li>
+
 <li>Summon reinforcements</li>
+
 <li>Give a life for the hive</li></ul>
+
 <h2>Formian Queen	<em>Solitary, Huge, Organized, Intelligent, Hoarder</em></h2>
+
 <p class="MonsterStats">Crushing mandibles (d10+5 damage)	24 HP	3 Armor</p>
+
 <p class="MonsterStats"><em>Reach, Forceful</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Hive connection, Insectoid</p>
+
 <p class="MonsterDescription">At the heart of every hive, no matter its size or kind, lives a queen. As large as any giant, she sits protected by her guard, served by every drone and taskmaster with her own, singular purpose: to spread her kind and grow the hive. To birth the eggs. To nurture. We do not understand the minds of these creatures but it is known they can communicate with their children, somehow, over vast distances and that they begin to teach them the ways of earth and stone and war while still pale and wriggling larvae, without a word. To kill one is to set chaos on the hive; without their queen, the rest turn on one another in a mad, blind rage. <em>Instinct</em>: To spread formians</p>
+
 <ul><li>Call every formian it spawned</li>
+
 <li>Release a half-formed larval mutation</li>
+
 <li>Organize and issue orders</li></ul>
+
 <h2>Gnoll Tracker	<em>Group, Organized, Intelligent</em></h2>
+
 <p class="MonsterStats">Bow (d8 damage)		6 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Near, Far</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Scent-tracker</p>
+
 <p class="MonsterDescription">Once they scent your blood, you can’t escape. Not without intervention from the gods, or the duke’s rangers at least. The desert scrub is a dangerous place to go exploring on your own and if you fall and break your leg or eat the wrong cactus, well, you’ll be lucky if you die of thirst before the gnolls find you. They prefer their prey alive, see—cracking bones and the screams of the dying lend a sort of succulence to a meal. Sickening creatures, no? They’ll hunt you, slow and steady, as you die. If you hear laughter in the desert wind, well, best pray Death comes to take you before they do. <em>Instinct</em>: To prey on weakness</p>
+
 <ul><li>Doggedly track prey</li>
+
 <li>Strike at a moment of weakness</li></ul>
+
 <h2>Gnoll Emissary	<em>Solitary, Divine, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Ceremonial dagger (d10+2 damage)	18 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Scent</p>
+
 <p class="MonsterDescription">Oh, an emissary! How nice. I suspect you didn’t know the gnolls had ambassadors, did you? Yes, even these mangy hyenas have to make nice sometimes. No, no, not with us. Nor the dwarves, neither. No, the emissary is the one, among his packmates, who trucks directly with their dripping demon lord. Frightening? Too right. Every hound has a master with his hand on the chain. This gnoll hears his master’s voice. Hears it and obeys. <em>Instinct</em>: To share divine insight</p>
+
 <ul><li>Pass on demonic influence</li>
+
 <li>Drive the pack into a fervor</li></ul>
+
 <h2>Gnoll Alpha	<em>Solitary, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Sword (b[2d10] damage, 1 piercing)		12 HP	2 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Scent</p>
+
 <p class="MonsterDescription">Every pack has its top dog. Bigger, maybe—that’d be the simplest way. Often, though, with these lank and filthy mutts, it’s not about size or sharp teeth but about cruelty. About a willingness to kill your brothers and eat them while the pack watches. Willingness to desecrate the pack in a way that cows them to you. If they’re that awful to each other—to their living kin—think about how they must view us. It’s hard to be mere meat in a land of carnivores. <em>Instinct</em>: To drive the pack</p>
+
 <ul><li>Demand obedience</li>
+
 <li>Send the pack to hunt</li></ul>
+
 <h2>Orc Bloodwarrior	<em>Horde, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Jagged blade (d6+2 damage, 1 piercing)	3 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Messy</em></p>
+
 <p class="MonsterDescription">The orcish horde is a savage, bloodthirsty, and hateful collection of tribes. There are myths and stories that tell of the origin of their rage—a demon curse, a homeland destroyed, elven magic gone wrong—but the truth has been lost to time. Every able orc, be it man or woman, child or elder, swears fealty to the warchief and their tribe and bears the jagged blade of a bloodwarrior. Men are trained to fight and kill—orcs are born to it. <em>Instinct</em>: To fight</p>
+
 <ul><li>Fight with abandon</li>
+
 <li>Revel in destruction</li></ul>
+
 <h2>Orc Berserker	<em>Solitary, Large, Divine, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Cleaver (d10+5 damage)	20 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Mutations</p>
+
 <p class="MonsterDescription">Stained in the unholy ritual of Anointing By The Night’s Blood, some warriors of the horde rise to a kind of twisted knighthood. They trade their sanity for this honor, stepping halfway into a world of swirling madness. This makes berserkers the greatest of their tribe, though as time passes, the chaos spreads. The rare berserker that lives more than a few years becomes horrible and twisted, growing horns or an extra arm with which to grasp the iron cleavers they favor in battle. <em>Instinct</em>: To rage</p>
+
 <ul><li>Fly into a frenzy</li>
+
 <li>Unleash chaos</li></ul>
+
 <h2>Orc Breaker	<em>Solitary, Large</em></h2>
+
 <p class="MonsterStats">Hammer (d10+3 damage ignores armor)	16 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach, Forceful</em></p>
+
 <p class="MonsterDescription">“Before you set out across the hordeland, brave sir, hark a moment to the tale of Sir Regnus. Regnus was like you, sir—a paladin of the Order, all a-shine in his plated armor and with a shield as tall as a man. Proud he was of it, too—Mirrorshield, he called himself. Tale goes that he’d set his eyes on rescuing some lost priest, a kidnap from the abbey on the borders. Regnus came across some orcs in his travels, a dozen or so, and thought, as one might, that they’d be no match. Battle was joined and all was well until one of them orcs emerged from the fray with a hammer bigger than any man ought to be able to wield. Built more like an ogre or a troll, they say it was, and with a single swing, it crushed Regnus to the ground, shield and all. It were no ordinary orc, they say. It were a breaker. They can’t make plate of their own, see, so maybe it’s jealousy drives these burly things to crush and shatter the way they do. Effective tactic, though. Careful out there.” <em>Instinct</em>: To smash</p>
+
 <ul><li>Destroy armor or protection</li>
+
 <li>Lay low the mighty</li></ul>
+
 <h2>Orc One-Eye	<em>Group, Divine, Magical, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Inflict Wounds (d8+2 damage ignores armor)	6 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach, Near, Far</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> One eye</p>
+
 <p class="MonsterDescription">In the name of He of Riven Sight and by the First Sacrifice of Elf-Flesh do we invoke the Old Powers. By the Second Sacrifice, I make my claim to what is mine—the dark magic of Night. In His image, I walk the path to Gor-sha-thak, the Iron Gallows! I call to the runes! I call to the clouded sky! Take this mortal organ, eat of the flesh of our enemy and give me what is mine! <em>Instinct</em>: To hate</p>
+
 <ul><li>Rend flesh with divine magic</li>
+
 <li>Take an eye</li>
+
 <li>Make a sacrifice and grow in power</li></ul>
+
 <h2>Orc Shaman	<em>Solitary, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Elemental blast (d10 damage ignores armor)	12 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach, Near, Far</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Elemental power</p>
+
 <p class="MonsterDescription">The orcs are as old a race as any. They cast bones in the dirt and called to the gods in the trees and stone as the elves built their first cities. They have waged wars, conquered kingdoms, and fallen into corruption in the aeons it took for men to crawl from their caves and dwarves to first see the light of the sun. Fitting, then, that the old ways still hold. They summon the powers of the world to work, to fight and to protect their people, as they have since the first nights. <em>Instinct</em>: To strengthen orc-kind</p>
+
 <ul><li>Give protection of earth</li>
+
 <li>Give power of fire</li>
+
 <li>Give swiftness of water</li>
+
 <li>Give clarity of air</li></ul>
+
 <h2>Orc Slaver	<em>Horde, Stealthy, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Whip (d6 damage)	3 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterDescription">Red sails fly in the southern sea. Red sails and ships of bone, old wood and iron. The warfleet of the horde. Orcs down that way have taken to the sea, harassing island towns and stealing away with fishermen and their kin. It’s said the custom is spreading north and the orcs learn the value of free work. Taken to it like a sacred duty—especially if they can get their hands on elves. Hard to think of a grimmer fate than to live out your life on an orcish galley, back bent under the lash. <em>Instinct</em>: To take</p>
+
 <ul><li>Take a captive</li>
+
 <li>Pin someone under a net</li>
+
 <li>Drug them</li></ul>
+
 <h2>Orc Shadowhunter	<em>Solitary, Stealthy, Magical, Intelligent</em></h2>
+
 <p class="MonsterStats">Poisoned dagger (d10 damage, 1 piercing)	10 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Shadow cloak</p>
+
 <p class="MonsterDescription">Not every attack by orcs is torches and screaming and enslavement. Among those who follow He of Riven Sight, poison and murder-in-the-dark are considered sacred arts. Enter the shadowhunter. Orcs cloaked in Night’s magic who slip into camps, towns and temples and end the lives of those within. Do not be so distracted by the howling of the berserkers that you don’t notice the knife at your back. <em>Instinct</em>: To kill in darkness</p>
+
 <ul><li>Poison them</li>
+
 <li>Melt into the shadows</li>
+
 <li>Cloak them in darkness</li></ul>
+
 <h2>Orc Warchief	<em>Solitary, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Iron Sword of Ages (b[2d10]+2 damage)	16 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> One-Eye blessings, Shaman blessings, Divine protection from mortal harm</p>
+
 <p class="MonsterDescription">There are chiefs and there are leaders of the tribes among the orcs. There are those who rise to seize power and fall under the machinations of their foes. There is but one Warchief. One orc in all the horde who stands above the rest, bearing the blessings of the One-Eyes and the Shamans both. But one who walks with the elements under Night. But one who bears the Iron Sword of Ages and carries the ancient grudge against the civil races on his shoulders. The Warchief is to be respected, to be obeyed and above all else, to be feared. All glory to the Warchief. <em>Instinct</em>: To lead</p>
+
 <ul><li>Start a war</li>
+
 <li>Make a show of power</li>
+
 <li>Enrage the tribes</li></ul>
+
 <h2>Triton Spy	<em>Solitary, Stealthy, Intelligent, Organized</em></h2>
+
 <p class="MonsterStats">Trident (w[2d10] damage)	12 HP	2 Armor</p>
+
 <p class="MonsterStats"><em>Close, Near</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Aquatic</p>
+
 <p class="MonsterDescription">A fishing village caught one in their net, some time ago. Part a man and part some scaly sea creature, it spoke in a broken, spy-learned form of the common tongue before it suffocated in the open air. It told the fishermen of a coming tide, an inescapable swell of the power of some deep-sea god and that the triton empire would rise up and drag the land down into the ocean. The tale spread and now, when fishermen sail the choppy seas, they watch and worry that the dying triton’s tales were true. That there are powers deep below that watch and wait. They fear the tide is coming in. <em>Instinct</em>: To spy on the surface world</p>
+
 <ul><li>Reveal their secrets</li>
+
 <li>Strike at weakness</li></ul>
+
 <h2>Triton Tidecaller	<em>Group, Divine, Magical, Intelligent</em></h2>
+
 <p class="MonsterStats">Waves (d8+2 damage, ignores armor)	6 HP	2 Armor</p>
+
 <p class="MonsterStats"><em>Near, Far</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Aquatic, Mutations</p>
+
 <p class="MonsterDescription">Part priest, part outcast among their kind, the tidecaller speaks with the voice of the deeps. They can be known by their mutations—transparent skin, perhaps, or rows of teeth like a shark. Glowing eyes or fingertips, angler-lights in the darkness of their underwater kingdom. They speak in a strange tongue that can call and command creatures of the sea. They ride wild hippocampi and cast strange spells that rot through the wooden decks of ships or encrust them with barnacles heavy enough to sink. It is the tidecallers who come, now, back to the cities of the triton, bearing word that the prophecy is coming to pass. The world of men will drown in icy brine. The tidecallers speak and the lords begin to listen. <em>Instinct</em>: To bring on The Flood</p>
+
 <ul><li>Cast a spell of water and destruction</li>
+
 <li>Command beasts of the sea</li>
+
 <li>Reveal divine proclamation</li></ul>
+
 <h2>Triton Sub-Mariner	<em>Group, Organized, Intelligent</em></h2>
+
 <p class="MonsterStats">Harpoon (b[2d8] damage)	6 HP	3 Armor</p>
+
 <p class="MonsterStats"><em>Close, Near, Far</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Aquatic</p>
+
 <p class="MonsterDescription">The triton are not a militant race by nature. They shy away from battle except when the sahuagin attack, and then they only defend themselves and retreat into the depths where their foes can’t follow. This trend begins to change. As the tidecallers come to rally their people, some triton men and women take up arms. They call these generals “sub-mariners” and build for them armor of shells and hardened glass. They swim in formation, wielding pikes and harpoons and attack the crews of ships that wander too far from port. Watch for their pennants of kelp on the horizon and the conch-cry of a call to battle and keep, if you can, your boats near shore. <em>Instinct</em>: To wage war</p>
+
 <ul><li>Lead tritons to battle</li>
+
 <li>Pull them beneath the waves</li></ul>
+
 <h2>Triton Noble	<em>Group, Organized, Intelligent</em></h2>
+
 <p class="MonsterStats">Trident (d8 damage)	6 HP	2 Armor</p>
+
 <p class="MonsterStats"><em>Close, Near, Far</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Aquatic</p>
+
 <p class="MonsterDescription">The triton ruling houses were chosen, they say, at the dawn of time. Granted lordship over all the races of the sea by some now-forgotten god. These bloodlines continue, passing rulership from father to daughter and mother to son through the ages. Each is allowed to rule their city in whatever way they choose—some alone or with their spouses, others in council of brothers and sisters. In ages past, they were known for their sagacity and bloodlines of even-temper were respected above all else. The tidecallers prophecy is changing that: nobles are expected to be strong, not wise. The nobles have begun to respond, and it is feared by some that the ancient blood is changing forever. It may be too late to turn back. Time and tide wait for none. <em>Instinct</em>: To lead</p>
+
 <ul><li>Stir tritons to war</li>
+
 <li>Call reinforcements</li></ul>
 
-    </div>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
 
-      ga("create", "UA-42061955-1", "dwgazetteer.com");
-      ga("send", "pageview");
-    </script>
+    ga("create", "UA-42061955-1", "dwgazetteer.com");
+    ga("send", "pageview");
+  </script>
 
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/dwbook.js"></script>
 </body>
 </html>

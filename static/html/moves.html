@@ -1,208 +1,293 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Basic Moves</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/css/all.css">
-	<link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
+    <title>Basic Moves</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">Dungeon World</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="playing_the_game.html">Playing the Game</a></li>
+                <li><a href="example.html">Example of Play</a></li>
+                <li><a href="character_creation.html">Character Creation</a></li>
+                <li><a href="moves_discussion.html">Moves</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="bard.html">Bard</a></li>
+                <li><a href="cleric.html">Cleric</a></li>
+                <li><a href="cleric_spells.html"><em>Cleric Spells</em></a></li>
+                <li><a href="druid.html">Druid</a></li>
+                <li><a href="fighter.html">Fighter</a></li>
+                <li><a href="paladin.html">Paladin</a></li>
+                <li><a href="ranger.html">Ranger</a></li>
+                <li><a href="thief.html">Thief</a></li>
+                <li><a href="wizard.html">Wizard</a></li>
+                <li><a href="wizard_spells.html"><em>Wizard Spells</em></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="gm.html">GM</a></li>
+                <li><a href="first_session.html">First Session</a></li>
+                <li><a href="fronts.html">Fronts</a></li>
+                <li><a href="the_world.html">The World</a></li>
+                <li><a href="advanced_delving.html">Advanced Delving</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="monsters.html">Overview</a></li>
+                <li><a href="monsters_caverns.html">Cavern Dwellers</a></li>
+                <li><a href="monsters_swamp.html">Swamp Denizens</a></li>
+                <li><a href="monsters_undead.html">Legions of the Undead</a></li>
+                <li><a href="monsters_woods.html">Gnarled Woods</a></li>
+                <li><a href="monsters_hordes.html">Ravenous Hordes</a></li>
+                <li><a href="monsters_experiments.html">Twisted Experiments</a></li>
+                <li><a href="monsters_depths.html">Lower Depths</a></li>
+                <li><a href="monsters_planes.html">Planar Powers</a></li>
+                <li><a href="monsters_folk.html">Folk of the Realm</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="appendices_thanks.html">Thanks</a></li>
+                <li><a href="appendices_teaching.html">Teaching</a></li>
+                <li><a href="appendices_conversion.html">Conversion</a></li>
+                <li><a href="appendices_npcs.html">NPCs</a></li>
+              </ul>
+            </li>
 
-<body><h1>Basic Moves</h1>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">Dungeon World</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Introduction.html">Introduction</a></li>
-                        <li><a href="Playing_the_Game.html">Playing the Game</a></li>
-                        <li><a href="Character_Creation.html">Character Creation</a></li>
-                        <li><a href="Moves.html">Moves</a></li>
-                        <li><a href="Equipment.html">Equipment</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Bard.html">Bard</a></li>
-                        <li><a href="Cleric.html">Cleric</a></li>
-                        <li><a href="Cleric_Spells.html"><em>Cleric Spells</em></a></li>
-                        <li><a href="Druid.html">Druid</a></li>
-                        <li><a href="Fighter.html">Fighter</a></li>
-                        <li><a href="Paladin.html">Paladin</a></li>
-                        <li><a href="Ranger.html">Ranger</a></li>
-                        <li><a href="Thief.html">Thief</a></li>
-                        <li><a href="Wizard.html">Wizard</a></li>
-                        <li><a href="Wizard_Spells.html"><em>Wizard Spells</em></a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="GM.html">GM</a></li>
-                        <li><a href="First_Session.html">First Session</a></li>
-                        <li><a href="Fronts.html">Fronts</a></li>
-                        <li><a href="The_World.html">The World</a></li>
-                        <li><a href="Advanced_Delving.html">Advanced Delving</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Monsters.html">Overview</a></li>
-                        <li><a href="monster_settings/Caverns.html">Cavern Dwellers</a></li>
-                        <li><a href="monster_settings/Swamp.html">Swamp Denizens</a></li>
-                        <li><a href="monster_settings/Undead.html">Legions of the Undead</a></li>
-                        <li><a href="monster_settings/Woods.html">Gnarled Woods</a></li>
-                        <li><a href="monster_settings/Hordes.html">Ravenous Hordes</a></li>
-                        <li><a href="monster_settings/Experiments.html">Twisted Experiments</a></li>
-                        <li><a href="monster_settings/Depths.html">Lower Depths</a></li>
-                        <li><a href="monster_settings/Planes.html">Planar Powers</a></li>
-                        <li><a href="monster_settings/Folk.html">Folk of the Realm</a></li>
-                    </ul>
-                </li>
-                
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="appendices/Thanks.html">Thanks</a></li>
-                        <li><a href="appendices/Teaching.html">Teaching</a></li>
-                        <li><a href="appendices/Conversion.html">Conversion</a></li>
-                        <li><a href="appendices/NPCs.html">NPCs</a></li>
-                    </ul>
-                </li>
+            <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
 
-                <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
-              <!--
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              -->
-            </ul>
-          </div>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Official</li>
+                <li><a href="http://www.dungeon-world.com/">Dungeon World</a></li>
+                <li><a href="http://codex.dungeon-world.com/">Monster Builder</a></li>
+                <li class="nav-header">Community</li>
+                <li><a href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a></li>
+                <li><a href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a></li>
+                <li><a href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a></li>
+              </ul>
+            </li>
+
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="content" class="container"><h2 class="BasicMoveName">Hack and Slash</h2>
-<p class="NoIndent">When you <strong>attack an enemy in melee</strong>, roll+Str. On a 10+ you deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy’s attack. On a 7–9, you deal your damage to the enemy and the enemy makes an attack against you.</p>
+  <div id="content" class="container">
+    
+
+<h1>Basic Moves</h1>
+
+<h2 class="BasicMoveName">Hack and Slash</h2>
+
+<p>When you <strong>attack an enemy in melee</strong>, roll+Str. On a 10+ you deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy’s attack. On a 7–9, you deal your damage to the enemy and the enemy makes an attack against you.</p>
+
 <h2 class="BasicMoveName">Volley</h2>
-<p class="NoIndent">When you <strong>take aim and shoot at an enemy at range</strong>, roll+Dex. On a 10+ you have a clear shot—deal your damage. On a 7–9, choose one (whichever you choose you deal your damage):</p>
-<ul><li>You have to move to get the shot placing you in danger of the GM’s choice</li>
-<li>You have to take what you can get: -1d6 damage</li>
-<li>You have to take several shots, reducing your ammo by one.</li></ul>
-<h2 class="BasicMoveName">Defy Danger</h2>
-<p class="NoIndent">When you <strong>act despite an imminent threat</strong> or <strong>suffer a calamity</strong>, say how you deal with it and roll. If you do it…</p>
-<ul><li>…by powering through, +Str</li>
-<li>…by getting out of the way or acting fast, +Dex</li>
-<li>…by enduring, +Con</li>
-<li>…with quick thinking, +Int</li>
-<li>…through mental fortitude, +Wis</li>
-<li>…using charm and social grace, +Cha</li></ul>
-<p class="NoIndent">On a 10+, you do what you set out to, the threat doesn’t come to bear. On a 7–9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice.</p>
-<h2 class="BasicMoveName">Defend</h2>
-<p class="NoIndent">When you <strong>stand in defense of a person, item, or location</strong> under attack, roll+Con. On a 10+, hold 3. On a 7–9, hold 1. So long as you stand in defense, when you or the thing you defend is attacked you may spend hold, 1 for 1, to choose an option:</p>
-<ul><li>Redirect an attack from the thing you defend to yourself</li>
-<li>Halve the attack’s effect or damage</li>
-<li>Open up the attacker to an ally giving that ally +1 forward against the attacker</li>
-<li>Deal damage to the attacker equal to your level</li></ul>
-<h2 class="BasicMoveName">Spout Lore</h2>
-<p class="NoIndent">When you <strong>consult your accumulated knowledge about something</strong>, roll+Int. On a 10+ the GM will tell you something interesting and useful about the subject relevant to your situation. On a 7–9 the GM will only tell you something interesting—it’s on you to make it useful. The GM might ask you “How do you know this?” Tell them the truth, now.</p>
-<h2 class="BasicMoveName">Discern Realities</h2>
-<p class="NoIndent">When you <strong>closely study a situation or person</strong>, roll+Wis. On a 10+ ask the GM 3 questions from the list below. On a 7–9 ask 1. Take +1 forward when acting on the answers.</p>
-<ul><li>What happened here recently?</li>
-<li>What is about to happen?</li>
-<li>What should I be on the lookout for?</li>
-<li>What here is useful or valuable to me?</li>
-<li>Who’s really in control here?</li>
-<li>What here is not what it appears to be?</li></ul>
-<h2 class="BasicMoveName">Parley</h2>
-<p class="NoIndent">When you <strong>you have leverage on a GM character and manipulate them</strong>, roll+Cha. Leverage is something they need or want. On a hit they ask you for something and do it if you make them a promise first. On a 7–9, they need some concrete assurance of your promise, right now.</p>
-<h2 class="BasicMoveName">Aid or Interfere</h2>
-<p class="NoIndent">When you <strong>help or hinder someone you have a bond with</strong>, roll+Bond with them. On a 10+ they take +1 or -2, your choice. On a 7–9 you also expose yourself to danger, retribution, or cost.</p>
-<h2>Special Moves</h2>
-<h2 class="BasicMoveName">Last Breath</h2>
-<p class="NoIndent">When <strong>you’re dying</strong> you catch a glimpse of what lies beyond the Black Gates of Death’s Kingdom (the GM will describe it). Then roll (just roll, +nothing—yeah, Death doesn’t care how tough or cool you are). On a 10+ you’ve cheated death—you’re in a bad spot but you’re still alive. On a 7–9 Death will offer you a bargain. Take it and stabilize or refuse and pass beyond the Black Gates into whatever fate awaits you. On a miss, your fate is sealed. You’re marked as Death’s own and you’ll cross the threshold soon. The GM will tell you when.</p>
-<h2 class="BasicMoveName">Encumbrance</h2>
-<p class="NoIndent">When you <strong>make a move while carrying weight</strong> up to or equal to load, you’re fine. When you make a move while carrying weight equal to load+1 or load+2, you take -1. When you make a move while carrying weight greater than load+2, you have a choice: drop at least 1 weight and roll at -1, or automatically fail.</p>
-<h2 class="BasicMoveName">Make Camp</h2>
-<p class="NoIndent">When you <strong>settle in to rest</strong> consume a ration. If you’re somewhere dangerous decide the watch order as well. If you have enough XP you may Level Up. When you wake from at least a few uninterrupted hours of sleep heal damage equal to half your max HP.</p>
-<h2 class="BasicMoveName">Take Watch</h2>
-<p class="NoIndent">When you <strong>you’re on watch and something approaches the camp</strong> roll+Wis. On a 10+ you’re able to wake the camp and prepare a response, the camp takes +1 forward. On a 7–9 you react just a moment too late; the camp is awake but hasn’t had time to prepare. You have weapons and armor but little else. On a miss whatever lurks outside the campfire’s light has the drop on you.</p>
-<h2 class="BasicMoveName">Undertake a Perilous Journey</h2>
-<p class="NoIndent">When you travel through hostile territory, choose one member of the party to act as trailblazer, one to scout ahead, and one to be quartermaster (the same character cannot have two jobs). If you don’t have enough party members or choose not to assign a job, treat that job as if it had rolled a 6. Each character with a job to do rolls+Wis. On a 10+ the quartermaster reduces the number of rations required by one. On a 10+ the trailblazer reduces the amount of time it takes to reach your destination (the GM will say by how much). On a 10+ the scout will spot any trouble quick enough to let you get the drop on it. On a 7–9 each roles performs their job as expected: the normal number of rations are consumed, the journey takes about as long as expected, no one gets the drop on you but you don’t get the drop on them either.</p>
-<h2 class="BasicMoveName">Level Up</h2>
-<p class="NoIndent">When you <strong>have downtime (hours or days) and XP equal to (or greater than) your current level + 7</strong>, subtract your current level +7 from your XP, increase your level by 1, and choose a new advanced move from your class. If you are the wizard, you also get to add a new spell to your spellbook.</p>
-<p>Choose one of your stats and increase it by 1 (this may change your modifier). Changing your Constitution increases your maximum and current HP. Ability scores can’t go higher than 18.</p>
-<h2 class="BasicMoveName">End of Session</h2>
-<p class="NoIndent">When you <strong>reach the end of a session</strong>, choose one your bonds that you feel is resolved (completely explored, no longer relevant, or otherwise). Ask the player of the character you have the bond with if they agree. If they do, mark XP and write a new bond with whomever you wish.</p>
-<p>Once bonds have been updated look at your alignment. If you fulfilled that alignment at least once this session, mark XP. Then answer these three questions as a group:</p>
-<ul><li>Did we learn something new and important about the world?</li>
-<li>Did we overcome a notable monster or enemy?</li>
-<li>Did we loot a memorable treasure?</li></ul>
-<p>For each “yes” answer everyone marks XP.</p>
-<h2 class="BasicMoveName">Carouse</h2>
-<p class="NoIndent">When you <strong>return triumphant and throw a big party</strong>, spend 100 coin and roll + extra 100s of coin spent. On a 10+ choose 3. On a 7–9 choose 1. On a miss, you still choose one, but things get really out of hand.</p>
-<ul><li>You befriend a useful NPC</li>
-<li>You hear rumors of an opportunity</li>
-<li>You gain useful information</li>
-<li>You are not entangled, ensorcelled, or tricked</li></ul>
-<h2 class="BasicMoveName">Supply</h2>
-<p class="NoIndent">When you <strong>go to buy something with gold on hand</strong>, if it’s something readily available in the settlement you’re in, you can buy it at market price. If it’s something special, beyond what’s usually available here, or non-mundane, roll+Cha. On a 10+ you find what you’re looking for at a fair price. On a 7–9 you’ll have to pay more or settle for something similar.</p>
-<h2 class="BasicMoveName">Recover</h2>
-<p class="NoIndent">When you <strong>do nothing but rest in comfort and safety</strong> after a day of rest you recover all your HP. After three days of rest you remove one debility of your choice. If you’re under the care of a healer (magical or otherwise) you heal a debility for every two days of rest instead.</p>
-<h2 class="BasicMoveName">Recruit</h2>
-<p class="NoIndent">When you <strong>put out word that you’re looking to hire help</strong>, roll. If you make it known…</p>
-<ul><li>…that your pay is generous, take +1</li>
-<li>…what you’re setting out to do, take +1</li>
-<li>…that they’ll get a share of whatever you find, take +1</li></ul>
-<p class="NoIndent">If you have a useful reputation around these parts take an additional +1. On a 10+ you’ve got your pick of a number of skilled applicants, your choice who you hire, no penalty for not taking them along. On a 7–9 you’ll have to settle for someone close or turn them away. On a miss someone influential and ill-suited declares they’d like to come along (a foolhardy youth, a loose-cannon, or a veiled enemy, for example), bring them and take the consequences or turn them away. If you turn away applicants you take -1 forward to Recruit.</p>
-<h2 class="BasicMoveName">Outstanding Warrants</h2>
-<p class="NoIndent">When you <strong>return to a civilized place in which you’ve caused trouble before</strong>, roll+Cha. On a hit, word has spread of your deeds and everyone recognizes you. On a 7–9, that, and, the GM chooses a complication:</p>
-<ul><li>The local constabulary has a warrant out for your arrest</li>
-<li>Someone has put a price on your head</li>
-<li>Someone important to you has been put in a bad spot as a result of your actions</li></ul>
-<h2 class="BasicMoveName">Bolster</h2>
-<p class="NoIndent">When you <strong>spend your leisure time in study, meditation, or hard practice,</strong> you gain preparation. If you prepare for a week or two, 1 preparation. If you prepare for a month or longer, 3 preparation. When your preparation pays off spend 1 preparation for +1 to any roll. You can only spend one preparation per roll.</p>
-    </div>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+<p>When you <strong>take aim and shoot at an enemy at range</strong>, roll+Dex. On a 10+ you have a clear shot—deal your damage. On a 7–9, choose one (whichever you choose you deal your damage):</p>
+
+<ul><li>You have to move to get the shot placing you in danger of the GM’s choice</li>
+
+<li>You have to take what you can get: -1d6 damage</li>
+
+<li>You have to take several shots, reducing your ammo by one.</li></ul>
+
+<h2 class="BasicMoveName">Defy Danger</h2>
+
+<p>When you <strong>act despite an imminent threat</strong> or <strong>suffer a calamity</strong>, say how you deal with it and roll. If you do it…</p>
+
+<ul><li>…by powering through, +Str</li>
+
+<li>…by getting out of the way or acting fast, +Dex</li>
+
+<li>…by enduring, +Con</li>
+
+<li>…with quick thinking, +Int</li>
+
+<li>…through mental fortitude, +Wis</li>
+
+<li>…using charm and social grace, +Cha</li></ul>
+
+<p>On a 10+, you do what you set out to, the threat doesn’t come to bear. On a 7–9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice.</p>
+
+<h2 class="BasicMoveName">Defend</h2>
+
+<p>When you <strong>stand in defense of a person, item, or location</strong> under attack, roll+Con. On a 10+, hold 3. On a 7–9, hold 1. So long as you stand in defense, when you or the thing you defend is attacked you may spend hold, 1 for 1, to choose an option:</p>
+
+<ul><li>Redirect an attack from the thing you defend to yourself</li>
+
+<li>Halve the attack’s effect or damage</li>
+
+<li>Open up the attacker to an ally giving that ally +1 forward against the attacker</li>
+
+<li>Deal damage to the attacker equal to your level</li></ul>
+
+<h2 class="BasicMoveName">Spout Lore</h2>
+
+<p>When you <strong>consult your accumulated knowledge about something</strong>, roll+Int. On a 10+ the GM will tell you something interesting and useful about the subject relevant to your situation. On a 7–9 the GM will only tell you something interesting—it’s on you to make it useful. The GM might ask you “How do you know this?” Tell them the truth, now.</p>
+
+<h2 class="BasicMoveName">Discern Realities</h2>
+
+<p>When you <strong>closely study a situation or person</strong>, roll+Wis. On a 10+ ask the GM 3 questions from the list below. On a 7–9 ask 1. Take +1 forward when acting on the answers.</p>
+
+<ul><li>What happened here recently?</li>
+
+<li>What is about to happen?</li>
+
+<li>What should I be on the lookout for?</li>
+
+<li>What here is useful or valuable to me?</li>
+
+<li>Who’s really in control here?</li>
+
+<li>What here is not what it appears to be?</li></ul>
+
+<h2 class="BasicMoveName">Parley</h2>
+
+<p>When you <strong>you have leverage on a GM character and manipulate them</strong>, roll+Cha. Leverage is something they need or want. On a hit they ask you for something and do it if you make them a promise first. On a 7–9, they need some concrete assurance of your promise, right now.</p>
+
+<h2 class="BasicMoveName">Aid or Interfere</h2>
+
+<p>When you <strong>help or hinder someone you have a bond with</strong>, roll+Bond with them. On a 10+ they take +1 or -2, your choice. On a 7–9 you also expose yourself to danger, retribution, or cost.</p>
+
+<h2>Special Moves</h2>
+
+<h2 class="BasicMoveName">Last Breath</h2>
+
+<p>When <strong>you’re dying</strong> you catch a glimpse of what lies beyond the Black Gates of Death’s Kingdom (the GM will describe it). Then roll (just roll, +nothing—yeah, Death doesn’t care how tough or cool you are). On a 10+ you’ve cheated death—you’re in a bad spot but you’re still alive. On a 7–9 Death will offer you a bargain. Take it and stabilize or refuse and pass beyond the Black Gates into whatever fate awaits you. On a miss, your fate is sealed. You’re marked as Death’s own and you’ll cross the threshold soon. The GM will tell you when.</p>
+
+<h2 class="BasicMoveName">Encumbrance</h2>
+
+<p>When you <strong>make a move while carrying weight</strong> up to or equal to load, you’re fine. When you make a move while carrying weight equal to load+1 or load+2, you take -1. When you make a move while carrying weight greater than load+2, you have a choice: drop at least 1 weight and roll at -1, or automatically fail.</p>
+
+<h2 class="BasicMoveName">Make Camp</h2>
+
+<p>When you <strong>settle in to rest</strong> consume a ration. If you’re somewhere dangerous decide the watch order as well. If you have enough XP you may Level Up. When you wake from at least a few uninterrupted hours of sleep heal damage equal to half your max HP.</p>
+
+<h2 class="BasicMoveName">Take Watch</h2>
+
+<p>When you <strong>you’re on watch and something approaches the camp</strong> roll+Wis. On a 10+ you’re able to wake the camp and prepare a response, the camp takes +1 forward. On a 7–9 you react just a moment too late; the camp is awake but hasn’t had time to prepare. You have weapons and armor but little else. On a miss whatever lurks outside the campfire’s light has the drop on you.</p>
+
+<h2 class="BasicMoveName">Undertake a Perilous Journey</h2>
+
+<p>When you travel through hostile territory, choose one member of the party to act as trailblazer, one to scout ahead, and one to be quartermaster (the same character cannot have two jobs). If you don’t have enough party members or choose not to assign a job, treat that job as if it had rolled a 6. Each character with a job to do rolls+Wis. On a 10+ the quartermaster reduces the number of rations required by one. On a 10+ the trailblazer reduces the amount of time it takes to reach your destination (the GM will say by how much). On a 10+ the scout will spot any trouble quick enough to let you get the drop on it. On a 7–9 each roles performs their job as expected: the normal number of rations are consumed, the journey takes about as long as expected, no one gets the drop on you but you don’t get the drop on them either.</p>
+
+<h2 class="BasicMoveName">Level Up</h2>
+
+<p>When you <strong>have downtime (hours or days) and XP equal to (or greater than) your current level + 7</strong>, subtract your current level +7 from your XP, increase your level by 1, and choose a new advanced move from your class. If you are the wizard, you also get to add a new spell to your spellbook.</p>
+
+<p>Choose one of your stats and increase it by 1 (this may change your modifier). Changing your Constitution increases your maximum and current HP. Ability scores can’t go higher than 18.</p>
+
+<h2 class="BasicMoveName">End of Session</h2>
+
+<p>When you <strong>reach the end of a session</strong>, choose one your bonds that you feel is resolved (completely explored, no longer relevant, or otherwise). Ask the player of the character you have the bond with if they agree. If they do, mark XP and write a new bond with whomever you wish.</p>
+
+<p>Once bonds have been updated look at your alignment. If you fulfilled that alignment at least once this session, mark XP. Then answer these three questions as a group:</p>
+
+<ul><li>Did we learn something new and important about the world?</li>
+
+<li>Did we overcome a notable monster or enemy?</li>
+
+<li>Did we loot a memorable treasure?</li></ul>
+
+<p>For each “yes” answer everyone marks XP.</p>
+
+<h2 class="BasicMoveName">Carouse</h2>
+
+<p>When you <strong>return triumphant and throw a big party</strong>, spend 100 coin and roll + extra 100s of coin spent. On a 10+ choose 3. On a 7–9 choose 1. On a miss, you still choose one, but things get really out of hand.</p>
+
+<ul><li>You befriend a useful NPC</li>
+
+<li>You hear rumors of an opportunity</li>
+
+<li>You gain useful information</li>
+
+<li>You are not entangled, ensorcelled, or tricked</li></ul>
+
+<h2 class="BasicMoveName">Supply</h2>
+
+<p>When you <strong>go to buy something with gold on hand</strong>, if it’s something readily available in the settlement you’re in, you can buy it at market price. If it’s something special, beyond what’s usually available here, or non-mundane, roll+Cha. On a 10+ you find what you’re looking for at a fair price. On a 7–9 you’ll have to pay more or settle for something similar.</p>
+
+<h2 class="BasicMoveName">Recover</h2>
+
+<p>When you <strong>do nothing but rest in comfort and safety</strong> after a day of rest you recover all your HP. After three days of rest you remove one debility of your choice. If you’re under the care of a healer (magical or otherwise) you heal a debility for every two days of rest instead.</p>
+
+<h2 class="BasicMoveName">Recruit</h2>
+
+<p>When you <strong>put out word that you’re looking to hire help</strong>, roll. If you make it known…</p>
+
+<ul><li>…that your pay is generous, take +1</li>
+
+<li>…what you’re setting out to do, take +1</li>
+
+<li>…that they’ll get a share of whatever you find, take +1</li></ul>
+
+<p>If you have a useful reputation around these parts take an additional +1. On a 10+ you’ve got your pick of a number of skilled applicants, your choice who you hire, no penalty for not taking them along. On a 7–9 you’ll have to settle for someone close or turn them away. On a miss someone influential and ill-suited declares they’d like to come along (a foolhardy youth, a loose-cannon, or a veiled enemy, for example), bring them and take the consequences or turn them away. If you turn away applicants you take -1 forward to Recruit.</p>
+
+<h2 class="BasicMoveName">Outstanding Warrants</h2>
+
+<p>When you <strong>return to a civilized place in which you’ve caused trouble before</strong>, roll+Cha. On a hit, word has spread of your deeds and everyone recognizes you. On a 7–9, that, and, the GM chooses a complication:</p>
+
+<ul><li>The local constabulary has a warrant out for your arrest</li>
+
+<li>Someone has put a price on your head</li>
+
+<li>Someone important to you has been put in a bad spot as a result of your actions</li></ul>
+
+<h2 class="BasicMoveName">Bolster</h2>
+
+<p>When you <strong>spend your leisure time in study, meditation, or hard practice,</strong> you gain preparation. If you prepare for a week or two, 1 preparation. If you prepare for a month or longer, 3 preparation. When your preparation pays off spend 1 preparation for +1 to any roll. You can only spend one preparation per roll.</p>
+
+
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
 
-      ga("create", "UA-42061955-1", "dwgazetteer.com");
-      ga("send", "pageview");
-    </script>
+    ga("create", "UA-42061955-1", "dwgazetteer.com");
+    ga("send", "pageview");
+  </script>
 
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/dwbook.js"></script>
 </body>
 </html>

@@ -1,252 +1,381 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Undead Legions</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/css/all.css">
-	<link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
+    <title>Undead Legions</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
-<body><h1>Undead Legions</h1>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">Dungeon World</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Introduction.html">Introduction</a></li>
-                        <li><a href="Playing_the_Game.html">Playing the Game</a></li>
-                        <li><a href="Character_Creation.html">Character Creation</a></li>
-                        <li><a href="Moves.html">Moves</a></li>
-                        <li><a href="Equipment.html">Equipment</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Bard.html">Bard</a></li>
-                        <li><a href="Cleric.html">Cleric</a></li>
-                        <li><a href="Cleric_Spells.html"><em>Cleric Spells</em></a></li>
-                        <li><a href="Druid.html">Druid</a></li>
-                        <li><a href="Fighter.html">Fighter</a></li>
-                        <li><a href="Paladin.html">Paladin</a></li>
-                        <li><a href="Ranger.html">Ranger</a></li>
-                        <li><a href="Thief.html">Thief</a></li>
-                        <li><a href="Wizard.html">Wizard</a></li>
-                        <li><a href="Wizard_Spells.html"><em>Wizard Spells</em></a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="GM.html">GM</a></li>
-                        <li><a href="First_Session.html">First Session</a></li>
-                        <li><a href="Fronts.html">Fronts</a></li>
-                        <li><a href="The_World.html">The World</a></li>
-                        <li><a href="Advanced_Delving.html">Advanced Delving</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Monsters.html">Overview</a></li>
-                        <li><a href="monster_settings/Caverns.html">Cavern Dwellers</a></li>
-                        <li><a href="monster_settings/Swamp.html">Swamp Denizens</a></li>
-                        <li><a href="monster_settings/Undead.html">Legions of the Undead</a></li>
-                        <li><a href="monster_settings/Woods.html">Gnarled Woods</a></li>
-                        <li><a href="monster_settings/Hordes.html">Ravenous Hordes</a></li>
-                        <li><a href="monster_settings/Experiments.html">Twisted Experiments</a></li>
-                        <li><a href="monster_settings/Depths.html">Lower Depths</a></li>
-                        <li><a href="monster_settings/Planes.html">Planar Powers</a></li>
-                        <li><a href="monster_settings/Folk.html">Folk of the Realm</a></li>
-                    </ul>
-                </li>
-                
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="appendices/Thanks.html">Thanks</a></li>
-                        <li><a href="appendices/Teaching.html">Teaching</a></li>
-                        <li><a href="appendices/Conversion.html">Conversion</a></li>
-                        <li><a href="appendices/NPCs.html">NPCs</a></li>
-                    </ul>
-                </li>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">Dungeon World</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="playing_the_game.html">Playing the Game</a></li>
+                <li><a href="example.html">Example of Play</a></li>
+                <li><a href="character_creation.html">Character Creation</a></li>
+                <li><a href="moves_discussion.html">Moves</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="bard.html">Bard</a></li>
+                <li><a href="cleric.html">Cleric</a></li>
+                <li><a href="cleric_spells.html"><em>Cleric Spells</em></a></li>
+                <li><a href="druid.html">Druid</a></li>
+                <li><a href="fighter.html">Fighter</a></li>
+                <li><a href="paladin.html">Paladin</a></li>
+                <li><a href="ranger.html">Ranger</a></li>
+                <li><a href="thief.html">Thief</a></li>
+                <li><a href="wizard.html">Wizard</a></li>
+                <li><a href="wizard_spells.html"><em>Wizard Spells</em></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="gm.html">GM</a></li>
+                <li><a href="first_session.html">First Session</a></li>
+                <li><a href="fronts.html">Fronts</a></li>
+                <li><a href="the_world.html">The World</a></li>
+                <li><a href="advanced_delving.html">Advanced Delving</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="monsters.html">Overview</a></li>
+                <li><a href="monsters_caverns.html">Cavern Dwellers</a></li>
+                <li><a href="monsters_swamp.html">Swamp Denizens</a></li>
+                <li><a href="monsters_undead.html">Legions of the Undead</a></li>
+                <li><a href="monsters_woods.html">Gnarled Woods</a></li>
+                <li><a href="monsters_hordes.html">Ravenous Hordes</a></li>
+                <li><a href="monsters_experiments.html">Twisted Experiments</a></li>
+                <li><a href="monsters_depths.html">Lower Depths</a></li>
+                <li><a href="monsters_planes.html">Planar Powers</a></li>
+                <li><a href="monsters_folk.html">Folk of the Realm</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="appendices_thanks.html">Thanks</a></li>
+                <li><a href="appendices_teaching.html">Teaching</a></li>
+                <li><a href="appendices_conversion.html">Conversion</a></li>
+                <li><a href="appendices_npcs.html">NPCs</a></li>
+              </ul>
+            </li>
 
-                <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
-              <!--
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              -->
-            </ul>
-          </div>
+            <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Official</li>
+                <li><a href="http://www.dungeon-world.com/">Dungeon World</a></li>
+                <li><a href="http://codex.dungeon-world.com/">Monster Builder</a></li>
+                <li class="nav-header">Community</li>
+                <li><a href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a></li>
+                <li><a href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a></li>
+                <li><a href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a></li>
+              </ul>
+            </li>
+
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="content" class="container"><h2>Abomination	<em>Solitary, Large, Construct, Terrifying</em></h2>
+  <div id="content" class="container">
+    
+
+<h1>Undead Legions</h1>
+
+<h2>Abomination	<em>Solitary, Large, Construct, Terrifying</em></h2>
+
 <p class="MonsterStats">Slam (d10+3 damage)	20 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach, Forceful</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Many limbs, heads, and so on</p>
+
 <p class="MonsterDescription">Corpses sewn onto corpses make up the bulk of these shambling masses of dark magic. Most undead are crafted to be controlled—made to serve some purpose like building a tower or serving as guardians. Not so the abomination. The last aspect of the ritual used to grant fire to their hellish limbs invokes a hatred so severe that the abomination knows but one task: to tear and rend at the very thing it cannot have—life. Many students of the black arts learn to their mortal dismay the most important fact about these hulks; an abomination knows no master. <em>Instinct</em>: To end life</p>
+
 <ul><li>Tear flesh apart</li>
+
 <li>Spill forth putrid guts</li></ul>
+
 <h2>Banshee	<em>Solitary, Magical, Intelligent</em></h2>
+
 <p class="MonsterStats">Scream (d10 damage)	16 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Near</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Insubstantial</p>
+
 <p class="MonsterDescription">Come away from an encounter with one of these vengeful spirits merely deaf and count yourself lucky for the rest of your peaceful, silent days. Often mistaken at first glance for a ghost or wandering spirit, the banshee reveals a far more deadly talent for sonic assault when angered. And her anger comes easy. A victim of betrayal (often by a loved one) the banshee makes known her displeasure with a roar or scream that can putrefy flesh and rend the senses. If you can help her get her vengeance, they say she might grant rewards. Whether the affection of a spurned spirit is a thing you’d want, well, that’s another question. <em>Instinct</em>: To get revenge </p>
+
 <ul><li>Drown out all other sound with a ceaseless scream</li>
+
 <li>Unleash a skull-splitting noise</li>
+
 <li>Disappear into the mists</li></ul>
+
 <h2>Devourer	<em>Solitary, Large, Intelligent, Hoarder</em></h2>
+
 <p class="MonsterStats">Smash (d10+3 damage)	16 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach, Forceful</em></p>
+
 <p class="MonsterDescription">Most folk know that the undead feed on flesh. The warmth, blood and living tissue continue their unholy existence. This is true for most of the mindless dead, animated by black sorcery. Not so the devourer. When a particularly wicked person (often a manipulator of men, an apostate priest or the like) dies in a gruesome way, the dark powers of Dungeon World might bring them back to a kind of life. The devourer, however, does not feed on the flesh of men or elves. The devourer eats souls. It kills with a pleasure only the sentient can enjoy and in the moments of its victims’ expiry, draws breath like a drowning man and swallows a soul. What does it mean to have your soul eaten by such a creature? None dare ask for fear of finding out. <em>Instinct</em>: To feast on souls</p>
+
 <ul><li>Devour or trap dying soul</li>
+
 <li>Bargain for a soul’s return</li></ul>
+
 <h2>Dragonbone	<em>Solitary, Huge</em></h2>
+
 <p class="MonsterStats">Bite (d10+3 damage, 3 piercing)	20 HP	2 Armor</p>
+
 <p class="MonsterStats"><em>Reach, Messy</em></p>
+
 <p class="MonsterDescription">Mystical sorcerers debate: is this creature truly undead or is it a golem made of a particularly rare and blasphemous material? The bones, sinews and scales of a dead dragon make up this bleak automaton. Winged but flightless, dragon-shaped but without the mighty fire of such a noble thing, the dragonbone serves its master with a twisted devotion and is often set to assault the keeps and towers of rival necromancers. It would take a being of some considerable evil to twist the remains of a dragon thus. <em>Instinct</em>: To serve</p>
+
 <ul><li>Attack unrelentingly</li></ul>
+
 <h2>Draugr	<em>Horde, Organized</em></h2>
+
 <p class="MonsterStats">Rusty sword (d6+1 damage)	7 HP	2 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Icy touch</p>
+
 <p class="MonsterDescription">In the Nordemark, the men and women tell tales in their wooden halls of a place where the noble dead go. A mead hall atop their heavenly mountain where men of valor go to await the final battle for the world. It is a goodly place. It is a place where one hopes to go after death. And the inglorious dead? Those who fall to poison or in an act of cowardice, warriors though they may be? Well, those mead halls aren’t open to all and sundry. Some come back, frozen and twisted and empowered by jealous rage and wage their eternal war not on the forces of giants or trolls but on the towns of the men they once knew. <em>Instinct</em>: To take from the living</p>
+
 <ul><li>Freeze flesh</li>
+
 <li>Call on the unworthy dead</li></ul>
+
 <h2>Ghost	<em>Solitary, Devious, Terrifying</em></h2>
+
 <p class="MonsterStats">Phantom touch (d6 damage)	16 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Insubstantial</p>
+
 <p class="MonsterDescription">Every culture tells the story the same way. You live, you love or you hate, you win or you lose, you die somehow you’re not too fond of and here you are, ghostly and full of disappointment and what have you. Some people take it upon themselves, brave and kindly folks, to seek out the dead and help them pass to their rightful rest. You can find them, most times, down at the tavern drinking away the terrors they’ve seen or babbling to themselves in the madhouse. Death takes a toll on the living, no matter how you come by it. <em>Instinct</em>: To haunt</p>
+
 <ul><li>Reveal the terrifying nature of death</li>
+
 <li>Haunt a place of importance </li>
+
 <li>Offer information from the other side, at a price</li></ul>
+
 <h2>Ghoul	<em>Group</em></h2>
+
 <p class="MonsterStats">Talons (d8 damage, 1 piercing)	10 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close, Messy</em></p>
+
 <p class="MonsterDescription">Hunger. Hunger hunger hunger. Desperate clinging void-stomach-emptiness hunger. Sharp talons to rend flesh and teeth to tear and crack bones and suck out the soft marrow inside. Vomit up hate and screaming jealous anger and charge on twisted legs—scare the living flesh and sweeten it ever more with the stink of fear. Feast. Peasant or knight, wizard, sage, prince, or priest all make for such delicious meat. <em>Instinct</em>: To eat</p>
+
 <ul><li>Gnaw off a body part</li>
+
 <li>Gain the memories of their meal</li></ul>
+
 <h2>Lich	<em>Solitary, Magical, Intelligent, Cautious, Hoarder, Construct</em></h2>
+
 <p class="MonsterStats">Magical Force (d10+3 damage, ignores armor)	16 HP	5 Armor</p>
+
 <p class="MonsterStats"><em>Near, Far</em></p>
+
 <p class="MonsterDescription">“At the end, they give you a scroll and a jeweled medallion to commemorate your achievements. Grand Master of Abjuration, I was called, then. Old man. Weak and wizened and just a bit too senile for them—those jealous halfwits. Barely apprentices, and they called themselves The New Council. It makes me sick, or would, if I still could be. They told me it was an honor and I would be remembered forever. It was like listening to my own eulogy. Fitting, in a way, don’t you think? It took me another ten years to learn the rituals and another four to collect the material and you see before you the fruits of my labor. I endure. I live. I will see the death of this age and the dawn of the next. It pains me to have to do this, but, you see, you cannot be permitted to endanger my research. When you meet Death, say hello for me, would you?” <em>Instinct</em>: To un-live</p>
+
 <ul><li>Cast a perfected spell of death or destruction</li>
+
 <li>Set a ritual or great working into motion</li>
+
 <li>Reveal a preparation or plan already completed</li></ul>
+
 <h2>Mohrg	<em>Group</em></h2>
+
 <p class="MonsterStats">Bite (d8 damage)	10 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterDescription">You never get away with murder. Not really. You might evade the law, might escape your own conscience in the end and die, fat and happy in a mansion somewhere. When the gods themselves notice your misdeeds, though, that’s where your luck runs out and a mohrg is born. The mohrg is a skeleton—flesh and skin and hair all rotted away. All but their guts—their twisted, knotted guts still spill from their bellies, magically preserved and often wrapped, noose-like, about their necks. They do not think, exactly, but they suffer. They kill and wreak havoc and their souls do not rest. Such is the punishment, both on them for the crime and on all mankind for daring to murder one another. The gods are just and they are harsh. <em>Instinct</em>: To wreak havoc</p>
+
 <ul><li>Rage</li>
+
 <li>Add to their collection of guts</li></ul>
+
 <h2>Mummy	<em>Solitary, Divine, Hoarder</em></h2>
+
 <p class="MonsterStats">Smash (d10+2 damage)	16 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterDescription">There are cultures who revere the dead. They do not bury them in the cold earth and mourn their passing. These people spend weeks preparing the sacred corpse for its eternal rest. Temples, pyramids, and great vaults of stone are built to house them and are populated with slaves, pets and gold. The better to live in luxury beyond the Black Gates, no? Do not be tempted by these vaults—oh, I know that greedy look! Heed my warnings or risk a terrible fate, for the honored dead do not wish to be disturbed. Thievery will only raise their ire—don’t say I did not warn you! <em>Instinct</em>: To enjoy eternal rest</p>
+
 <ul><li>Curse them</li>
+
 <li>Wrap them up</li>
+
 <li>Rise again</li></ul>
+
 <h2>Nightwing	<em>Horde, Stealthy</em></h2>
+
 <p class="MonsterStats">Rend (d6 damage)	7 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Wings</p>
+
 <p class="MonsterDescription">Scholars of the necromantic arts will tell you that the appellation “undead” applies not only to those who have lived, died, and been returned to a sort of partway living state. It is the proper name of any creature whose energy originates beyond the Black Gates. The creature men call the nightwing is one such—empowered by the negative light of Death’s domain. Taking the shape of massive, shadowy, winged creatures (some more bat-like, some like vultures, others like some ancient, leathery things) nightwings travel in predatory flocks, swooping down to strip the flesh from cattle, horses and unlucky peasants out past curfew. Watch the night sky for their red eyes. Listen for their screeching call. And hope to the gods you have something to hide under until they pass. <em>Instinct</em>: To hunt</p>
+
 <ul><li>Attack from the night sky</li>
+
 <li>Fly away with prey</li></ul>
+
 <h2>Shadow	<em>Horde, Large, Magical, Construct</em></h2>
+
 <p class="MonsterStats">Shadow touch (d6+1 damage)	11 HP	4 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Shadow Form</p>
+
 <p class="MonsterDescription">We call to the elements. We call on fire, ever-burning. We summon water, life-giving. We beseech the earth, stable-standing. We cry to the air, forever-changing. These elements we recognize and give our thanks but ask to pass. The elemental we call upon this night knows another name. We call upon the element of Night. Shadow, we name you. Death’s messenger and black assassin, we claim for our own. Accept our sacrifice and do our bidding ’til the morning come. <em>Instinct</em>: To darken</p>
+
 <ul><li>Snuff out light</li>
+
 <li>Spawn another shadow from the dead</li></ul>
+
 <h2>Sigben	<em>Horde, Large, Construct</em></h2>
+
 <p class="MonsterStats">Tail whip (d6+1 damage)	11 HP	2 Armor</p>
+
 <p class="MonsterStats"><em>Close, Reach</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Vampire spawn</p>
+
 <p class="MonsterDescription">“Aswang-hound and hopping whip-tail! Sent by vampires on their two, twisted legs, these ugly things look like the head of a rat or a crocodile, maybe, furry though and sharp of tooth. They have withered wings, but cannot use them and long, whipping tails, spurred with poison tips. Stupid, vengeful and mischievous they cause all kinds of chaos when let out of the strange clay jars in which they’re born. Only a vampire could love such a wretched thing.” <em>Instinct</em>: To disturb</p>
+
 <ul><li>Poison them</li>
+
 <li>Do a vampire’s bidding</li></ul>
+
 <h2>Skeleton	<em>Horde</em></h2>
+
 <p class="MonsterStats">Slam (d6 damage)	7 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterDescription">Dem bones, dem bones, dem dry bones. <em>Instinct</em>: To take the semblance of life</p>
+
 <ul><li>Act out what it did in life</li>
+
 <li>Snuff out the warmth of life</li>
+
 <li>Reconstruct from miscellaneous bones</li></ul>
+
 <h2>Spectre	<em>Solitary, Hoarder</em></h2>
+
 <p class="MonsterStats">Withering touch (d10 damage)	12 HP	0 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Insubstantial</p>
+
 <p class="MonsterDescription">For some folk, when they pass, Death himself cannot release their grip on the places they love most. A priest whose devotion to the temple is greater than that of his god. A banking guild official who cannot bear to part with his vault. A drunk and his favorite tavern. All make excellent spectres. They act not out of the usual hunger that drives the undead, but jealousy. Jealousy that anyone else might come to love their home as much as they do and drive them out. These places belong to them and these invisible spirits will kill before they’ll let anyone send them to their rest. <em>Instinct</em>: To drive life from a place</p>
+
 <ul><li>Turn their haunt against a creature</li>
+
 <li>Bring the environment to life</li></ul>
+
 <h2>Vampire	<em>Group, Stealthy, Organized, Intelligent</em></h2>
+
 <p class="MonsterStats">Supernatural force (d8+5 damage, 1 piercing)	10 HP	2 Armor</p>
+
 <p class="MonsterStats"><em>Close, Forceful</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Changing form, ancient mind</p>
+
 <p class="MonsterDescription">We fear them, because they call to us. So much like us, or how we hope to be: beautiful, passionate, and powerful. They are drawn to us for what they cannot be: warm, kind, and alive. These tormented souls can only hope, at most, to pass their dreadful curse along. Every time they feed they run the risk of passing along their torture to another and in each one lives the twisted seed of its creator. Vampires beget vampires. Suffering begets suffering. Do not be drawn in by their seduction or you may be given their gift—a crown of shadows and the chains of eternal undying grief. <em>Instinct</em>: To manipulate</p>
+
 <ul><li>Charm someone</li>
+
 <li>Feed on their blood</li>
+
 <li>Retreat to plan again</li></ul>
+
 <h2>Wight-Wolf	<em>Horde, Organized, Intelligent</em></h2>
+
 <p class="MonsterStats">Pounce (d6+1 damage 1 piercing)	7 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterQualities"><strong>Special Qualities:</strong> Shadow form</p>
+
 <p class="MonsterDescription">Like the nightwing, the wight-wolf is a creature not spawned in our world. Somehow slipping the seals of the Black Gates of Death, these spirits take the shape of massive hounds or shadowy wolves and hunt the living for sport. They travel in packs, led by a mighty alpha, but bear a kind of intelligence unknown to true canines. Their wild hunts draw the attention of intelligent undead—liches, vampires and the like—who will sometimes make pacts with the alpha and serve a grim purpose together. Listen for the baying of the hounds of Death and pray that they do not howl for you. <em>Instinct</em>: To hunt</p>
+
 <ul><li>Encircle prey</li>
+
 <li>Summon the pack</li></ul>
+
 <h2>Zombie	<em>Horde</em></h2>
+
 <p class="MonsterStats">Bite (d6 damage)	11 HP	1 Armor</p>
+
 <p class="MonsterStats"><em>Close</em></p>
+
 <p class="MonsterDescription">When there’s no more room in Hell… <em>Instinct</em>: Braaaaaains</p>
+
 <ul><li>Attack with overwhelming numbers</li>
+
 <li>Corner them</li>
+
 <li>Gain strength from the dead, spawn more zombies</li></ul>
 
-    </div>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
 
-      ga("create", "UA-42061955-1", "dwgazetteer.com");
-      ga("send", "pageview");
-    </script>
+    ga("create", "UA-42061955-1", "dwgazetteer.com");
+    ga("send", "pageview");
+  </script>
 
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/dwbook.js"></script>
 </body>
 </html>

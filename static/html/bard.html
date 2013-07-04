@@ -1,259 +1,399 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Bard</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/css/all.css">
-	<link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
+    <title>The Bard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">Dungeon World</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="playing_the_game.html">Playing the Game</a></li>
+                <li><a href="example.html">Example of Play</a></li>
+                <li><a href="character_creation.html">Character Creation</a></li>
+                <li><a href="moves_discussion.html">Moves</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="bard.html">Bard</a></li>
+                <li><a href="cleric.html">Cleric</a></li>
+                <li><a href="cleric_spells.html"><em>Cleric Spells</em></a></li>
+                <li><a href="druid.html">Druid</a></li>
+                <li><a href="fighter.html">Fighter</a></li>
+                <li><a href="paladin.html">Paladin</a></li>
+                <li><a href="ranger.html">Ranger</a></li>
+                <li><a href="thief.html">Thief</a></li>
+                <li><a href="wizard.html">Wizard</a></li>
+                <li><a href="wizard_spells.html"><em>Wizard Spells</em></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="gm.html">GM</a></li>
+                <li><a href="first_session.html">First Session</a></li>
+                <li><a href="fronts.html">Fronts</a></li>
+                <li><a href="the_world.html">The World</a></li>
+                <li><a href="advanced_delving.html">Advanced Delving</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="monsters.html">Overview</a></li>
+                <li><a href="monsters_caverns.html">Cavern Dwellers</a></li>
+                <li><a href="monsters_swamp.html">Swamp Denizens</a></li>
+                <li><a href="monsters_undead.html">Legions of the Undead</a></li>
+                <li><a href="monsters_woods.html">Gnarled Woods</a></li>
+                <li><a href="monsters_hordes.html">Ravenous Hordes</a></li>
+                <li><a href="monsters_experiments.html">Twisted Experiments</a></li>
+                <li><a href="monsters_depths.html">Lower Depths</a></li>
+                <li><a href="monsters_planes.html">Planar Powers</a></li>
+                <li><a href="monsters_folk.html">Folk of the Realm</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="appendices_thanks.html">Thanks</a></li>
+                <li><a href="appendices_teaching.html">Teaching</a></li>
+                <li><a href="appendices_conversion.html">Conversion</a></li>
+                <li><a href="appendices_npcs.html">NPCs</a></li>
+              </ul>
+            </li>
 
-<body><h1>The Bard</h1>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">Dungeon World</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Introduction.html">Introduction</a></li>
-                        <li><a href="Playing_the_Game.html">Playing the Game</a></li>
-                        <li><a href="Character_Creation.html">Character Creation</a></li>
-                        <li><a href="Moves.html">Moves</a></li>
-                        <li><a href="Equipment.html">Equipment</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Bard.html">Bard</a></li>
-                        <li><a href="Cleric.html">Cleric</a></li>
-                        <li><a href="Cleric_Spells.html"><em>Cleric Spells</em></a></li>
-                        <li><a href="Druid.html">Druid</a></li>
-                        <li><a href="Fighter.html">Fighter</a></li>
-                        <li><a href="Paladin.html">Paladin</a></li>
-                        <li><a href="Ranger.html">Ranger</a></li>
-                        <li><a href="Thief.html">Thief</a></li>
-                        <li><a href="Wizard.html">Wizard</a></li>
-                        <li><a href="Wizard_Spells.html"><em>Wizard Spells</em></a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="GM.html">GM</a></li>
-                        <li><a href="First_Session.html">First Session</a></li>
-                        <li><a href="Fronts.html">Fronts</a></li>
-                        <li><a href="The_World.html">The World</a></li>
-                        <li><a href="Advanced_Delving.html">Advanced Delving</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Monsters.html">Overview</a></li>
-                        <li><a href="monster_settings/Caverns.html">Cavern Dwellers</a></li>
-                        <li><a href="monster_settings/Swamp.html">Swamp Denizens</a></li>
-                        <li><a href="monster_settings/Undead.html">Legions of the Undead</a></li>
-                        <li><a href="monster_settings/Woods.html">Gnarled Woods</a></li>
-                        <li><a href="monster_settings/Hordes.html">Ravenous Hordes</a></li>
-                        <li><a href="monster_settings/Experiments.html">Twisted Experiments</a></li>
-                        <li><a href="monster_settings/Depths.html">Lower Depths</a></li>
-                        <li><a href="monster_settings/Planes.html">Planar Powers</a></li>
-                        <li><a href="monster_settings/Folk.html">Folk of the Realm</a></li>
-                    </ul>
-                </li>
-                
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="appendices/Thanks.html">Thanks</a></li>
-                        <li><a href="appendices/Teaching.html">Teaching</a></li>
-                        <li><a href="appendices/Conversion.html">Conversion</a></li>
-                        <li><a href="appendices/NPCs.html">NPCs</a></li>
-                    </ul>
-                </li>
+            <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
 
-                <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
-              <!--
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              -->
-            </ul>
-          </div>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Official</li>
+                <li><a href="http://www.dungeon-world.com/">Dungeon World</a></li>
+                <li><a href="http://codex.dungeon-world.com/">Monster Builder</a></li>
+                <li class="nav-header">Community</li>
+                <li><a href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a></li>
+                <li><a href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a></li>
+                <li><a href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a></li>
+              </ul>
+            </li>
+
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="content" class="container"><div id="intro"><p class="NoIndent">The poems say an adventurer’s life is all open roads and the glory of coin and combat. The tales told in every farmhand-filled inn have to have some ring of truth to them, don’t they? The songs to inspire peasantry and royals alike—to soothe the savage beast or drive men to a frenzy—have to come from somewhere.</p>
+  <div id="content" class="container">
+    
+
+<h1>The Bard</h1>
+
+<div id="intro">
+
+<p>The poems say an adventurer’s life is all open roads and the glory of coin and combat. The tales told in every farmhand-filled inn have to have some ring of truth to them, don’t they? The songs to inspire peasantry and royals alike—to soothe the savage beast or drive men to a frenzy—have to come from somewhere.</p>
+
 <p>Enter the bard. You, with your smooth tongue and quick wit. You teller-of-tales and singer-of-songs. It takes a mere minstrel to retell a thing but a true bard to live it. Strap on your boots, noble orator. Sharpen that hidden dagger and take up the call. Someone’s got to be there, fighting shoulder-to-shoulder with the goons and the thugs and the soon-to-be-heroes. Who better than you to write the tale of your own heroism?</p>
-<p>Nobody. Get going.</p></div>
-<h2>Names</h2>
-<div id="names"><p class="NoIndent"><em>Elf</em>: Astrafel, Daelwyn, Feliana, Damarra, Sistranalle, Pendrell, Melliandre, Dagoliir</p> 
-<p class="NoIndent"><em>Human</em>: Baldric, Leena, Dunwick, Willem, Edwyn, Florian, Seraphine, Quorra, Charlotte, Lily, Ramonde, Cassandra</p></div>
-<h2>Look</h2>
-<div id="look"><p class="NoIndent">Choose one for each:</p>
-<p class="NoIndent">Knowing Eyes, Fiery Eyes, or Joyous Eyes</p>
-<p class="NoIndent">Fancy Hair, Wild Hair, or Stylish Cap</p>
-<p class="NoIndent">Finery, Traveling Clothes, or Poor Clothes</p>
-<p class="NoIndent">Fit Body, Well-fed Body, or Thin Body</p></div>
-<h2>Stats</h2>
-<p class="NoIndent">Your maximum HP is 6+Constitution.</p>
-<p class="NoIndent">Your base damage is <span id="Damage">d6</span>.</p>
-<h2>Starting Moves</h2>
-<div id="startingmoves"><p class="InstructionsAfterHeader">Choose a race and gain the corresponding move:</p>
-<div id="racialmoves"><h3 class="MoveName">Elf</h3>
-<p class="NoIndent">When you enter an important location (your call) you can ask the GM for one fact from the history of that location.</p>
-<h3 class="MoveName">Human</h3>
-<p class="NoIndent">When you first enter a civilized settlement someone who respects the custom of hospitality to minstrels will take you in as their guest.</p></div>
-<div id="classmoves"><p class="Instructions">You start with these moves:</p>
-<h3 class="BasicMoveName">Arcane Art</h3>
-<p class="NoIndent">When you<strong> weave a performance into a basic spell</strong>, choose an ally and an effect:</p>
-<ul><li>Heal 1d8 damage</li>
-<li>+1d4 forward to damage</li>
-<li>Their mind is shaken clear of one enchantment</li>
-<li>The next time someone successfully assists the target with aid, they get +2 instead of +1</li></ul>
-<p class="NoIndent">Then roll+Cha. ✴On a 10+, the ally gets the selected effect. ✴On a 7-9, your spell still works, but you draw unwanted attention or your magic reverberates to other targets affecting them as well, GM’s choice.</p>
-<h3 class="BasicMoveName">Bardic Lore</h3>
-<p class="NoIndent">Choose an area of expertise:</p>
-<ul><li>Spells and Magicks</li>
-<li>The Dead and Undead</li>
-<li>Grand Histories of the Known World</li>
-<li>A Bestiary of Creatures Unusual</li>
-<li>The Planar Spheres</li>
-<li>Legends of Heroes Past</li>
-<li>Gods and Their Servants</li></ul>
-<p class="NoIndent">When you <strong>first encounter an important creature, location, or item (your call) covered by your bardic lore</strong> you can ask the GM any one question about it; the GM will answer truthfully. The GM may then ask you what tale, song, or legend you heard that information in.</p>
-<h3 class="BasicMoveName">Charming and Open</h3>
-<p class="NoIndent">When you <strong>speak frankly with someone</strong>, you can ask their player a question from the list below. They must answer it truthfully, then they may ask you a question from the list (which you must answer truthfully).</p>
-<ul><li>Whom do you serve?</li>
-<li>What do you wish I would do?</li>
-<li>How can I get you to ______?</li>
-<li>What are you really feeling right now?</li>
-<li>What do you most desire?</li></ul>
-<h3 class="BasicMoveName">A Port in the Storm</h3>
-<p class="NoIndent">When you <strong>return to a civilized settlement you’ve visited before</strong>, tell the GM when you were last here. They’ll tell you how it’s changed since then.</p></div></div>
-<h2>Alignment</h2>
-<p class="InstructionsAfterHeader">Choose an alignment:</p>
-<div id="alignment"><h3 class="MoveName">Good</h3>
-<p class="NoIndent">Perform your art to aid someone else.</p>
-<h3 class="MoveName">Neutral</h3>
-<p class="NoIndent">Avoid a conflict or defuse a tense situation.</p>
-<h3 class="MoveName">Chaotic</h3>
-<p class="NoIndent">Spur others to significant and unplanned decisive action.</p></div>
-<h2>Gear</h2>
-<div id="gear"><p class="NoIndent">Your load is 9+Str. You have dungeon rations (5 uses, 1 weight). Choose one instrument, all are 0 weight for you:</p>
-<ul><li class="Option">Your father’s mandolin, repaired</li>
-<li class="Option">A fine lute, a gift from a noble</li>
-<li class="Option">The pipes with which you courted your first love</li>
-<li class="Option">A stolen horn</li>
-<li class="Option">A fiddle, never before played</li>
-<li class="Option">A songbook in a forgotten tongue</li></ul>
-<p class="NoIndent">Choose your clothing:</p>
-<ul><li class="Option">Leather armor (1 armor, 1 weight)</li>
-<li class="Option">Ostentatious clothes (0 weight)</li></ul>
-<p class="NoIndent">Choose your armament:</p>
-<ul><li class="Option">Dueling rapier (close, precise, 2 weight)</li>
-<li class="Option">Worn bow (near, 2 weight), bundle of arrows (3 ammo, 1 weight), and short sword (close, 1 weight)</li></ul>
-<p class="NoIndent">Choose one:</p>
-<ul><li>Adventuring gear (1 weight)</li>
-<li>Bandages (0 weight)</li>
-<li>Halfling pipeleaf (0 weight)</li>
-<li>3 coins</li></ul></div>
-<h2>Bonds</h2>
-<div id="bonds"><p class="NoIndent">Fill in the name of one of your companions in at least one:</p>
-<p>This is not my first adventure with _______________.</p>
-<p>I sang stories of _______________ long before I ever met them in person.</p>
-<p>_______________ is often the butt of my jokes.</p>
-<p>I am writing a ballad about the adventures of _______________.</p>
-<p>_______________ trusted me with a secret.</p>
-<p>_______________ does not trust me, and for good reason.</p></div>
-<h2>Advanced Moves</h2>
-<div id="moves"><p class="InstructionsAfterHeader">When you gain a level from 2-5, choose from these moves.</p>
-<h3 class="MoveName">Healing Song</h3>
-<p class="NoIndent">When you <strong>heal with arcane art</strong>, you heal +1d8 damage.</p>
-<h3 class="MoveName">Vicious Cacophony</h3>
-<p class="NoIndent">When you <strong>grant bonus damage with arcane art</strong>, you grant an extra +1d4 damage.</p>
-<h3 class="MoveName">It Goes To Eleven</h3>
-<p class="NoIndent">When you <strong>unleash a crazed performance</strong> (a righteous lute solo or mighty brass blast, maybe) choose a target who can hear you and roll+Cha. ✴On a 10+ the target attacks their nearest ally in range. ✴On a 7–9 they attack their nearest ally, but you also draw their attention and ire.</p>
-<h3 class="MoveName">Metal Hurlant</h3>
-<p class="NoIndent">When you <strong>shout with great force or play a shattering note</strong> choose a target and roll+Con. ✴On a 10+ the target takes 1d10 damage and is deafened for a few minutes. ✴On a 7–9 you still damage your target, but it’s out of control: the GM will choose an additional target nearby.</p>
-<h3 class="MoveName">A Little Help From My Friends</h3>
-<p class="NoIndent">When you <strong>successfully aid someone</strong> you take +1 forward as well.</p>
-<h3 class="MoveName">Eldritch Tones</h3>
-<p class="NoIndent">Your arcane art is strong, allowing you to choose two effects instead of one.</p>
-<h3 class="MoveName">Duelist’s Parry</h3>
-<p class="NoIndent">When you hack and slash, you take +1 armor forward.</p>
-<h3 class="MoveName">Bamboozle</h3>
-<p class="NoIndent">When you <strong>parley with someone</strong>, on a 7+ you also take +1 forward with them.</p>
-<h3 class="MoveName">Multiclass Dabbler</h3>
-<p class="NoIndent">Get one move from another class. Treat your level as one lower for choosing the move.</p>
-<h3 class="MoveName">Multiclass Initiate</h3>
-<p class="NoIndent">Get one move from another class. Treat your level as one lower for choosing the move.</p>
-<p class="Instructions">When you gain a level from 6-10, choose from these moves or the level 2-5 moves.</p>
-<h3 class="MoveName">Healing Chorus</h3>
-<p class="Requirement">Replaces: Healing Song</p>
-<p class="NoIndent">When you <strong>heal with arcane art</strong>, you heal +2d8 damage.</p>
-<h3 class="MoveName">Vicious Blast</h3>
-<p class="Requirement">Replaces: Vicious Cacophony</p>
-<p class="NoIndent">When you <strong>grant bonus damage with arcane art</strong>, you grant an extra +2d4 damage.</p>
-<h3 class="MoveName">Unforgettable Face</h3>
-<p class="NoIndent">When you <strong>meet someone you’ve met before</strong> (your call) after some time apart you take +1 forward against them.</p>
-<h3 class="MoveName">Reputation</h3>
-<p class="NoIndent">When you <strong>first meet someone who’s heard songs about you</strong>, roll+Cha. ✴On a 10+, tell the GM two things they’ve heard about you. ✴On a 7-9, tell the GM one thing they’ve heard, and the GM tells you one thing.</p>
-<h3 class="MoveName">Eldritch Chord</h3>
-<p class="Requirement">Replaces: Eldritch Tones</p>
-<p class="NoIndent">When you use arcane art, you choose two effects. You also get to choose one of those effects to double.</p>
-<h3 class="MoveName">An Ear For Magic</h3>
-<p class="NoIndent">When you <strong>hear an enemy cast a spell</strong> the GM will tell you the name of the spell and its effects. Take +1 forward when acting on the answers.</p>
-<h3 class="MoveName">Devious</h3>
-<p class="NoIndent">When you use charming and open you may also ask “How are you vulnerable to me?” Your subject may not ask this question of you.</p>
-<h3 class="MoveName">Duelist’s Block</h3>
-<p class="Requirement">Replaces: Duelist’s Parry</p>
-<p class="NoIndent">When you hack and slash, you take +2 armor forward.</p>
-<h3 class="MoveName">Con</h3>
-<p class="Requirement">Replaces: Bamboozle</p>
-<p class="NoIndent">When you <strong>parley with someone</strong>, on a 7+ you also take +1 forward with them and get to ask their player one question which they must answer truthfully.</p>
-<h3 class="MoveName">Multiclass Master</h3>
-<p class="NoIndent">Get one move from another class. Treat your level as one lower for choosing the move.</p></div>
-    </div>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+<p>Nobody. Get going.</p>
+
+</div>
+
+<h2>Names</h2>
+
+<div id="names"><p><em>Elf</em>: Astrafel, Daelwyn, Feliana, Damarra, Sistranalle, Pendrell, Melliandre, Dagoliir</p> 
+
+<p><em>Human</em>: Baldric, Leena, Dunwick, Willem, Edwyn, Florian, Seraphine, Quorra, Charlotte, Lily, Ramonde, Cassandra</p></div>
+
+<h2>Look</h2>
+
+<div id="look"><p>Choose one for each:</p>
+
+<p>Knowing Eyes, Fiery Eyes, or Joyous Eyes</p>
+
+<p>Fancy Hair, Wild Hair, or Stylish Cap</p>
+
+<p>Finery, Traveling Clothes, or Poor Clothes</p>
+
+<p>Fit Body, Well-fed Body, or Thin Body</p></div>
+
+<h2>Stats</h2>
+
+<p>Your maximum HP is 6+Constitution.</p>
+
+<p>Your base damage is <span id="Damage">d6</span>.</p>
+
+<h2>Starting Moves</h2>
+
+<div id="startingmoves"><p class="InstructionsAfterHeader">Choose a race and gain the corresponding move:</p>
+
+<div id="racialmoves"><h3 class="MoveName">Elf</h3>
+
+<p>When you enter an important location (your call) you can ask the GM for one fact from the history of that location.</p>
+
+<h3 class="MoveName">Human</h3>
+
+<p>When you first enter a civilized settlement someone who respects the custom of hospitality to minstrels will take you in as their guest.</p></div>
+
+<div id="classmoves"><p class="Instructions">You start with these moves:</p>
+
+<h3 class="BasicMoveName">Arcane Art</h3>
+
+<p>When you<strong> weave a performance into a basic spell</strong>, choose an ally and an effect:</p>
+
+<ul><li>Heal 1d8 damage</li>
+
+<li>+1d4 forward to damage</li>
+
+<li>Their mind is shaken clear of one enchantment</li>
+
+<li>The next time someone successfully assists the target with aid, they get +2 instead of +1</li></ul>
+
+<p>Then roll+Cha. ✴On a 10+, the ally gets the selected effect. ✴On a 7-9, your spell still works, but you draw unwanted attention or your magic reverberates to other targets affecting them as well, GM’s choice.</p>
+
+<h3 class="BasicMoveName">Bardic Lore</h3>
+
+<p>Choose an area of expertise:</p>
+
+<ul><li>Spells and Magicks</li>
+
+<li>The Dead and Undead</li>
+
+<li>Grand Histories of the Known World</li>
+
+<li>A Bestiary of Creatures Unusual</li>
+
+<li>The Planar Spheres</li>
+
+<li>Legends of Heroes Past</li>
+
+<li>Gods and Their Servants</li></ul>
+
+<p>When you <strong>first encounter an important creature, location, or item (your call) covered by your bardic lore</strong> you can ask the GM any one question about it; the GM will answer truthfully. The GM may then ask you what tale, song, or legend you heard that information in.</p>
+
+<h3 class="BasicMoveName">Charming and Open</h3>
+
+<p>When you <strong>speak frankly with someone</strong>, you can ask their player a question from the list below. They must answer it truthfully, then they may ask you a question from the list (which you must answer truthfully).</p>
+
+<ul><li>Whom do you serve?</li>
+
+<li>What do you wish I would do?</li>
+
+<li>How can I get you to ______?</li>
+
+<li>What are you really feeling right now?</li>
+
+<li>What do you most desire?</li></ul>
+
+<h3 class="BasicMoveName">A Port in the Storm</h3>
+
+<p>When you <strong>return to a civilized settlement you’ve visited before</strong>, tell the GM when you were last here. They’ll tell you how it’s changed since then.</p></div></div>
+
+<h2>Alignment</h2>
+
+<p class="InstructionsAfterHeader">Choose an alignment:</p>
+
+<div id="alignment"><h3 class="MoveName">Good</h3>
+
+<p>Perform your art to aid someone else.</p>
+
+<h3 class="MoveName">Neutral</h3>
+
+<p>Avoid a conflict or defuse a tense situation.</p>
+
+<h3 class="MoveName">Chaotic</h3>
+
+<p>Spur others to significant and unplanned decisive action.</p></div>
+
+<h2>Gear</h2>
+
+<div id="gear"><p>Your load is 9+Str. You have dungeon rations (5 uses, 1 weight). Choose one instrument, all are 0 weight for you:</p>
+
+<ul><li class="Option">Your father’s mandolin, repaired</li>
+
+<li class="Option">A fine lute, a gift from a noble</li>
+
+<li class="Option">The pipes with which you courted your first love</li>
+
+<li class="Option">A stolen horn</li>
+
+<li class="Option">A fiddle, never before played</li>
+
+<li class="Option">A songbook in a forgotten tongue</li></ul>
+
+<p>Choose your clothing:</p>
+
+<ul><li class="Option">Leather armor (1 armor, 1 weight)</li>
+
+<li class="Option">Ostentatious clothes (0 weight)</li></ul>
+
+<p>Choose your armament:</p>
+
+<ul><li class="Option">Dueling rapier (close, precise, 2 weight)</li>
+
+<li class="Option">Worn bow (near, 2 weight), bundle of arrows (3 ammo, 1 weight), and short sword (close, 1 weight)</li></ul>
+
+<p>Choose one:</p>
+
+<ul><li>Adventuring gear (1 weight)</li>
+
+<li>Bandages (0 weight)</li>
+
+<li>Halfling pipeleaf (0 weight)</li>
+
+<li>3 coins</li></ul></div>
+
+<h2>Bonds</h2>
+
+<div id="bonds"><p>Fill in the name of one of your companions in at least one:</p>
+
+<p>This is not my first adventure with _______________.</p>
+
+<p>I sang stories of _______________ long before I ever met them in person.</p>
+
+<p>_______________ is often the butt of my jokes.</p>
+
+<p>I am writing a ballad about the adventures of _______________.</p>
+
+<p>_______________ trusted me with a secret.</p>
+
+<p>_______________ does not trust me, and for good reason.</p></div>
+
+<h2>Advanced Moves</h2>
+
+<div id="moves"><p class="InstructionsAfterHeader">When you gain a level from 2-5, choose from these moves.</p>
+
+<h3 class="MoveName">Healing Song</h3>
+
+<p>When you <strong>heal with arcane art</strong>, you heal +1d8 damage.</p>
+
+<h3 class="MoveName">Vicious Cacophony</h3>
+
+<p>When you <strong>grant bonus damage with arcane art</strong>, you grant an extra +1d4 damage.</p>
+
+<h3 class="MoveName">It Goes To Eleven</h3>
+
+<p>When you <strong>unleash a crazed performance</strong> (a righteous lute solo or mighty brass blast, maybe) choose a target who can hear you and roll+Cha. ✴On a 10+ the target attacks their nearest ally in range. ✴On a 7–9 they attack their nearest ally, but you also draw their attention and ire.</p>
+
+<h3 class="MoveName">Metal Hurlant</h3>
+
+<p>When you <strong>shout with great force or play a shattering note</strong> choose a target and roll+Con. ✴On a 10+ the target takes 1d10 damage and is deafened for a few minutes. ✴On a 7–9 you still damage your target, but it’s out of control: the GM will choose an additional target nearby.</p>
+
+<h3 class="MoveName">A Little Help From My Friends</h3>
+
+<p>When you <strong>successfully aid someone</strong> you take +1 forward as well.</p>
+
+<h3 class="MoveName">Eldritch Tones</h3>
+
+<p>Your arcane art is strong, allowing you to choose two effects instead of one.</p>
+
+<h3 class="MoveName">Duelist’s Parry</h3>
+
+<p>When you hack and slash, you take +1 armor forward.</p>
+
+<h3 class="MoveName">Bamboozle</h3>
+
+<p>When you <strong>parley with someone</strong>, on a 7+ you also take +1 forward with them.</p>
+
+<h3 class="MoveName">Multiclass Dabbler</h3>
+
+<p>Get one move from another class. Treat your level as one lower for choosing the move.</p>
+
+<h3 class="MoveName">Multiclass Initiate</h3>
+
+<p>Get one move from another class. Treat your level as one lower for choosing the move.</p>
+
+<p class="Instructions">When you gain a level from 6-10, choose from these moves or the level 2-5 moves.</p>
+
+<h3 class="MoveName">Healing Chorus</h3>
+
+<p class="Requirement">Replaces: Healing Song</p>
+
+<p>When you <strong>heal with arcane art</strong>, you heal +2d8 damage.</p>
+
+<h3 class="MoveName">Vicious Blast</h3>
+
+<p class="Requirement">Replaces: Vicious Cacophony</p>
+
+<p>When you <strong>grant bonus damage with arcane art</strong>, you grant an extra +2d4 damage.</p>
+
+<h3 class="MoveName">Unforgettable Face</h3>
+
+<p>When you <strong>meet someone you’ve met before</strong> (your call) after some time apart you take +1 forward against them.</p>
+
+<h3 class="MoveName">Reputation</h3>
+
+<p>When you <strong>first meet someone who’s heard songs about you</strong>, roll+Cha. ✴On a 10+, tell the GM two things they’ve heard about you. ✴On a 7-9, tell the GM one thing they’ve heard, and the GM tells you one thing.</p>
+
+<h3 class="MoveName">Eldritch Chord</h3>
+
+<p class="Requirement">Replaces: Eldritch Tones</p>
+
+<p>When you use arcane art, you choose two effects. You also get to choose one of those effects to double.</p>
+
+<h3 class="MoveName">An Ear For Magic</h3>
+
+<p>When you <strong>hear an enemy cast a spell</strong> the GM will tell you the name of the spell and its effects. Take +1 forward when acting on the answers.</p>
+
+<h3 class="MoveName">Devious</h3>
+
+<p>When you use charming and open you may also ask “How are you vulnerable to me?” Your subject may not ask this question of you.</p>
+
+<h3 class="MoveName">Duelist’s Block</h3>
+
+<p class="Requirement">Replaces: Duelist’s Parry</p>
+
+<p>When you hack and slash, you take +2 armor forward.</p>
+
+<h3 class="MoveName">Con</h3>
+
+<p class="Requirement">Replaces: Bamboozle</p>
+
+<p>When you <strong>parley with someone</strong>, on a 7+ you also take +1 forward with them and get to ask their player one question which they must answer truthfully.</p>
+
+<h3 class="MoveName">Multiclass Master</h3>
+
+<p>Get one move from another class. Treat your level as one lower for choosing the move.</p></div>
+
+
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
 
-      ga("create", "UA-42061955-1", "dwgazetteer.com");
-      ga("send", "pageview");
-    </script>
+    ga("create", "UA-42061955-1", "dwgazetteer.com");
+    ga("send", "pageview");
+  </script>
 
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/dwbook.js"></script>
 </body>
 </html>

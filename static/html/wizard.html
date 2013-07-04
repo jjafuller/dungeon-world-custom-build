@@ -1,252 +1,381 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Wizard</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/css/all.css">
-	<link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
+    <title>The Wizard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">Dungeon World</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="playing_the_game.html">Playing the Game</a></li>
+                <li><a href="example.html">Example of Play</a></li>
+                <li><a href="character_creation.html">Character Creation</a></li>
+                <li><a href="moves_discussion.html">Moves</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="bard.html">Bard</a></li>
+                <li><a href="cleric.html">Cleric</a></li>
+                <li><a href="cleric_spells.html"><em>Cleric Spells</em></a></li>
+                <li><a href="druid.html">Druid</a></li>
+                <li><a href="fighter.html">Fighter</a></li>
+                <li><a href="paladin.html">Paladin</a></li>
+                <li><a href="ranger.html">Ranger</a></li>
+                <li><a href="thief.html">Thief</a></li>
+                <li><a href="wizard.html">Wizard</a></li>
+                <li><a href="wizard_spells.html"><em>Wizard Spells</em></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="gm.html">GM</a></li>
+                <li><a href="first_session.html">First Session</a></li>
+                <li><a href="fronts.html">Fronts</a></li>
+                <li><a href="the_world.html">The World</a></li>
+                <li><a href="advanced_delving.html">Advanced Delving</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="monsters.html">Overview</a></li>
+                <li><a href="monsters_caverns.html">Cavern Dwellers</a></li>
+                <li><a href="monsters_swamp.html">Swamp Denizens</a></li>
+                <li><a href="monsters_undead.html">Legions of the Undead</a></li>
+                <li><a href="monsters_woods.html">Gnarled Woods</a></li>
+                <li><a href="monsters_hordes.html">Ravenous Hordes</a></li>
+                <li><a href="monsters_experiments.html">Twisted Experiments</a></li>
+                <li><a href="monsters_depths.html">Lower Depths</a></li>
+                <li><a href="monsters_planes.html">Planar Powers</a></li>
+                <li><a href="monsters_folk.html">Folk of the Realm</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="appendices_thanks.html">Thanks</a></li>
+                <li><a href="appendices_teaching.html">Teaching</a></li>
+                <li><a href="appendices_conversion.html">Conversion</a></li>
+                <li><a href="appendices_npcs.html">NPCs</a></li>
+              </ul>
+            </li>
 
-<body><h1>The Wizard</h1>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">Dungeon World</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Introduction.html">Introduction</a></li>
-                        <li><a href="Playing_the_Game.html">Playing the Game</a></li>
-                        <li><a href="Character_Creation.html">Character Creation</a></li>
-                        <li><a href="Moves.html">Moves</a></li>
-                        <li><a href="Equipment.html">Equipment</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Bard.html">Bard</a></li>
-                        <li><a href="Cleric.html">Cleric</a></li>
-                        <li><a href="Cleric_Spells.html"><em>Cleric Spells</em></a></li>
-                        <li><a href="Druid.html">Druid</a></li>
-                        <li><a href="Fighter.html">Fighter</a></li>
-                        <li><a href="Paladin.html">Paladin</a></li>
-                        <li><a href="Ranger.html">Ranger</a></li>
-                        <li><a href="Thief.html">Thief</a></li>
-                        <li><a href="Wizard.html">Wizard</a></li>
-                        <li><a href="Wizard_Spells.html"><em>Wizard Spells</em></a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="GM.html">GM</a></li>
-                        <li><a href="First_Session.html">First Session</a></li>
-                        <li><a href="Fronts.html">Fronts</a></li>
-                        <li><a href="The_World.html">The World</a></li>
-                        <li><a href="Advanced_Delving.html">Advanced Delving</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Monsters.html">Overview</a></li>
-                        <li><a href="monster_settings/Caverns.html">Cavern Dwellers</a></li>
-                        <li><a href="monster_settings/Swamp.html">Swamp Denizens</a></li>
-                        <li><a href="monster_settings/Undead.html">Legions of the Undead</a></li>
-                        <li><a href="monster_settings/Woods.html">Gnarled Woods</a></li>
-                        <li><a href="monster_settings/Hordes.html">Ravenous Hordes</a></li>
-                        <li><a href="monster_settings/Experiments.html">Twisted Experiments</a></li>
-                        <li><a href="monster_settings/Depths.html">Lower Depths</a></li>
-                        <li><a href="monster_settings/Planes.html">Planar Powers</a></li>
-                        <li><a href="monster_settings/Folk.html">Folk of the Realm</a></li>
-                    </ul>
-                </li>
-                
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="appendices/Thanks.html">Thanks</a></li>
-                        <li><a href="appendices/Teaching.html">Teaching</a></li>
-                        <li><a href="appendices/Conversion.html">Conversion</a></li>
-                        <li><a href="appendices/NPCs.html">NPCs</a></li>
-                    </ul>
-                </li>
+            <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
 
-                <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
-              <!--
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              -->
-            </ul>
-          </div>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Official</li>
+                <li><a href="http://www.dungeon-world.com/">Dungeon World</a></li>
+                <li><a href="http://codex.dungeon-world.com/">Monster Builder</a></li>
+                <li class="nav-header">Community</li>
+                <li><a href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a></li>
+                <li><a href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a></li>
+                <li><a href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a></li>
+              </ul>
+            </li>
+
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="content" class="container"><div id="intro"><p class="NoIndent">Dungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?</p>
+  <div id="content" class="container">
+    
+
+<h1>The Wizard</h1>
+
+<div id="intro"><p>Dungeon World has rules. Not the laws of men or the rule of some petty tyrant. Bigger, better rules. You drop something—it falls. You can’t make something out of nothing. The dead stay dead, right?</p>
+
 <p>Oh, the things we tell ourselves to feel better about the long, dark nights.</p>
-<p>You’ve spent so very long poring over those tomes of yours. The experiments that nearly drove you mad and all the botched summonings that endangered your very soul. For what? For power. What else is there? Not just the power of King or Country but the power to boil a man’s blood in his veins. To call on the thunder of the sky and the churn of the roiling earth. To shrug off the rules the world holds so dear.</p>
-<p>Let them cast their sidelong glances. Let them call you “warlock” or “diabolist.” Who among them can hurl fireballs from their eyes?</p>
-<p>Yeah. We didn’t think so.</p></div>
-<h2>Names</h2>
-<div id="names"><p class="NoIndent"><em>Elf</em>: Galadiir, Fenfaril, Lilliastre, Phirosalle, Enkirash, Halwyr</p> 
-<p class="NoIndent"><em>Human</em>: Avon, Morgan, Rath, Ysolde, Ovid, Vitus, Aldara, Xeno, Uri</p></div>
-<h2>Look</h2>
-<div id="look"><p class="NoIndent">Choose one for each:</p>
-<p class="NoIndent">Haunted Eyes, Sharp Eyes, or Crazy Eyes</p>
-<p class="NoIndent">Styled Hair, Wild Hair, or Pointed Hat</p>
-<p class="NoIndent">Worn Robes, Stylish Robes, or Strange Robes</p>
-<p class="NoIndent">Pudgy Body, Creepy Body, or Thin Body</p></div>
-<h2>Stats</h2>
-<p class="NoIndent">Your maximum HP is 4+Constitution.</p>
-<p class="NoIndent">Your base damage is <span id="Damage">d4</span>.</p>
-<h2>Starting Moves</h2>
-<div id="startingmoves"><p class="InstructionsAfterHeader">Choose a race and gain the corresponding move:</p>
-<div id="racialmoves"><h3 class="MoveName">Elf</h3>
-<p class="NoIndent">Magic is as natural as breath to you. Detect Magic is a cantrip for you.</p>
-<h3 class="MoveName">Human</h3>
-<p class="NoIndent">Choose one cleric spell. You can cast it as if it was a wizard spell.</p></div>
-<div id="classmoves"><p class="Instructions">You start with these moves:</p>
-<h3 class="BasicMoveName">Spellbook</h3>
-<p class="NoIndent">You have mastered several spells and inscribed them in your spellbook. You start out with three first level spells in your spellbook as well as the cantrips. Whenever you gain a level, you add a new spell of your level or lower to your spellbook. You spellbook is 1 weight.</p>
-<h3 class="BasicMoveName">Prepare Spells</h3>
-<p class="NoIndent">When you <strong>spend uninterrupted time (an hour or so) in quiet contemplation of your spellbook</strong>, you:</p>
-<ul><li>Lose any spells you already have prepared</li>
-<li>Prepare new spells of your choice from your spellbook whose total levels don’t exceed your own level+1.</li>
-<li>Prepare your cantrips which never count against your limit.</li></ul>
-<h3 class="BasicMoveName">Cast a Spell (Int)</h3>
-<p class="NoIndent">When you <strong>release a spell you’ve prepared</strong>, roll+Int. ✴On a 10+, the spell is successfully cast and you do not forget the spell—you may cast it again later. ✴On a 7-9, the spell is cast, but choose one:</p>
-<ul><li>You draw unwelcome attention or put yourself in a spot. The GM will tell you how.</li>
-<li>The spell disturbs the fabric of reality as it is cast—take -1 ongoing to cast a spell until the next time you Prepare Spells.</li>
-<li>After it is cast, the spell is forgotten. You cannot cast the spell again until you prepare spells.</li></ul>
-<p class="NoIndent">Note that maintaining spells with ongoing effects will sometimes cause a penalty to your roll to cast a spell.</p>
-<h3 class="BasicMoveName">Spell Defense</h3>
-<p class="NoIndent">You may end any ongoing spell immediately and use the energy of its dissipation to deflect an oncoming attack. The spell ends and you subtract its level from the damage done to you.</p>
-<h3 class="BasicMoveName">Ritual</h3>
-<p class="NoIndent">When you <strong>draw on a place of power to create a magical effect</strong>, tell the GM what you’re trying to achieve. Ritual effects are always possible, but the GM will give you one to four of the following conditions:</p>
-<ul><li>It’s going to take days/weeks/months</li>
-<li>First you must ____</li>
-<li>You’ll need help from ____</li>
-<li>It will require a lot of money</li>
-<li>The best you can do is a lesser version, unreliable and limited</li>
-<li>You and your allies will risk danger from ____</li>
-<li>You’ll have to disenchant ____ to do it</li></ul></div></div>
-<h2>Alignment</h2>
-<p class="InstructionsAfterHeader">Choose an alignment:</p>
-<div id="alignment"><h3 class="MoveName">Good</h3>
-<p class="NoIndent">Use magic to directly aid another.</p>
-<h3 class="MoveName">Neutral</h3>
-<p class="NoIndent">Discover something about a magical mystery.</p>
-<h3 class="MoveName">Evil</h3>
-<p class="NoIndent">Use magic to cause terror and fear.</p></div>
-<h2>Gear</h2>
-<div id="gear"><p class="NoIndent">Your load is 7+Str. You start with your spellbook (1 weight) and dungeon rations (5 uses, 1 weight). Choose your defenses:</p>
-<ul><li class="Option">Leather armor (1 armor, 1 weight)</li>
-<li class="Option">Bag of books (5 uses, 2 weight) and 3 healing potions</li></ul>
-<p class="NoIndent">Choose your weapon:</p>
-<ul><li class="Option">Dagger (hand, 1 weight)</li>
-<li class="Option">Staff (close, two-handed, 1 weight)</li></ul>
-<p class="NoIndent">Choose one:</p>
-<ul><li class="Option">Healing potion (0 weight)</li>
-<li class="Option">3 antitoxins (0 weight)</li></ul></div>
-<h2>Bonds</h2>
-<div id="bonds"><p class="NoIndent">Fill in the name of one of your companions in at least one:</p>
-<p>_______________ will play an important role in the events to come. I have foreseen it!</p>
-<p>_______________ is keeping an important secret from me.</p>
-<p>_______________ is woefully misinformed about the world; I will teach them all that I can.</p></div>
-<h2>Advanced Moves</h2>
-<div id="moves"><p class="InstructionsAfterHeader">When you gain a level from 2-5, choose from these moves. You also add a new spell to your spellbook at each level.</p>
-<h3 class="MoveName">Prodigy</h3>
-<p class="NoIndent">Choose a spell. You prepare that spell as if it were one level lower.</p>
-<h3 class="MoveName">Empowered Magic</h3>
-<p class="NoIndent">When you cast a spell, on a 10+ you have the option of choosing from the 7-9 list. If you do, you may choose one of these as well:</p>
-<ul><li>The spell’s effects are maximized</li>
-<li>The spell’s targets are doubled</li></ul>
-<h3 class="MoveName">Fount of Knowledge</h3>
-<p class="NoIndent">When you <strong>spout lore about something no one else has any clue about</strong>, take +1.</p>
-<h3 class="MoveName">Know-It-All</h3>
-<p class="NoIndent">When <strong>another player’s character comes to you for advice and you tell them what you think is best</strong>, they get +1 forward when following your advice and you mark experience if they do.</p>
-<h3 class="MoveName">Expanded Spellbook</h3>
-<p class="NoIndent">Add a new spell from the spell list of any class to your spellbook.</p>
-<h3 class="MoveName">Enchanter</h3>
-<p class="NoIndent">When you have time and safety with a magic item you may ask the GM what it does, the GM will answer you truthfully.</p>
-<h3 class="MoveName">Logical</h3>
-<p class="NoIndent">When you <strong>use strict deduction to analyze your surroundings</strong>, you can discern realities with INT instead of WIS.</p>
-<h3 class="MoveName">Arcane Ward</h3>
-<p class="NoIndent">As long as you have at least one prepared spell of first level or higher, you have +2 armor.</p>
-<h3 class="MoveName">Counterspell</h3>
-<p class="NoIndent">When you <strong>attempt to counter an arcane spell that will otherwise affect you</strong>, stake one of your prepared spells on the defense and roll+Int. ✴On a 10+, the spell is countered and has no effect on you. ✴On a 7-9, the spell is countered and you forget the spell you staked. Your counterspell protects only you; if the countered spell has other targets they get its effects.</p>
-<h3 class="MoveName">Quick Study</h3>
-<p class="NoIndent">When you <strong>see the effects of an arcane spell</strong>, ask the GM the name of the spell and its effects. You take +1 when acting on the answers.</p>
-<p class="Instructions">When you gain a level from 6-10, choose from these moves or the level 2-5 moves.</p>
-<h3 class="MoveName">Master</h3>
-<p class="Requirement">Requires: Prodigy</p>
-<p class="NoIndent">Choose one spell in addition to the one you picked for prodigy. You prepare that spell as if it were one level lower.</p>
-<h3 class="MoveName">Greater Empowered Magic</h3>
-<p class="Requirement">Replaces: Empowered Magic</p>
-<p class="NoIndent">When you cast a spell, on a 10-11 you have the option of choosing from the 7-9 list. If you do, you may choose one of these effects as well. On a 12+ you get to choose one of these effects for free:</p>
-<ul><li>The spell’s effects are doubled</li>
-<li>The spell’s targets are doubled</li></ul>
-<h3 class="MoveName">Enchanter’s Soul</h3>
-<p class="Requirement">Requires: Enchanter</p>
-<p class="NoIndent">When you have time and safety with a magic item in a place of power you can empower that item so that the next time you use it its effects are amplified, the GM will tell you exactly how.</p>
-<h3 class="MoveName">Highly Logical</h3>
-<p class="Requirement">Replaces: Logical</p>
-<p class="NoIndent">When you <strong>use strict deduction to analyze your surroundings</strong>, you can discern realities with Int instead of Wis. On a 12+ you get to ask the GM any three questions, not limited by the list.</p>
-<h3 class="MoveName">Arcane Armor</h3>
-<p class="Requirement">Replaces: Arcane Ward</p>
-<p class="NoIndent">As long as you have at least one prepared spell of first level or higher, you have +4 armor.</p>
-<h3 class="MoveName">Protective Counter</h3>
-<p class="Requirement">Requires: Counterspell</p>
-<p class="NoIndent">When an ally within sight of you is affected by an arcane spell, you can counter it as if it affected you. If the spell affects multiple allies you must counter for each ally separately.</p>
-<h3 class="MoveName">Ethereal Tether</h3>
-<p class="NoIndent">When you have time with a willing or helpless subject you can craft an ethereal tether with them. You perceive what they perceive and can discern realities about someone tethered to you or their surroundings no matter the distance. Someone willingly tethered to you can communicate with you over the tether as if you were in the room with them.</p>
-<h3 class="MoveName">Mystical Puppet Strings</h3>
-<p class="NoIndent">When you <strong>use magic to control a person’s actions</strong> they have no memory of what you had them do and bear you no ill will.</p>
-<h3 class="MoveName">Spell Augmentation</h3>
-<p class="NoIndent">When you <strong>deal damage to a creature</strong> you can shunt a spell’s energy into them—end one of your ongoing spells and add the spell’s level to the damage dealt.</p>
-<h3 class="MoveName">Self-Powered</h3>
-<p class="NoIndent">When you have time, arcane materials, and a safe space, you can create your own place of power. Describe to the GM what kind of power it is and how you’re binding it to this place, the GM will tell you one kind of creature that will have an interest in your workings.</p></div>
-    </div>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+<p>You’ve spent so very long poring over those tomes of yours. The experiments that nearly drove you mad and all the botched summonings that endangered your very soul. For what? For power. What else is there? Not just the power of King or Country but the power to boil a man’s blood in his veins. To call on the thunder of the sky and the churn of the roiling earth. To shrug off the rules the world holds so dear.</p>
+
+<p>Let them cast their sidelong glances. Let them call you “warlock” or “diabolist.” Who among them can hurl fireballs from their eyes?</p>
+
+<p>Yeah. We didn’t think so.</p></div>
+
+<h2>Names</h2>
+
+<div id="names"><p><em>Elf</em>: Galadiir, Fenfaril, Lilliastre, Phirosalle, Enkirash, Halwyr</p> 
+
+<p><em>Human</em>: Avon, Morgan, Rath, Ysolde, Ovid, Vitus, Aldara, Xeno, Uri</p></div>
+
+<h2>Look</h2>
+
+<div id="look"><p>Choose one for each:</p>
+
+<p>Haunted Eyes, Sharp Eyes, or Crazy Eyes</p>
+
+<p>Styled Hair, Wild Hair, or Pointed Hat</p>
+
+<p>Worn Robes, Stylish Robes, or Strange Robes</p>
+
+<p>Pudgy Body, Creepy Body, or Thin Body</p></div>
+
+<h2>Stats</h2>
+
+<p>Your maximum HP is 4+Constitution.</p>
+
+<p>Your base damage is <span id="Damage">d4</span>.</p>
+
+<h2>Starting Moves</h2>
+
+<div id="startingmoves"><p class="InstructionsAfterHeader">Choose a race and gain the corresponding move:</p>
+
+<div id="racialmoves"><h3 class="MoveName">Elf</h3>
+
+<p>Magic is as natural as breath to you. Detect Magic is a cantrip for you.</p>
+
+<h3 class="MoveName">Human</h3>
+
+<p>Choose one cleric spell. You can cast it as if it was a wizard spell.</p></div>
+
+<div id="classmoves"><p class="Instructions">You start with these moves:</p>
+
+<h3 class="BasicMoveName">Spellbook</h3>
+
+<p>You have mastered several spells and inscribed them in your spellbook. You start out with three first level spells in your spellbook as well as the cantrips. Whenever you gain a level, you add a new spell of your level or lower to your spellbook. You spellbook is 1 weight.</p>
+
+<h3 class="BasicMoveName">Prepare Spells</h3>
+
+<p>When you <strong>spend uninterrupted time (an hour or so) in quiet contemplation of your spellbook</strong>, you:</p>
+
+<ul><li>Lose any spells you already have prepared</li>
+
+<li>Prepare new spells of your choice from your spellbook whose total levels don’t exceed your own level+1.</li>
+
+<li>Prepare your cantrips which never count against your limit.</li></ul>
+
+<h3 class="BasicMoveName">Cast a Spell (Int)</h3>
+
+<p>When you <strong>release a spell you’ve prepared</strong>, roll+Int. ✴On a 10+, the spell is successfully cast and you do not forget the spell—you may cast it again later. ✴On a 7-9, the spell is cast, but choose one:</p>
+
+<ul><li>You draw unwelcome attention or put yourself in a spot. The GM will tell you how.</li>
+
+<li>The spell disturbs the fabric of reality as it is cast—take -1 ongoing to cast a spell until the next time you Prepare Spells.</li>
+
+<li>After it is cast, the spell is forgotten. You cannot cast the spell again until you prepare spells.</li></ul>
+
+<p>Note that maintaining spells with ongoing effects will sometimes cause a penalty to your roll to cast a spell.</p>
+
+<h3 class="BasicMoveName">Spell Defense</h3>
+
+<p>You may end any ongoing spell immediately and use the energy of its dissipation to deflect an oncoming attack. The spell ends and you subtract its level from the damage done to you.</p>
+
+<h3 class="BasicMoveName">Ritual</h3>
+
+<p>When you <strong>draw on a place of power to create a magical effect</strong>, tell the GM what you’re trying to achieve. Ritual effects are always possible, but the GM will give you one to four of the following conditions:</p>
+
+<ul><li>It’s going to take days/weeks/months</li>
+
+<li>First you must ____</li>
+
+<li>You’ll need help from ____</li>
+
+<li>It will require a lot of money</li>
+
+<li>The best you can do is a lesser version, unreliable and limited</li>
+
+<li>You and your allies will risk danger from ____</li>
+
+<li>You’ll have to disenchant ____ to do it</li></ul></div></div>
+
+<h2>Alignment</h2>
+
+<p class="InstructionsAfterHeader">Choose an alignment:</p>
+
+<div id="alignment"><h3 class="MoveName">Good</h3>
+
+<p>Use magic to directly aid another.</p>
+
+<h3 class="MoveName">Neutral</h3>
+
+<p>Discover something about a magical mystery.</p>
+
+<h3 class="MoveName">Evil</h3>
+
+<p>Use magic to cause terror and fear.</p></div>
+
+<h2>Gear</h2>
+
+<div id="gear"><p>Your load is 7+Str. You start with your spellbook (1 weight) and dungeon rations (5 uses, 1 weight). Choose your defenses:</p>
+
+<ul><li class="Option">Leather armor (1 armor, 1 weight)</li>
+
+<li class="Option">Bag of books (5 uses, 2 weight) and 3 healing potions</li></ul>
+
+<p>Choose your weapon:</p>
+
+<ul><li class="Option">Dagger (hand, 1 weight)</li>
+
+<li class="Option">Staff (close, two-handed, 1 weight)</li></ul>
+
+<p>Choose one:</p>
+
+<ul><li class="Option">Healing potion (0 weight)</li>
+
+<li class="Option">3 antitoxins (0 weight)</li></ul></div>
+
+<h2>Bonds</h2>
+
+<div id="bonds"><p>Fill in the name of one of your companions in at least one:</p>
+
+<p>_______________ will play an important role in the events to come. I have foreseen it!</p>
+
+<p>_______________ is keeping an important secret from me.</p>
+
+<p>_______________ is woefully misinformed about the world; I will teach them all that I can.</p></div>
+
+<h2>Advanced Moves</h2>
+
+<div id="moves"><p class="InstructionsAfterHeader">When you gain a level from 2-5, choose from these moves. You also add a new spell to your spellbook at each level.</p>
+
+<h3 class="MoveName">Prodigy</h3>
+
+<p>Choose a spell. You prepare that spell as if it were one level lower.</p>
+
+<h3 class="MoveName">Empowered Magic</h3>
+
+<p>When you cast a spell, on a 10+ you have the option of choosing from the 7-9 list. If you do, you may choose one of these as well:</p>
+
+<ul><li>The spell’s effects are maximized</li>
+
+<li>The spell’s targets are doubled</li></ul>
+
+<h3 class="MoveName">Fount of Knowledge</h3>
+
+<p>When you <strong>spout lore about something no one else has any clue about</strong>, take +1.</p>
+
+<h3 class="MoveName">Know-It-All</h3>
+
+<p>When <strong>another player’s character comes to you for advice and you tell them what you think is best</strong>, they get +1 forward when following your advice and you mark experience if they do.</p>
+
+<h3 class="MoveName">Expanded Spellbook</h3>
+
+<p>Add a new spell from the spell list of any class to your spellbook.</p>
+
+<h3 class="MoveName">Enchanter</h3>
+
+<p>When you have time and safety with a magic item you may ask the GM what it does, the GM will answer you truthfully.</p>
+
+<h3 class="MoveName">Logical</h3>
+
+<p>When you <strong>use strict deduction to analyze your surroundings</strong>, you can discern realities with INT instead of WIS.</p>
+
+<h3 class="MoveName">Arcane Ward</h3>
+
+<p>As long as you have at least one prepared spell of first level or higher, you have +2 armor.</p>
+
+<h3 class="MoveName">Counterspell</h3>
+
+<p>When you <strong>attempt to counter an arcane spell that will otherwise affect you</strong>, stake one of your prepared spells on the defense and roll+Int. ✴On a 10+, the spell is countered and has no effect on you. ✴On a 7-9, the spell is countered and you forget the spell you staked. Your counterspell protects only you; if the countered spell has other targets they get its effects.</p>
+
+<h3 class="MoveName">Quick Study</h3>
+
+<p>When you <strong>see the effects of an arcane spell</strong>, ask the GM the name of the spell and its effects. You take +1 when acting on the answers.</p>
+
+<p class="Instructions">When you gain a level from 6-10, choose from these moves or the level 2-5 moves.</p>
+
+<h3 class="MoveName">Master</h3>
+
+<p class="Requirement">Requires: Prodigy</p>
+
+<p>Choose one spell in addition to the one you picked for prodigy. You prepare that spell as if it were one level lower.</p>
+
+<h3 class="MoveName">Greater Empowered Magic</h3>
+
+<p class="Requirement">Replaces: Empowered Magic</p>
+
+<p>When you cast a spell, on a 10-11 you have the option of choosing from the 7-9 list. If you do, you may choose one of these effects as well. On a 12+ you get to choose one of these effects for free:</p>
+
+<ul><li>The spell’s effects are doubled</li>
+
+<li>The spell’s targets are doubled</li></ul>
+
+<h3 class="MoveName">Enchanter’s Soul</h3>
+
+<p class="Requirement">Requires: Enchanter</p>
+
+<p>When you have time and safety with a magic item in a place of power you can empower that item so that the next time you use it its effects are amplified, the GM will tell you exactly how.</p>
+
+<h3 class="MoveName">Highly Logical</h3>
+
+<p class="Requirement">Replaces: Logical</p>
+
+<p>When you <strong>use strict deduction to analyze your surroundings</strong>, you can discern realities with Int instead of Wis. On a 12+ you get to ask the GM any three questions, not limited by the list.</p>
+
+<h3 class="MoveName">Arcane Armor</h3>
+
+<p class="Requirement">Replaces: Arcane Ward</p>
+
+<p>As long as you have at least one prepared spell of first level or higher, you have +4 armor.</p>
+
+<h3 class="MoveName">Protective Counter</h3>
+
+<p class="Requirement">Requires: Counterspell</p>
+
+<p>When an ally within sight of you is affected by an arcane spell, you can counter it as if it affected you. If the spell affects multiple allies you must counter for each ally separately.</p>
+
+<h3 class="MoveName">Ethereal Tether</h3>
+
+<p>When you have time with a willing or helpless subject you can craft an ethereal tether with them. You perceive what they perceive and can discern realities about someone tethered to you or their surroundings no matter the distance. Someone willingly tethered to you can communicate with you over the tether as if you were in the room with them.</p>
+
+<h3 class="MoveName">Mystical Puppet Strings</h3>
+
+<p>When you <strong>use magic to control a person’s actions</strong> they have no memory of what you had them do and bear you no ill will.</p>
+
+<h3 class="MoveName">Spell Augmentation</h3>
+
+<p>When you <strong>deal damage to a creature</strong> you can shunt a spell’s energy into them—end one of your ongoing spells and add the spell’s level to the damage dealt.</p>
+
+<h3 class="MoveName">Self-Powered</h3>
+
+<p>When you have time, arcane materials, and a safe space, you can create your own place of power. Describe to the GM what kind of power it is and how you’re binding it to this place, the GM will tell you one kind of creature that will have an interest in your workings.</p></div>
+
+
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
 
-      ga("create", "UA-42061955-1", "dwgazetteer.com");
-      ga("send", "pageview");
-    </script>
+    ga("create", "UA-42061955-1", "dwgazetteer.com");
+    ga("send", "pageview");
+  </script>
 
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/dwbook.js"></script>
 </body>
 </html>

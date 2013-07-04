@@ -1,263 +1,403 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Fighter</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/css/all.css">
-	<link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
+    <title>The Fighter</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">Dungeon World</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="playing_the_game.html">Playing the Game</a></li>
+                <li><a href="example.html">Example of Play</a></li>
+                <li><a href="character_creation.html">Character Creation</a></li>
+                <li><a href="moves_discussion.html">Moves</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="bard.html">Bard</a></li>
+                <li><a href="cleric.html">Cleric</a></li>
+                <li><a href="cleric_spells.html"><em>Cleric Spells</em></a></li>
+                <li><a href="druid.html">Druid</a></li>
+                <li><a href="fighter.html">Fighter</a></li>
+                <li><a href="paladin.html">Paladin</a></li>
+                <li><a href="ranger.html">Ranger</a></li>
+                <li><a href="thief.html">Thief</a></li>
+                <li><a href="wizard.html">Wizard</a></li>
+                <li><a href="wizard_spells.html"><em>Wizard Spells</em></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="gm.html">GM</a></li>
+                <li><a href="first_session.html">First Session</a></li>
+                <li><a href="fronts.html">Fronts</a></li>
+                <li><a href="the_world.html">The World</a></li>
+                <li><a href="advanced_delving.html">Advanced Delving</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="monsters.html">Overview</a></li>
+                <li><a href="monsters_caverns.html">Cavern Dwellers</a></li>
+                <li><a href="monsters_swamp.html">Swamp Denizens</a></li>
+                <li><a href="monsters_undead.html">Legions of the Undead</a></li>
+                <li><a href="monsters_woods.html">Gnarled Woods</a></li>
+                <li><a href="monsters_hordes.html">Ravenous Hordes</a></li>
+                <li><a href="monsters_experiments.html">Twisted Experiments</a></li>
+                <li><a href="monsters_depths.html">Lower Depths</a></li>
+                <li><a href="monsters_planes.html">Planar Powers</a></li>
+                <li><a href="monsters_folk.html">Folk of the Realm</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="appendices_thanks.html">Thanks</a></li>
+                <li><a href="appendices_teaching.html">Teaching</a></li>
+                <li><a href="appendices_conversion.html">Conversion</a></li>
+                <li><a href="appendices_npcs.html">NPCs</a></li>
+              </ul>
+            </li>
 
-<body><h1>The Fighter</h1>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">Dungeon World</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Introduction.html">Introduction</a></li>
-                        <li><a href="Playing_the_Game.html">Playing the Game</a></li>
-                        <li><a href="Character_Creation.html">Character Creation</a></li>
-                        <li><a href="Moves.html">Moves</a></li>
-                        <li><a href="Equipment.html">Equipment</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Bard.html">Bard</a></li>
-                        <li><a href="Cleric.html">Cleric</a></li>
-                        <li><a href="Cleric_Spells.html"><em>Cleric Spells</em></a></li>
-                        <li><a href="Druid.html">Druid</a></li>
-                        <li><a href="Fighter.html">Fighter</a></li>
-                        <li><a href="Paladin.html">Paladin</a></li>
-                        <li><a href="Ranger.html">Ranger</a></li>
-                        <li><a href="Thief.html">Thief</a></li>
-                        <li><a href="Wizard.html">Wizard</a></li>
-                        <li><a href="Wizard_Spells.html"><em>Wizard Spells</em></a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="GM.html">GM</a></li>
-                        <li><a href="First_Session.html">First Session</a></li>
-                        <li><a href="Fronts.html">Fronts</a></li>
-                        <li><a href="The_World.html">The World</a></li>
-                        <li><a href="Advanced_Delving.html">Advanced Delving</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="Monsters.html">Overview</a></li>
-                        <li><a href="monster_settings/Caverns.html">Cavern Dwellers</a></li>
-                        <li><a href="monster_settings/Swamp.html">Swamp Denizens</a></li>
-                        <li><a href="monster_settings/Undead.html">Legions of the Undead</a></li>
-                        <li><a href="monster_settings/Woods.html">Gnarled Woods</a></li>
-                        <li><a href="monster_settings/Hordes.html">Ravenous Hordes</a></li>
-                        <li><a href="monster_settings/Experiments.html">Twisted Experiments</a></li>
-                        <li><a href="monster_settings/Depths.html">Lower Depths</a></li>
-                        <li><a href="monster_settings/Planes.html">Planar Powers</a></li>
-                        <li><a href="monster_settings/Folk.html">Folk of the Realm</a></li>
-                    </ul>
-                </li>
-                
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="appendices/Thanks.html">Thanks</a></li>
-                        <li><a href="appendices/Teaching.html">Teaching</a></li>
-                        <li><a href="appendices/Conversion.html">Conversion</a></li>
-                        <li><a href="appendices/NPCs.html">NPCs</a></li>
-                    </ul>
-                </li>
+            <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
 
-                <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
-              <!--
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              -->
-            </ul>
-          </div>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Official</li>
+                <li><a href="http://www.dungeon-world.com/">Dungeon World</a></li>
+                <li><a href="http://codex.dungeon-world.com/">Monster Builder</a></li>
+                <li class="nav-header">Community</li>
+                <li><a href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a></li>
+                <li><a href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a></li>
+                <li><a href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a></li>
+              </ul>
+            </li>
+
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="content" class="container"><div id="intro"><p class="NoIndent">It’s a thankless job—living day to day by your armor and the skill of your arm. To dive heedlessly into danger. They won’t be playing golden horns for the time you took that knife to the ribs for them in the bar in Bucksberg. No flock of angels to sing of the time you dragged them, still screaming, from the edge of the Pits of Madness, no.</p>
+  <div id="content" class="container">
+    
+
+<h1>The Fighter</h1>
+
+<div id="intro"><p>It’s a thankless job—living day to day by your armor and the skill of your arm. To dive heedlessly into danger. They won’t be playing golden horns for the time you took that knife to the ribs for them in the bar in Bucksberg. No flock of angels to sing of the time you dragged them, still screaming, from the edge of the Pits of Madness, no.</p>
+
 <p>Forget them.</p>
-<p>You do this for the guts and the glory. The scream of battle and the hot, hot blood of it. You are a beast of iron. Your friends may carry blades of forged steel but, fighter, you are steel. While your traveling companions might moan about their wounds over a campfire in the wilderness, you bear your scars with pride.</p>
-<p>You are the wall—let every danger smash itself to nothing on you. In the end, you’ll be the last one standing.</p></div>
-<h2>Names</h2>
-<div id="names"><p  class="NoIndent"><em>Dwarf</em>: Ozruk, Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, Jarl, Xotoq</p>  
-<p class="NoIndent"><em>Elf</em>: Elohiir, Sharaseth, Hasrith, Shevaral, Cadeus, Eldar, Kithracet, Thelian</p>    
-<p class="NoIndent"><em>Halfling</em>: Finnegan, Olive, Randolph, Bartleby, Aubrey, Baldwin, Becca</p> 
-<p class="NoIndent"><em>Human</em>: Hawke, Rudiger, Gregor, Brianne, Walton, Castor, Shanna, Ajax, Hob</p></div>
-<h2>Look</h2>
-<div id="look"><p class="NoIndent">Choose one for each:</p>
-<p class="NoIndent">Hard Eyes, Dead Eyes, or Eager Eyes</p>
-<p class="NoIndent">Wild Hair, Shorn Hair, or Battered Helm</p>
-<p class="NoIndent">Calloused Skin, Tanned Skin, or Scarred Skin</p>
-<p class="NoIndent">Built Body, Lithe Body, or Ravaged Body</p></div>
-<h2>Stats</h2>
-<p class="NoIndent">Your maximum HP is 10+Constitution.</p>
-<p class="NoIndent">Your base damage is <span id="Damage">d10</span>.</p>
-<h2>Starting Moves</h2>
-<div id="startingmoves"><p class="InstructionsAfterHeader">Choose a race and gain the corresponding move:</p>
-<div id="racialmoves"><h3 class="MoveName">Dwarf</h3>
-<p class="NoIndent">When you <strong>share a drink with someone</strong>, you may parley with them using CON instead of CHA.</p>
-<h3 class="MoveName">Elf</h3>
-<p class="NoIndent">Choose one weapon—you can always treat weapons of that type as if they had the precise tag.</p>
-<h3 class="MoveName">Halfling</h3>
-<p class="NoIndent">When you defy danger and <strong>use your small size to your advantage</strong>, take +1.</p>
-<h3 class="MoveName">Human</h3>
-<p class="NoIndent">Once per battle you may reroll a single damage roll (yours or someone else’s).</p></div>
-<div id="classmoves"><p class="Instructions">You start with these moves:</p>
-<h3 class="BasicMoveName">Bend Bars, Lift Gates</h3>
-<p class="NoIndent">When you <strong>use pure strength to destroy an inanimate obstacle</strong>, roll+Str. ✴On a 10+, choose 3. ✴On a 7-9 choose 2.</p>
-<ul><li>It doesn’t take a very long time</li>
-<li>Nothing of value is damaged</li>
-<li>It doesn’t make an inordinate amount of noise</li>
-<li>You can fix the thing again without a lot of effort</li></ul>
-<h3 class="BasicMoveName">Armored</h3>
-<p class="NoIndent">You ignore the clumsy tag on armor you wear.</p>
-<h3 class="BasicMoveName">Signature Weapon</h3>
-<p class="NoIndent">This is your weapon. There are many like it, but this one is yours. Your weapon is your best friend. It is your life. You master it as you master your life. Your weapon, without you, is useless. Without your weapon, you are useless. You must wield your weapon true.</p>
-<p>Choose a base description, all are 2 weight:</p>
-<ul><li class="Option">Sword</li>
-<li class="Option">Axe</li>
-<li class="Option">Hammer</li>
-<li class="Option">Spear</li>
-<li class="Option">Flail</li>
-<li class="Option">Fists</li></ul>
-<p class="NoIndent">Choose the range that best fits your weapon:</p>
-<ul><li class="Option">Hand</li>
-<li class="Option">Close</li>
-<li class="Option">Reach</li></ul>
-<p class="NoIndent">Choose two enhancements:</p>
-<ul><li class="Option">Hooks and spikes. +1 damage, but +1 weight.</li>
-<li class="Option">Sharp. +2 piercing.</li>
-<li class="Option">Perfectly weighted. Add precise.</li>
-<li class="Option">Serrated edges. +1 damage.</li>
-<li class="Option">Glows in the presence of one type of creature, your choice.</li>
-<li class="Option">Huge. Add messy and forceful.</li>
-<li class="Option">Versatile. Choose an additional range.</li>
-<li class="Option">Well-crafted. -1 weight.</li></ul>
-<p class="NoIndent">Choose a look:</p>
-<ul><li class="Option">Ancient</li>
-<li class="Option">Unblemished</li>
-<li class="Option">Ornate</li>
-<li class="Option">Blood-stained</li>
-<li class="Option">Sinister</li></ul></div></div>
-<h2>Alignment</h2>
-<p class="InstructionsAfterHeader">Choose an alignment:</p>
-<div id="alignment"><h3 class="MoveName">Good</h3>
-<p class="NoIndent">Defend those weaker than you.</p>
-<h3 class="MoveName">Neutral</h3>
-<p class="NoIndent">Defeat a worthy opponent.</p>
-<h3 class="MoveName">Evil</h3>
-<p class="NoIndent">Kill a defenseless or surrendered enemy.</p></div>
-<h2>Gear</h2>
-<div id="gear"><p class="NoIndent">Your load is 12+Str. You carry your signature weapon and dungeon rations (5 uses, 1 weight). Choose your defenses:</p>
-<ul><li class="Option">Chainmail (1 armor, 1 weight) and adventuring gear (1 weight)</li>
-<li class="Option">Scale armor (2 armor, 3 weight)</li></ul>
-<p class="NoIndent">Choose two:</p>
-<ul><li class="Option">2 Healing potions (0 weight)</li>
-<li class="Option">Shield (+1 armor, 2 weight)</li>
-<li class="Option">Antitoxin (0 weight), dungeon rations (1 weight), and poultices and herbs (1 weight)</li>
-<li class="Option">22 coins</li></ul></div>
-<h2>Bonds</h2>
-<div id="bonds"><p class="NoIndent">Fill in the name of one of your companions in at least one:</p>
-<p>_______________ owes me their life, whether they admit it or not.</p>
-<p>I have sworn to protect _______________.</p>
-<p>I worry about the ability of _______________ to survive in the dungeon.</p>
-<p>_______________ is soft, but I will make them hard like me.</p></div>
-<h2>Advanced Moves</h2>
-<div id="moves"><p class="InstructionsAfterHeader">When you gain a level from 2-5, choose from these moves.</p>
-<h3 class="MoveName">Merciless</h3>
-<p class="NoIndent">When you deal damage, deal +1d4 damage.</p>
-<h3 class="MoveName">Heirloom</h3>
-<p class="NoIndent">When you <strong>consult the spirits that reside within your signature weapon</strong>, they will give you an insight relating to the current situation, and might ask you some questions in return, roll+CHA. ✴On a 10+, the GM will give you good detail. ✴On a 7-9, the GM will give you an impression.</p>
-<h3 class="MoveName">Armor Mastery</h3>
-<p class="NoIndent">When you <strong>make your armor take the brunt of damage dealt to you</strong>, the damage is negated but you must reduce the armor value of your armor or shield (your choice) by 1. The value is reduced each time you make this choice. If the reduction leaves the item with 0 armor it is destroyed.</p>
-<h3 class="MoveName">Improved Weapon</h3>
-<p class="NoIndent">Choose one extra enhancement for your signature weapon.</p>
-<h3 class="MoveName">Seeing Red</h3>
-<p class="NoIndent">When you discern realities during combat, you take +1.</p>
-<h3 class="MoveName">Interrogator</h3>
-<p class="NoIndent">When you <strong>parley using threats of impending violence as leverage</strong>, you may use STR instead of CHA.</p>
-<h3 class="MoveName">Scent of Blood</h3>
-<p class="NoIndent">When you hack and slash an enemy, your next attack against that same foe deals +1d4 damage.</p>
-<h3 class="MoveName">Multiclass Dabbler</h3>
-<p class="NoIndent">Get one move from another class. Treat your level as one lower for choosing the move.</p>
-<h3 class="MoveName">Iron Hide</h3>
-<p class="NoIndent">You gain +1 armor.</p>
-<h3 class="MoveName">Blacksmith</h3>
-<p class="NoIndent">When you have access to a forge you can graft the magical powers of a weapon onto your signature weapon. This process destroys the magical weapon. Your signature weapon gains the magical powers of the destroyed weapon.</p>
-<p class="Instructions">When you gain a level from 6-10, choose from these moves or the level 2-5 moves.</p>
-<h3 class="MoveName">Bloodthirsty</h3>
-<p class="Requirement">Replaces: Merciless</p>
-<p class="NoIndent">When you deal damage, deal +1d8 damage.</p>
-<h3 class="MoveName">Armored Perfection</h3>
-<p class="Requirement">Replaces: Armor Mastery</p>
-<p class="NoIndent">When you <strong>choose to let your armor take the brunt of damage dealt to you</strong>, the damage is negated and you take +1 forward against the attacker, but you must reduce the armor value of your armor or shield (your choice) by 1. The value is reduced each time you make this choice. If the reduction leaves the item with 0 armor it is destroyed.</p>
-<h3 class="MoveName">Evil Eye</h3>
-<p class="Requirement">Requires: Seeing Red</p>
-<p class="NoIndent">When you <strong>enter combat</strong>, roll+CHA. ✴On a 10+, hold 2. ✴On a 7-9, hold 1. Spend your hold to make eye contact with an NPC present, who freezes or flinches and can’t act until you break it off. ✴On a 6-, your enemies immediately identify you as their biggest threat.</p>
-<h3 class="MoveName">Taste of Blood</h3>
-<p class="Requirement">Replaces: Scent of Blood</p>
-<p class="NoIndent">When you hack and slash an enemy, your next attack against that same foe deals +1d8 damage.</p>
-<h3 class="MoveName">Multiclass Initiate</h3>
-<p class="Requirement">Required: Multiclass Dabbler</p>
-<p class="NoIndent">Get one move from another class. Treat your level as one lower for choosing the move.</p>
-<h3 class="MoveName">Steel Hide</h3>
-<p class="Requirement">Replaces: Iron Hide</p>
-<p class="NoIndent">You gain +2 armor.</p>
-<h3 class="MoveName">Through Death’s Eyes</h3>
-<p class="NoIndent">When you <strong>go into battle</strong>, roll+WIS. ✴On a 10+, name someone who will live <strong>and</strong> someone who will die. ✴On a 7-9, name someone who will live <strong>or</strong> someone who will die. Name NPCs, not player characters. The GM will make your vision come true, if it’s even remotely possible. ✴On a 6- you see your own death and consequently take -1 ongoing throughout the battle.</p>
-<h3 class="MoveName">Eye for Weaponry</h3>
-<p class="NoIndent">When you look over an enemy’s weaponry, ask the GM how much damage they do.</p>
-<h3 class="MoveName">Superior Warrior</h3>
-<p class="NoIndent">When you hack and slash on a 12+ you deal your damage, avoid their attack, and impress, dismay, or frighten your enemy.</p></div>
-    </div>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+<p>You do this for the guts and the glory. The scream of battle and the hot, hot blood of it. You are a beast of iron. Your friends may carry blades of forged steel but, fighter, you are steel. While your traveling companions might moan about their wounds over a campfire in the wilderness, you bear your scars with pride.</p>
+
+<p>You are the wall—let every danger smash itself to nothing on you. In the end, you’ll be the last one standing.</p></div>
+
+<h2>Names</h2>
+
+<div id="names"><p ><em>Dwarf</em>: Ozruk, Surtur, Brunhilda, Annika, Janos, Greta, Dim, Rundrig, Jarl, Xotoq</p>  
+
+<p><em>Elf</em>: Elohiir, Sharaseth, Hasrith, Shevaral, Cadeus, Eldar, Kithracet, Thelian</p>    
+
+<p><em>Halfling</em>: Finnegan, Olive, Randolph, Bartleby, Aubrey, Baldwin, Becca</p> 
+
+<p><em>Human</em>: Hawke, Rudiger, Gregor, Brianne, Walton, Castor, Shanna, Ajax, Hob</p></div>
+
+<h2>Look</h2>
+
+<div id="look"><p>Choose one for each:</p>
+
+<p>Hard Eyes, Dead Eyes, or Eager Eyes</p>
+
+<p>Wild Hair, Shorn Hair, or Battered Helm</p>
+
+<p>Calloused Skin, Tanned Skin, or Scarred Skin</p>
+
+<p>Built Body, Lithe Body, or Ravaged Body</p></div>
+
+<h2>Stats</h2>
+
+<p>Your maximum HP is 10+Constitution.</p>
+
+<p>Your base damage is <span id="Damage">d10</span>.</p>
+
+<h2>Starting Moves</h2>
+
+<div id="startingmoves"><p class="InstructionsAfterHeader">Choose a race and gain the corresponding move:</p>
+
+<div id="racialmoves"><h3 class="MoveName">Dwarf</h3>
+
+<p>When you <strong>share a drink with someone</strong>, you may parley with them using CON instead of CHA.</p>
+
+<h3 class="MoveName">Elf</h3>
+
+<p>Choose one weapon—you can always treat weapons of that type as if they had the precise tag.</p>
+
+<h3 class="MoveName">Halfling</h3>
+
+<p>When you defy danger and <strong>use your small size to your advantage</strong>, take +1.</p>
+
+<h3 class="MoveName">Human</h3>
+
+<p>Once per battle you may reroll a single damage roll (yours or someone else’s).</p></div>
+
+<div id="classmoves"><p class="Instructions">You start with these moves:</p>
+
+<h3 class="BasicMoveName">Bend Bars, Lift Gates</h3>
+
+<p>When you <strong>use pure strength to destroy an inanimate obstacle</strong>, roll+Str. ✴On a 10+, choose 3. ✴On a 7-9 choose 2.</p>
+
+<ul><li>It doesn’t take a very long time</li>
+
+<li>Nothing of value is damaged</li>
+
+<li>It doesn’t make an inordinate amount of noise</li>
+
+<li>You can fix the thing again without a lot of effort</li></ul>
+
+<h3 class="BasicMoveName">Armored</h3>
+
+<p>You ignore the clumsy tag on armor you wear.</p>
+
+<h3 class="BasicMoveName">Signature Weapon</h3>
+
+<p>This is your weapon. There are many like it, but this one is yours. Your weapon is your best friend. It is your life. You master it as you master your life. Your weapon, without you, is useless. Without your weapon, you are useless. You must wield your weapon true.</p>
+
+<p>Choose a base description, all are 2 weight:</p>
+
+<ul><li class="Option">Sword</li>
+
+<li class="Option">Axe</li>
+
+<li class="Option">Hammer</li>
+
+<li class="Option">Spear</li>
+
+<li class="Option">Flail</li>
+
+<li class="Option">Fists</li></ul>
+
+<p>Choose the range that best fits your weapon:</p>
+
+<ul><li class="Option">Hand</li>
+
+<li class="Option">Close</li>
+
+<li class="Option">Reach</li></ul>
+
+<p>Choose two enhancements:</p>
+
+<ul><li class="Option">Hooks and spikes. +1 damage, but +1 weight.</li>
+
+<li class="Option">Sharp. +2 piercing.</li>
+
+<li class="Option">Perfectly weighted. Add precise.</li>
+
+<li class="Option">Serrated edges. +1 damage.</li>
+
+<li class="Option">Glows in the presence of one type of creature, your choice.</li>
+
+<li class="Option">Huge. Add messy and forceful.</li>
+
+<li class="Option">Versatile. Choose an additional range.</li>
+
+<li class="Option">Well-crafted. -1 weight.</li></ul>
+
+<p>Choose a look:</p>
+
+<ul><li class="Option">Ancient</li>
+
+<li class="Option">Unblemished</li>
+
+<li class="Option">Ornate</li>
+
+<li class="Option">Blood-stained</li>
+
+<li class="Option">Sinister</li></ul></div></div>
+
+<h2>Alignment</h2>
+
+<p class="InstructionsAfterHeader">Choose an alignment:</p>
+
+<div id="alignment"><h3 class="MoveName">Good</h3>
+
+<p>Defend those weaker than you.</p>
+
+<h3 class="MoveName">Neutral</h3>
+
+<p>Defeat a worthy opponent.</p>
+
+<h3 class="MoveName">Evil</h3>
+
+<p>Kill a defenseless or surrendered enemy.</p></div>
+
+<h2>Gear</h2>
+
+<div id="gear"><p>Your load is 12+Str. You carry your signature weapon and dungeon rations (5 uses, 1 weight). Choose your defenses:</p>
+
+<ul><li class="Option">Chainmail (1 armor, 1 weight) and adventuring gear (1 weight)</li>
+
+<li class="Option">Scale armor (2 armor, 3 weight)</li></ul>
+
+<p>Choose two:</p>
+
+<ul><li class="Option">2 Healing potions (0 weight)</li>
+
+<li class="Option">Shield (+1 armor, 2 weight)</li>
+
+<li class="Option">Antitoxin (0 weight), dungeon rations (1 weight), and poultices and herbs (1 weight)</li>
+
+<li class="Option">22 coins</li></ul></div>
+
+<h2>Bonds</h2>
+
+<div id="bonds"><p>Fill in the name of one of your companions in at least one:</p>
+
+<p>_______________ owes me their life, whether they admit it or not.</p>
+
+<p>I have sworn to protect _______________.</p>
+
+<p>I worry about the ability of _______________ to survive in the dungeon.</p>
+
+<p>_______________ is soft, but I will make them hard like me.</p></div>
+
+<h2>Advanced Moves</h2>
+
+<div id="moves"><p class="InstructionsAfterHeader">When you gain a level from 2-5, choose from these moves.</p>
+
+<h3 class="MoveName">Merciless</h3>
+
+<p>When you deal damage, deal +1d4 damage.</p>
+
+<h3 class="MoveName">Heirloom</h3>
+
+<p>When you <strong>consult the spirits that reside within your signature weapon</strong>, they will give you an insight relating to the current situation, and might ask you some questions in return, roll+CHA. ✴On a 10+, the GM will give you good detail. ✴On a 7-9, the GM will give you an impression.</p>
+
+<h3 class="MoveName">Armor Mastery</h3>
+
+<p>When you <strong>make your armor take the brunt of damage dealt to you</strong>, the damage is negated but you must reduce the armor value of your armor or shield (your choice) by 1. The value is reduced each time you make this choice. If the reduction leaves the item with 0 armor it is destroyed.</p>
+
+<h3 class="MoveName">Improved Weapon</h3>
+
+<p>Choose one extra enhancement for your signature weapon.</p>
+
+<h3 class="MoveName">Seeing Red</h3>
+
+<p>When you discern realities during combat, you take +1.</p>
+
+<h3 class="MoveName">Interrogator</h3>
+
+<p>When you <strong>parley using threats of impending violence as leverage</strong>, you may use STR instead of CHA.</p>
+
+<h3 class="MoveName">Scent of Blood</h3>
+
+<p>When you hack and slash an enemy, your next attack against that same foe deals +1d4 damage.</p>
+
+<h3 class="MoveName">Multiclass Dabbler</h3>
+
+<p>Get one move from another class. Treat your level as one lower for choosing the move.</p>
+
+<h3 class="MoveName">Iron Hide</h3>
+
+<p>You gain +1 armor.</p>
+
+<h3 class="MoveName">Blacksmith</h3>
+
+<p>When you have access to a forge you can graft the magical powers of a weapon onto your signature weapon. This process destroys the magical weapon. Your signature weapon gains the magical powers of the destroyed weapon.</p>
+
+<p class="Instructions">When you gain a level from 6-10, choose from these moves or the level 2-5 moves.</p>
+
+<h3 class="MoveName">Bloodthirsty</h3>
+
+<p class="Requirement">Replaces: Merciless</p>
+
+<p>When you deal damage, deal +1d8 damage.</p>
+
+<h3 class="MoveName">Armored Perfection</h3>
+
+<p class="Requirement">Replaces: Armor Mastery</p>
+
+<p>When you <strong>choose to let your armor take the brunt of damage dealt to you</strong>, the damage is negated and you take +1 forward against the attacker, but you must reduce the armor value of your armor or shield (your choice) by 1. The value is reduced each time you make this choice. If the reduction leaves the item with 0 armor it is destroyed.</p>
+
+<h3 class="MoveName">Evil Eye</h3>
+
+<p class="Requirement">Requires: Seeing Red</p>
+
+<p>When you <strong>enter combat</strong>, roll+CHA. ✴On a 10+, hold 2. ✴On a 7-9, hold 1. Spend your hold to make eye contact with an NPC present, who freezes or flinches and can’t act until you break it off. ✴On a 6-, your enemies immediately identify you as their biggest threat.</p>
+
+<h3 class="MoveName">Taste of Blood</h3>
+
+<p class="Requirement">Replaces: Scent of Blood</p>
+
+<p>When you hack and slash an enemy, your next attack against that same foe deals +1d8 damage.</p>
+
+<h3 class="MoveName">Multiclass Initiate</h3>
+
+<p class="Requirement">Required: Multiclass Dabbler</p>
+
+<p>Get one move from another class. Treat your level as one lower for choosing the move.</p>
+
+<h3 class="MoveName">Steel Hide</h3>
+
+<p class="Requirement">Replaces: Iron Hide</p>
+
+<p>You gain +2 armor.</p>
+
+<h3 class="MoveName">Through Death’s Eyes</h3>
+
+<p>When you <strong>go into battle</strong>, roll+WIS. ✴On a 10+, name someone who will live <strong>and</strong> someone who will die. ✴On a 7-9, name someone who will live <strong>or</strong> someone who will die. Name NPCs, not player characters. The GM will make your vision come true, if it’s even remotely possible. ✴On a 6- you see your own death and consequently take -1 ongoing throughout the battle.</p>
+
+<h3 class="MoveName">Eye for Weaponry</h3>
+
+<p>When you look over an enemy’s weaponry, ask the GM how much damage they do.</p>
+
+<h3 class="MoveName">Superior Warrior</h3>
+
+<p>When you hack and slash on a 12+ you deal your damage, avoid their attack, and impress, dismay, or frighten your enemy.</p>
+
+
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
 
-      ga("create", "UA-42061955-1", "dwgazetteer.com");
-      ga("send", "pageview");
-    </script>
+    ga("create", "UA-42061955-1", "dwgazetteer.com");
+    ga("send", "pageview");
+  </script>
 
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/dwbook.js"></script>
 </body>
 </html>
