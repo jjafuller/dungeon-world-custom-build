@@ -1,17 +1,17 @@
 from multiprocessing import Process
-from staticjinja import Renderer
+from staticjinja import make_site
 import easywatch
 import os
 import shutil
 
 def reset_assets():
-    print 'Resetting assets...'
+    print('Resetting assets...')
 
     root_path = os.path.dirname(os.path.realpath(__file__))
 
-    html_css = os.path.join(root_path, 'html/css/')
-    html_img = os.path.join(root_path, 'html/img/')
-    html_js = os.path.join(root_path, 'html/js/')
+    html_css = os.path.join(root_path, 'dist/css/')
+    html_img = os.path.join(root_path, 'dist/img/')
+    html_js = os.path.join(root_path, 'dist/js/')
 
     tmpl_css = os.path.join(root_path, 'template_assets/css/')
     tmpl_img = os.path.join(root_path, 'template_assets/img/')
@@ -32,23 +32,24 @@ def reset_assets():
 
 
 def asset_handler(event_type, src_path):
-    print src_path[:-4]
+    print(src_path[:-4])
     if(src_path[:-4] != ".tmp"):
-        dst_path = src_path.replace('/template_assets/', '/html/')
-        print 'Updating ' + dst_path
+        dst_path = src_path.replace('/template_assets/', '/dist/')
+        print('Updating ' + dst_path)
         shutil.copy(src_path, dst_path)
 
 
 def watch_assets():
-    print 'Monitoring assets...'
+    print('Monitoring assets...')
     easywatch.watch("./template_assets/", asset_handler)
 
 
 def watch_templates():
-    print 'Monitoring templates...'
-    renderer = Renderer(outpath="html")
+    print('Monitoring templates...')
 
-    renderer.run(debug=True, use_reloader=True)
+    site = make_site(outpath="dist")
+    site.render(use_reloader=True)
+
 
 if __name__ == "__main__":
     reset_assets()
