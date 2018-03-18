@@ -94,6 +94,25 @@ div.MoveOneLine .last {
     font-size: 1rem;
 }
 
+.Requirement {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.SpellName {
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+}
+
+.SpellName span.SpellName {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+.SpellName em {
+    padding-left: 1rem;
+}
+
 /*
 #content {
     margin-top: 50px;
