@@ -11,6 +11,26 @@ body {
 
 /* content */
 
+.monster {
+    border-top: 1px solid #333;
+    padding-top: 7px;
+    font-size: 1.5rem;
+}
+
+.monster em {
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+
+.MonsterStats, .MonsterQualities {
+    margin-bottom: 0.25rem;
+}
+
+.MonsterDescription {
+    border-top: 1px solid #333;
+    padding-top: 7px;
+}
+
 .MoveFirstLine {
     border-top: 1px solid #333;
     padding-top: 7px;
