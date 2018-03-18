@@ -11,6 +11,16 @@ body {
 
 /* content */
 
+.MoveFirstLine {
+    border-top: 1px solid #333;
+    padding-top: 7px;
+}
+
+.MoveLastLine {
+    border-bottom: 1px solid #333;
+    padding-bottom: 7px;
+}
+
 .MoveOneLine {
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
@@ -41,6 +51,10 @@ div.MoveOneLine .last {
 .Example {
     font-style: italic;
     margin: 20px;
+}
+
+.Exampleli {
+    font-style: italic;
 }
 
 .ExampleDialogueFirstLine,
