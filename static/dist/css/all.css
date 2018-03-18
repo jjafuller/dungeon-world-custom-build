@@ -1,11 +1,15 @@
-#content {
-    margin-top: 50px;
+/* structure */
+
+body {
+    padding-top: 5rem;
 }
 
-/* fix for dropdown menus on mobile devices */
-.dropdown-backdrop {
-    position: static;
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #0056b3;
+    color: #fff;
 }
+
+/* content */
 
 .MoveOneLine {
     border-top: 1px solid #333;
@@ -19,6 +23,10 @@ div.MoveOneLine {
 
 div.MoveOneLine .last {
     margin-bottom: 0;
+}
+
+#stats {
+    margin-bottom: 20px;
 }
 
 #stats td, #stats th {
@@ -61,6 +69,17 @@ div.MoveOneLine .last {
     margin-top: 10px;
 }
 
+/*
+#content {
+    margin-top: 50px;
+}
+
+.dropdown-backdrop {
+    position: static;
+}
+
+
+
 @media only screen and (max-width: 979px) {
     #content {
         margin-top: 55px;
@@ -82,3 +101,5 @@ div.MoveOneLine .last {
         padding: 5px;
     }
 }
+
+*/

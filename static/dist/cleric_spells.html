@@ -1,92 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cleric Spells</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/all.css">
-    <link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Dungeon World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="dropdown-playing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Playing</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-playing">
+                <a class="dropdown-item" href="introduction.html">Introduction</a>
+                <a class="dropdown-item" href="playing_the_game.html">Playing the Game</a>
+                <a class="dropdown-item" href="example.html">Example of Play</a>
+                <a class="dropdown-item" href="character_creation.html">Character Creation</a>
+                <a class="dropdown-item" href="moves_discussion.html">Moves</a>
+                <a class="dropdown-item" href="equipment.html">Equipment</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="dropdown-classes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classes</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-classes">
+                <a class="dropdown-item" href="bard.html">Bard</a>
+                <a class="dropdown-item" href="cleric.html">Cleric</a>
+                <a class="dropdown-item" href="cleric_spells.html"><em>Cleric Spells</em></a>
+                <a class="dropdown-item" href="druid.html">Druid</a>
+                <a class="dropdown-item" href="fighter.html">Fighter</a>
+                <a class="dropdown-item" href="paladin.html">Paladin</a>
+                <a class="dropdown-item" href="ranger.html">Ranger</a>
+                <a class="dropdown-item" href="thief.html">Thief</a>
+                <a class="dropdown-item" href="wizard.html">Wizard</a>
+                <a class="dropdown-item" href="wizard_spells.html"><em>Wizard Spells</em></a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-gming" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GMing</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-gming">
+                <a class="dropdown-item" href="gm.html">GM</a>
+                <a class="dropdown-item" href="first_session.html">First Session</a>
+                <a class="dropdown-item" href="fronts.html">Fronts</a>
+                <a class="dropdown-item" href="the_world.html">The World</a>
+                <a class="dropdown-item" href="advanced_delving.html">Advanced Delving</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-monsters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Monsters</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-monsters">
+                <a class="dropdown-item" href="monsters.html">Overview</a>
+                <a class="dropdown-item" href="monsters_caverns.html">Cavern Dwellers</a>
+                <a class="dropdown-item" href="monsters_swamp.html">Swamp Denizens</a>
+                <a class="dropdown-item" href="monsters_undead.html">Legions of the Undead</a>
+                <a class="dropdown-item" href="monsters_woods.html">Gnarled Woods</a>
+                <a class="dropdown-item" href="monsters_hordes.html">Ravenous Hordes</a>
+                <a class="dropdown-item" href="monsters_experiments.html">Twisted Experiments</a>
+                <a class="dropdown-item" href="monsters_depths.html">Lower Depths</a>
+                <a class="dropdown-item" href="monsters_planes.html">Planar Powers</a>
+                <a class="dropdown-item" href="monsters_folk.html">Folk of the Realm</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-appendices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Appendices</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-appendices">
+                <a class="dropdown-item" href="appendices_thanks.html">Thanks</a>
+                <a class="dropdown-item" href="appendices_teaching.html">Teaching</a>
+                <a class="dropdown-item" href="appendices_conversion.html">Conversion</a>
+                <a class="dropdown-item" href="appendices_npcs.html">NPCs</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-external" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">External Links</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-external">
+                <h6 class="dropdown-header">Official</h6>
+                <a class="dropdown-item" href="http://www.dungeon-world.com/">Dungeon World</a>
+                <a class="dropdown-item" href="http://codex.dungeon-world.com/">Monster Builder</a>
+                <h6 class="dropdown-header">Community</h6>
+                <a class="dropdown-item" href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a>
+                <a class="dropdown-item" href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a>
+                <a class="dropdown-item" href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a>
+              </div>
+            </li>
+          </ul>
+          <!---
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          -->
+        </div>
+      </nav>
+
+<!--
+  <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="navbar-inner">
       <div class="container">
-        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="brand" href="index.html">Dungeon World</a>
         <div class="nav-collapse collapse">
           <ul class="nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="introduction.html">Introduction</a></li>
-                <li><a href="playing_the_game.html">Playing the Game</a></li>
-                <li><a href="example.html">Example of Play</a></li>
-                <li><a href="character_creation.html">Character Creation</a></li>
-                <li><a href="moves_discussion.html">Moves</a></li>
-                <li><a href="equipment.html">Equipment</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="bard.html">Bard</a></li>
-                <li><a href="cleric.html">Cleric</a></li>
-                <li><a href="cleric_spells.html"><em>Cleric Spells</em></a></li>
-                <li><a href="druid.html">Druid</a></li>
-                <li><a href="fighter.html">Fighter</a></li>
-                <li><a href="paladin.html">Paladin</a></li>
-                <li><a href="ranger.html">Ranger</a></li>
-                <li><a href="thief.html">Thief</a></li>
-                <li><a href="wizard.html">Wizard</a></li>
-                <li><a href="wizard_spells.html"><em>Wizard Spells</em></a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="gm.html">GM</a></li>
-                <li><a href="first_session.html">First Session</a></li>
-                <li><a href="fronts.html">Fronts</a></li>
-                <li><a href="the_world.html">The World</a></li>
-                <li><a href="advanced_delving.html">Advanced Delving</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="monsters.html">Overview</a></li>
-                <li><a href="monsters_caverns.html">Cavern Dwellers</a></li>
-                <li><a href="monsters_swamp.html">Swamp Denizens</a></li>
-                <li><a href="monsters_undead.html">Legions of the Undead</a></li>
-                <li><a href="monsters_woods.html">Gnarled Woods</a></li>
-                <li><a href="monsters_hordes.html">Ravenous Hordes</a></li>
-                <li><a href="monsters_experiments.html">Twisted Experiments</a></li>
-                <li><a href="monsters_depths.html">Lower Depths</a></li>
-                <li><a href="monsters_planes.html">Planar Powers</a></li>
-                <li><a href="monsters_folk.html">Folk of the Realm</a></li>
-              </ul>
-            </li>
-            
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="appendices_thanks.html">Thanks</a></li>
-                <li><a href="appendices_teaching.html">Teaching</a></li>
-                <li><a href="appendices_conversion.html">Conversion</a></li>
-                <li><a href="appendices_npcs.html">NPCs</a></li>
-              </ul>
-            </li>
-
-            <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
@@ -106,8 +126,9 @@
       </div>
     </div>
   </div>
+-->
 
-  <div id="content" class="container">
+  <main role="main" class="container">
     
 
 <h1>Cleric Spells</h1>
@@ -281,21 +302,21 @@
 </div>
 
 
-  </div>
+  </main>
 
   <script>
     (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+    })(window,document,"script","http://www.google-analytics.com/analytics.js","ga");
 
     ga("create", "UA-42061955-1", "dwgazetteer.com");
     ga("send", "pageview");
   </script>
 
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/dwbook.js"></script>
 </body>
 </html>

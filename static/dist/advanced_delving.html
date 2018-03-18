@@ -1,92 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Advanced Delving</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/all.css">
-    <link href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,400italic|Josefin+Sans:700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 </head>
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Dungeon World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="dropdown-playing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Playing</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-playing">
+                <a class="dropdown-item" href="introduction.html">Introduction</a>
+                <a class="dropdown-item" href="playing_the_game.html">Playing the Game</a>
+                <a class="dropdown-item" href="example.html">Example of Play</a>
+                <a class="dropdown-item" href="character_creation.html">Character Creation</a>
+                <a class="dropdown-item" href="moves_discussion.html">Moves</a>
+                <a class="dropdown-item" href="equipment.html">Equipment</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="dropdown-classes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classes</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-classes">
+                <a class="dropdown-item" href="bard.html">Bard</a>
+                <a class="dropdown-item" href="cleric.html">Cleric</a>
+                <a class="dropdown-item" href="cleric_spells.html"><em>Cleric Spells</em></a>
+                <a class="dropdown-item" href="druid.html">Druid</a>
+                <a class="dropdown-item" href="fighter.html">Fighter</a>
+                <a class="dropdown-item" href="paladin.html">Paladin</a>
+                <a class="dropdown-item" href="ranger.html">Ranger</a>
+                <a class="dropdown-item" href="thief.html">Thief</a>
+                <a class="dropdown-item" href="wizard.html">Wizard</a>
+                <a class="dropdown-item" href="wizard_spells.html"><em>Wizard Spells</em></a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-gming" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GMing</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-gming">
+                <a class="dropdown-item" href="gm.html">GM</a>
+                <a class="dropdown-item" href="first_session.html">First Session</a>
+                <a class="dropdown-item" href="fronts.html">Fronts</a>
+                <a class="dropdown-item" href="the_world.html">The World</a>
+                <a class="dropdown-item" href="advanced_delving.html">Advanced Delving</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-monsters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Monsters</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-monsters">
+                <a class="dropdown-item" href="monsters.html">Overview</a>
+                <a class="dropdown-item" href="monsters_caverns.html">Cavern Dwellers</a>
+                <a class="dropdown-item" href="monsters_swamp.html">Swamp Denizens</a>
+                <a class="dropdown-item" href="monsters_undead.html">Legions of the Undead</a>
+                <a class="dropdown-item" href="monsters_woods.html">Gnarled Woods</a>
+                <a class="dropdown-item" href="monsters_hordes.html">Ravenous Hordes</a>
+                <a class="dropdown-item" href="monsters_experiments.html">Twisted Experiments</a>
+                <a class="dropdown-item" href="monsters_depths.html">Lower Depths</a>
+                <a class="dropdown-item" href="monsters_planes.html">Planar Powers</a>
+                <a class="dropdown-item" href="monsters_folk.html">Folk of the Realm</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-appendices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Appendices</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-appendices">
+                <a class="dropdown-item" href="appendices_thanks.html">Thanks</a>
+                <a class="dropdown-item" href="appendices_teaching.html">Teaching</a>
+                <a class="dropdown-item" href="appendices_conversion.html">Conversion</a>
+                <a class="dropdown-item" href="appendices_npcs.html">NPCs</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-external" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">External Links</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-external">
+                <h6 class="dropdown-header">Official</h6>
+                <a class="dropdown-item" href="http://www.dungeon-world.com/">Dungeon World</a>
+                <a class="dropdown-item" href="http://codex.dungeon-world.com/">Monster Builder</a>
+                <h6 class="dropdown-header">Community</h6>
+                <a class="dropdown-item" href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a>
+                <a class="dropdown-item" href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a>
+                <a class="dropdown-item" href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a>
+              </div>
+            </li>
+          </ul>
+          <!---
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          -->
+        </div>
+      </nav>
+
+<!--
+  <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="navbar-inner">
       <div class="container">
-        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="brand" href="index.html">Dungeon World</a>
         <div class="nav-collapse collapse">
           <ul class="nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Playing <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="introduction.html">Introduction</a></li>
-                <li><a href="playing_the_game.html">Playing the Game</a></li>
-                <li><a href="example.html">Example of Play</a></li>
-                <li><a href="character_creation.html">Character Creation</a></li>
-                <li><a href="moves_discussion.html">Moves</a></li>
-                <li><a href="equipment.html">Equipment</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="bard.html">Bard</a></li>
-                <li><a href="cleric.html">Cleric</a></li>
-                <li><a href="cleric_spells.html"><em>Cleric Spells</em></a></li>
-                <li><a href="druid.html">Druid</a></li>
-                <li><a href="fighter.html">Fighter</a></li>
-                <li><a href="paladin.html">Paladin</a></li>
-                <li><a href="ranger.html">Ranger</a></li>
-                <li><a href="thief.html">Thief</a></li>
-                <li><a href="wizard.html">Wizard</a></li>
-                <li><a href="wizard_spells.html"><em>Wizard Spells</em></a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GMing <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="gm.html">GM</a></li>
-                <li><a href="first_session.html">First Session</a></li>
-                <li><a href="fronts.html">Fronts</a></li>
-                <li><a href="the_world.html">The World</a></li>
-                <li><a href="advanced_delving.html">Advanced Delving</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monsters <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="monsters.html">Overview</a></li>
-                <li><a href="monsters_caverns.html">Cavern Dwellers</a></li>
-                <li><a href="monsters_swamp.html">Swamp Denizens</a></li>
-                <li><a href="monsters_undead.html">Legions of the Undead</a></li>
-                <li><a href="monsters_woods.html">Gnarled Woods</a></li>
-                <li><a href="monsters_hordes.html">Ravenous Hordes</a></li>
-                <li><a href="monsters_experiments.html">Twisted Experiments</a></li>
-                <li><a href="monsters_depths.html">Lower Depths</a></li>
-                <li><a href="monsters_planes.html">Planar Powers</a></li>
-                <li><a href="monsters_folk.html">Folk of the Realm</a></li>
-              </ul>
-            </li>
-            
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Appendices <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="appendices_thanks.html">Thanks</a></li>
-                <li><a href="appendices_teaching.html">Teaching</a></li>
-                <li><a href="appendices_conversion.html">Conversion</a></li>
-                <li><a href="appendices_npcs.html">NPCs</a></li>
-              </ul>
-            </li>
-
-            <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a></li>
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
@@ -106,8 +126,9 @@
       </div>
     </div>
   </div>
+-->
 
-  <div id="content" class="container">
+  <main role="main" class="container">
     
 
 <h1>Advanced Delving</h1>
@@ -146,7 +167,7 @@
 
 <p>Your Dungeon World is full of fantastic things, right? You’re likely to find that some of those fantastic things deserve or demand custom moves to reflect exactly what they do. Consider this one from Chris Bennet:</p>
 
-<p class="MoveFirstLine">When you <strong>open a sewer hatch</strong>, roll+STR: ✴On a 10+, choose 2. ✴On a 7–9 choose 1.</p>
+<p class="MoveFirstLine">When you <strong>open a sewer hatch</strong>, roll+STR: • On a 10+, choose 2. • On a 7–9 choose 1.</p>
 
 <ul>
   <li class="li">You avoid being covered in feces and rotting animal entrails from the sewers above.</li>
@@ -164,7 +185,7 @@
 
 <p>Each class has enough moves to take it through tenth level but that doesn’t mean you can’t add more. Adding moves to a class can demonstrate your idea of Dungeon World. Take this one, for example:</p>
 
-<p class="MoveOneLine">When you <strong>claim a room for your deity</strong>, mark every entrance and roll+WIS: ✴On a 10+, the room is peacebonded: no one can take action to cause physical harm within it. ✴On a 7–9, the room is peacebonded, but the show of divine power draws attention. You can dismiss the peacebond as you see fit.</p>
+<p class="MoveOneLine">When you <strong>claim a room for your deity</strong>, mark every entrance and roll+WIS: • On a 10+, the room is peacebonded: no one can take action to cause physical harm within it. • On a 7–9, the room is peacebonded, but the show of divine power draws attention. You can dismiss the peacebond as you see fit.</p>
 
 <p>This move presents a slightly different side of Dungeon World, one that can demand peace (something that usually doesn’t come easily to PCs). This may not be right for every Dungeon World game, but it’s a great way to show how your Dungeon World looks, reflected in the characters.</p>
 
@@ -222,7 +243,7 @@
 
 <p class="MoveFirstLine">Stalwart Fighter: As if the bandits weren’t bad enough! As if all the sword wounds, bruises and beatings at the hands of your enemies were insufficient—now this. Trapped underground with your adventuring companions when all you wanted was to return to the town and spend your well-earned bounty. No such luck, warrior. Sharpen that sword! Certainly, the others will need your protecting before safety is found. Just like last time. Once more into the breach, right? I swear, one of these fellows must owe you a favor or two by now…</p>
 
-<p>Have a look around and roll+CHA. ✴On a 10+, choose two party members. ✴On a 7–9, choose just one. ✴On a 6-, you’re surrounded by ingrates.</p>
+<p>Have a look around and roll+CHA. • On a 10+, choose two party members. • On a 7–9, choose just one. • On a 6-, you’re surrounded by ingrates.</p>
 
 <p class="MoveLastLine">At a moment of need, you can cash in a favor owed you by one of the party members chosen. They must change their action to one of your choosing, once. You may not give them an action that would involve them directly taking damage, giving up a magic item they already own or coming to immediate harm. Use it to make them agree with you, or give you that extra ration you want, or giving you their slot in the loot lottery. Leverage is sweet.</p>
 
@@ -297,7 +318,7 @@
 
 <p>Let’s look at how one move developed over time. Hack and slash was one of the earliest Dungeon World moves, originally written by Tony Dowler. The first version looked like this (this version has been reformatted and edited for grammar only):</p>
 
-<p class="MoveFirstLine">When you wade into combat, attacking your enemies, deal damage to the enemy you’re attacking, take that enemy’s damage, and roll+Str. ✴On a 10+, choose 2. ✴On a 7–9 choose 1.</p>
+<p class="MoveFirstLine">When you wade into combat, attacking your enemies, deal damage to the enemy you’re attacking, take that enemy’s damage, and roll+Str. • On a 10+, choose 2. • On a 7–9 choose 1.</p>
 
 <ul>
   <li class="li">Prevent one ally from taking damage this round</li>
@@ -308,7 +329,7 @@
 
 <p>The first problem with this move is that one of the options, preventing damage, is far less useful than the others. Being able to outright kill an enemy is nearly always better than preventing that enemy from doing damage. The first major revision was to drop that option:</p>
 
-<p class="MoveFirstLine">When you wade into combat, attacking your enemies, deal damage to the enemy you’re attacking, take that enemy’s damage, and roll+Str. ✴On a 10+ choose 2. ✴On a 7–9 choose 1.</p>
+<p class="MoveFirstLine">When you wade into combat, attacking your enemies, deal damage to the enemy you’re attacking, take that enemy’s damage, and roll+Str. • On a 10+ choose 2. • On a 7–9 choose 1.</p>
 
 <ul>
   <li class="li">Kill one enemy of lower level than you or deal max damage to otherwise</li>
@@ -322,15 +343,15 @@
 
 <p>Scoping down the fictional effect of the move lead to this version:</p>
 
-<p class="MoveOneLine">When you attack an enemy who can defend themselves, roll+Str. ✴On a 10+, you deal your damage but your enemy does not get to deal theirs to you. If you choose, you can take your enemy’s damage and deal double damage to the enemy. ✴On a 7–9, you take the enemy’s damage and deal your damage.</p>
+<p class="MoveOneLine">When you attack an enemy who can defend themselves, roll+Str. • On a 10+, you deal your damage but your enemy does not get to deal theirs to you. If you choose, you can take your enemy’s damage and deal double damage to the enemy. • On a 7–9, you take the enemy’s damage and deal your damage.</p>
 
 <p>Here the move now has only the effects that could clearly follow from a single attack. Any action that couldn’t reasonably lead to a counterattack isn’t hack and slash, so now the trigger matches the effects. Unfortunately double damage was a bit much, so we changed it to this:</p>
 
-<p class="MoveOneLine">When you attack an enemy in melee, roll+Str. ✴On a 7–9, you deal your damage to the enemy and take their damage. ✴On a 10+ you deal your damage to the enemy. You can choose to also take the enemy’s damage to deal +2 damage.</p>
+<p class="MoveOneLine">When you attack an enemy in melee, roll+Str. • On a 7–9, you deal your damage to the enemy and take their damage. • On a 10+ you deal your damage to the enemy. You can choose to also take the enemy’s damage to deal +2 damage.</p>
 
 <p>+2 damage is a clear advantage, but not a game breaker. The only problem here is that it reduced the effects of an attack to taking damage. Monsters do so much more than just take away your HP; monsters hurl you about the room and destroy the ground you stand on, why can’t they do that in response?</p>
 
-<p class="MoveOneLine">When you attack an enemy in melee, roll+Str. ✴On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy’s attack. ✴On a 7–9, you deal your damage to the enemy and the enemy makes an attack against you.</p>
+<p class="MoveOneLine">When you attack an enemy in melee, roll+Str. • On a 10+, you deal your damage to the enemy and avoid their attack. At your option, you may choose to do +1d6 damage but expose yourself to the enemy’s attack. • On a 7–9, you deal your damage to the enemy and the enemy makes an attack against you.</p>
 
 <p>This version (the final one) allows a monster to “attack” not just deal damage. That opens up a whole host of interesting monster moves to be used. +1d6 damage instead of +2 makes the choice more exciting (and slightly more powerful). The rewording adds clarity.</p>
 
@@ -371,21 +392,21 @@
 <p>When creating new monster questions you can either reinterpret existing monsters by answering the questions for them again or only use the new questions for new monsters. If the new questions you add or change are key to your vision of Dungeon World it’s best to redo all the monsters you use; if the question only applies to a specific kind of monster anyway you can just use it for new monsters.</p>
 
 
-  </div>
+  </main>
 
   <script>
     (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+    })(window,document,"script","http://www.google-analytics.com/analytics.js","ga");
 
     ga("create", "UA-42061955-1", "dwgazetteer.com");
     ga("send", "pageview");
   </script>
 
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/dwbook.js"></script>
 </body>
 </html>
