@@ -9,6 +9,16 @@ body {
     color: #fff;
 }
 
+ul.loose li {
+    margin-bottom: 0.5rem;
+}
+
+.blockquote {
+    font-size: 1rem;
+    border-left: 3px #eee solid;
+    padding-left: 0.5rem;
+}
+
 /* content */
 
 .monster {

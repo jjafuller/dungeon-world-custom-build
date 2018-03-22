@@ -1,0 +1,95 @@
+{% extends "_base.html" %}
+{% block title %}Dungeon World{% endblock %}
+{% block body %}
+
+<h1>Tag Reference</h1>
+
+<ul class="loose">
+	<li>n Ammo (equipment): It can be used as ammunition for certain weapons. The number listed is not an exact count, but a general quantity.</li>
+	<li>Amorphous (monster): Its anatomy is bizarre and unnatural.</li>
+	<li>Applied (equipment): It’s only useful when carefully applied to a person or something they eat or drink.</li>
+	<li>Arcane (steading); Someone of notable arcane power lives here.</li>
+	<li>n Armor (equipment): Subtract n from all damage dealt to you. If you have multiple items with n armor, you only use the highest n.</li>
+	<li>+n Armor (equipment): Add n to your total armor.</li>
+	<li>Awkward (equipment): It’s unwieldy and tough to use.</li>
+	<li>Battalion (steading defenses): As many as 1,000 armed-and-ready soldiers.</li>
+	<li>Blight (steading): The steading has a recurring problem, often a monster infestation.</li>
+	<li>Booming (steading population): Far more people than there is space.</li>
+	<li>Cautious (monster): It prefers the defensive and will avoid a fight unless it is sure to win.</li>
+	<li>Close (weapon range): It’s useful for attacking someone a foot or two beyond arm’s length.</li>
+	<li>Clumsy (equipment): It’s tough to move around in. -1 ongoing while weaing it.</li>
+	<li>n Coins (equipment): It costs n coins to buy, usually.</li>
+	<li>Construct (monster): It was made, not born.</li>
+	<li>Craft (steading): The steading is known for mastery of the listed craft.</li>
+	<li>+n Damage (equipment): When you use it to deal damage, add n to the damage you deal.</li>
+	<li>Dangerous (equipment): If you use it without taking proper precautions expect consequences.</li>
+	<li>Devious (monster): The real threat of it isn’t in a bloody fight.</li>
+	<li>Dirt (steading prosperity): Nothing for sale. Cheap labor.</li>
+	<li>Divine (steading): A notable religious organization or person resides here.</li>
+	<li>Dwarven (steading): The steading is mostly or entirely dwarves.</li>
+	<li>Elven (steading): The steading is mostly or entirely elves.</li>
+	<li>Enmity (steading): The steading has bad blood with the listed steadings.</li>
+	<li>Exodus (steading population): On the verge of collapse.</li>
+	<li>Exotic (steading): The steading has goods or services that aren’t available anywhere else nearby.</li>
+	<li>Far (weapon range): It’s useful for attacking someone within shouting distance.</li>
+	<li>Forceful (equipment): When used as a weapon, it can knock someone backwards or even off theit feet.</li>
+	<li>Garrison (steading defenses): Multiple patrols of armed guards at all times.</li>
+	<li>Group (monster organization): It’s usually encountered in groups of 3–6.</li>
+	<li>Growing (steading population): The steadig is expanding.</li>
+	<li>Guard (steading defenses): A standing force protects the steading.</li>
+	<li>Guild (steading): The listed guilds hold sway here.</li>
+	<li>Hand (weapon range): You can use it to attack someone at arm’s length or closer.</li>
+	<li>History (steading): The steading has historical significance.</li>
+	<li>Hoarder (monster) It collects valuable things. This tag also gives a bonus on tandom treasure rolls.</li>
+	<li>Horde (monster organization): It’s usually encountered in groups of more than 7, maybe many more.</li>
+	<li>Huge (monster size): It’s as big as a small house or larger.</li>
+	<li>Ignores Armor (equipment): Armor doesn’t apply to damage dealt with this weapon.</li>
+	<li>Intelligent (monster): It’s about as smart as a person.</li>
+	<li>Large (monster size); It’s bigger than a human, up to the size of a cart.</li>
+	<li>Lawless (steading): Crime is rampant.</li>
+	<li>Legion (steading defenses): An entire standing army, essentially.</li>
+	<li>Magical (monster): It’s beyond the physical in some way. You can’t explain it with the laws of nature.</li>
+	<li>Market (steading): There’s a public market on a regular basis. +1 to supply rolls.</li>
+	<li>Messy (equipment): It deals damage in a particularly destructive way, ripping people and things apart.</li>
+	<li>Militia (steading defenses): A few people with worn weapons.</li>
+	<li>Moderate (steading prosperity): Common items for sale.</li>
+	<li>Near (weapon range): It’s useful for attacking at range when you can see the whites of their eyes.</li>
+	<li>Need (steading): The steading can’t survive without the listed resource.</li>
+	<li>None (steading defenses): They’re lucky if they can get a rabble of farmers with pitchforks.</li>
+	<li>Oath (steading): The steading owes fealty or defense to the listed steadings.</li>
+	<li>Organized (monster): Groups of this monster will have formal organization—if you kill one, others might seek revenge.</li>
+	<li>Personage (steading): The listed important person lives here.</li>
+	<li>n Piercing (equipment): Subtract n from the armor of creatures you deal damage to using this weapon.</li>
+	<li>Planar (monster): It’s not from this world.</li>
+	<li>Poor (steading prosperity): Only the bare essentials for sale.</li>
+	<li>Power (steading): The steading holds sway in some arena (often arcane, divine, or political).</li>
+	<li>Precise (equipment): You can use <span class="Stat">Dex</span> instead of <span class="Stat">Str</span> when using this weapon.</li>
+	<li>Ration (equipment): It’s edible, more or less. When you make camp you have to consume a ration.</li>
+	<li>Reach (weapon range): It’s useful for attack someone several feet away, maybe as far as 10 feet.</li>
+	<li>Religion (steading): The listed religion has a strong hold.</li>
+	<li>Reload (equipment): It takes more than a moment to set it up for another attack.</li>
+	<li>Requires (equipment): Only people who have the listed requirements can use it.</li>
+	<li>Resource (steading): The steading has consistent access to the listed resource.</li>
+	<li>Rich (steading prosperity): Any mundane item and stranger stuff for sale.</li>
+	<li>Safe (steading): There isn’t trouble here unless the players bring it.</li>
+	<li>Shrinking (steading population): Fewer people than the steading was designed for.</li>
+	<li>Slow (equipment): It takes more than a moment to use it.</li>
+	<li>Small (monster size): It’s about halfling size.</li>
+	<li>Solitary (monster organization): It can live and fight without the help of others. This tag gives a bonus to random treasure rolls.</li>
+	<li>Steady (steading population): Population even with the steading’s size.</li>
+	<li>Stealthy (monster): It can avoid detection and attack with surprise.</li>
+	<li>Stun (equipment): It does stun damage isntead of normal damage.</li>
+	<li>Terrifying (monster): Just being close to it is likely to make people break and flee.</li>
+	<li>Thrown (equipment): It’s still dangerous when you throw it.</li>
+	<li>Tiny (monster size): It’s smaller than a halfling.</li>
+	<li>Touch (equipment): You use it by touching it to the target’s skin.</li>
+	<li>Trade (steading): The steading has regular trade with the listed steading.</li>
+	<li>Two-handed (equipment): It takes two hands to use it.</li>
+	<li>Watch (steading defenses): A few people dedicated to being on the lookout for trouble.</li>
+	<li>Wealthy (steading prosperity): Just about any muindane item available.</li>
+	<li>n Weight (equipment): The item counts against your load. You can only carry total weight equal to your load without penalty.</li>
+	<li>Worn (equipment): It’s only useful if you wear it like clothes.</li>
+	<li>n Uses (equipment): It can be used n times.</li>
+</ul>
+
+{% endblock %}
