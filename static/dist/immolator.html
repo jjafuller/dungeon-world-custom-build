@@ -1,16 +1,375 @@
-Jun 2015
-Burning Beautiful
-(beauty burning out)
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Immolator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Dungeon World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="dropdown-playing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Playing</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-playing">
+                <a class="dropdown-item" href="introduction.html">Introduction</a>
+                <a class="dropdown-item" href="playing_the_game.html">Playing the Game</a>
+                <a class="dropdown-item" href="example.html">Example of Play</a>
+                <a class="dropdown-item" href="character_creation.html">Character Creation</a>
+                <a class="dropdown-item" href="moves_discussion.html">Moves</a>
+                <a class="dropdown-item" href="equipment.html">Equipment</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="dropdown-classes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classes</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-classes">
+                <a class="dropdown-item" href="barbarian.html">Barbarian</a>
+                <a class="dropdown-item" href="bard.html">Bard</a>
+                <a class="dropdown-item" href="cleric.html">Cleric</a>
+                <a class="dropdown-item" href="cleric_spells.html"><em>Cleric Spells</em></a>
+                <a class="dropdown-item" href="druid.html">Druid</a>
+                <a class="dropdown-item" href="fighter.html">Fighter</a>
+                <a class="dropdown-item" href="immolator.html">Immolator</a>
+                <a class="dropdown-item" href="paladin.html">Paladin</a>
+                <a class="dropdown-item" href="ranger.html">Ranger</a>
+                <a class="dropdown-item" href="thief.html">Thief</a>
+                <a class="dropdown-item" href="wizard.html">Wizard</a>
+                <a class="dropdown-item" href="wizard_spells.html"><em>Wizard Spells</em></a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-gming" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GMing</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-gming">
+                <a class="dropdown-item" href="gm.html">GM</a>
+                <a class="dropdown-item" href="first_session.html">First Session</a>
+                <a class="dropdown-item" href="fronts.html">Fronts</a>
+                <a class="dropdown-item" href="the_world.html">The World</a>
+                <a class="dropdown-item" href="advanced_delving.html">Advanced Delving</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-monsters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Monsters</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-monsters">
+                <a class="dropdown-item" href="monsters.html">Overview</a>
+                <a class="dropdown-item" href="monsters_caverns.html">Cavern Dwellers</a>
+                <a class="dropdown-item" href="monsters_swamp.html">Swamp Denizens</a>
+                <a class="dropdown-item" href="monsters_undead.html">Undead Legions</a>
+                <a class="dropdown-item" href="monsters_woods.html">Dark Woods</a>
+                <a class="dropdown-item" href="monsters_hordes.html">Ravenous Hordes</a>
+                <a class="dropdown-item" href="monsters_experiments.html">Twisted Experiments</a>
+                <a class="dropdown-item" href="monsters_depths.html">Lower Depths</a>
+                <a class="dropdown-item" href="monsters_planes.html">Planar Powers</a>
+                <a class="dropdown-item" href="monsters_folk.html">Folk of the Realm</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-appendices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Appendices</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-appendices">
+                <a class="dropdown-item" href="appendices_thanks.html">Thanks</a>
+                <a class="dropdown-item" href="appendices_teaching.html">Teaching</a>
+                <a class="dropdown-item" href="appendices_conversion.html">Conversion</a>
+                <a class="dropdown-item" href="appendices_npcs.html">NPCs</a>
+                <a class="dropdown-item" href="tag_reference.html">Tag Reference</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/spreadsheet/viewform?formkey=dEp5TF92d0FGR3ZWeS02ZG9MTTJWVUE6MA">Contact</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-external" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">External Links</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-external">
+                <h6 class="dropdown-header">Official</h6>
+                <a class="dropdown-item" href="http://www.dungeon-world.com/">Dungeon World</a>
+                <a class="dropdown-item" href="http://codex.dungeon-world.com/">Monster Builder</a>
+                <h6 class="dropdown-header">Community</h6>
+                <a class="dropdown-item" href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a>
+                <a class="dropdown-item" href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a>
+                <a class="dropdown-item" href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a>
+              </div>
+            </li>
+          </ul>
+          <!---
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          -->
+        </div>
+      </nav>
+
+<!--
+  <div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">External Links <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="nav-header">Official</li>
+                <li><a href="http://www.dungeon-world.com/">Dungeon World</a></li>
+                <li><a href="http://codex.dungeon-world.com/">Monster Builder</a></li>
+                <li class="nav-header">Community</li>
+                <li><a href="http://apocalypse-world.com/forums/index.php?board=19.0">Forum</a></li>
+                <li><a href="https://plus.google.com/communities/100084733231320276299">The Dungeon World Tavern (G+)</a></li>
+                <li><a href="http://www.reddit.com/r/dungeonworld">r/dungeonworld</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+-->
+
+  <main role="main" class="container">
+    
+
+<h1>The Immolator</h1>
+
+<blockquote class="blockquote">
+    <p>
+            I love the word 'burn'.<br/>
+            Like imagine,<br/>
+            Everything's burning,<br/>
+            I am on fire,<br/>
+            You're on fire,<br/>
+            The world is on fire,<br/>
+            And I find it beautiful.<br/>
+            Burning beautiful.<br/>
+            It's the burning out part that's scary.
+    </p>
+    <footer class="blockquote-footer">
+            <a href="https://hellopoetry.com/poem/1212584/burning-beautiful/">Burning Beautiful</a> by <cite title="Source Title">chuckae, Jun 2015</cite>
+    </footer>
+</blockquote>
+
+<h2>Names</h2>
+
+<div id="names">
+    <p><em>Human</em>: Solomon, Timothy, Kalil, Omen, Yohn, Hiko, Agasha, Elizabeth, Harald, Fatia, Khalwa, Adur, Ignis, Yajna, Umlilo</p>
+
+    <p><em>Salamander</em>: Sulfurheart, Flamewalker, Emberlash, Cinderclaw, Charfiend, Bittertallow, Barrowblaze, Singescale, Candlewick, Coalfang</p>
+</div>
+
+<h2>Look</h2>
+
+<div id="look">
+    <p>Choose one for each, or write your own:</p>
+
+    <p>Strange brands, ritual scars, perfect skin</p>
+
+    <p>Smouldering eys, warm eyes, searing eyes</p>
+
+    <p>Crackling voice, whispering, roaring</p>
+
+    <p>Imperious bearing, manic attitude, barely-hidden rage</p>
+</div>
+
+<h2>Stats</h2>
+
+<p>Your maximum HP is 4+Constitution.</p>
+
+<p>Your base damage is <span id="Damage">d8</span>.</p>
+
+<h2>Starting Moves</h2>
+
+<div id="startingmoves">
+    <p class="InstructionsAfterHeader">Choose a race and gain the corresponding move:</p>
+
+    <div id="racialmoves">        
+        <h3 class="MoveName">Human</h3>
+        
+        <p>When you Make Camp next to a large, open flame, regain all of your HP.</p>
+        
+        <h3 class="MoveName">Salamander</h3>
+        
+        <p>Non-magical heat and fire cannot harm you.</p>
+    </div>
+</div>
+
+<div id="classmoves">
+    <p class="Instructions">You start with these moves:</p>
+
+    <h3 class="BasicMoveName">Burning Brand</h3>
+
+    <p>When you <strong>conjure a weapon of pure flame</strong>, roll+CON. On a 10+ choose two of the following tags, on a 7-9 choose one. You may treat your INT as your STR or DEX in regards to making attacks with this weapon. The weapon always begins with the <em>fiery, touch, dangerous</em>, and 3 <em>uses</em> tags. Each attack with the weapon consumes one use.</p>
+
+    <ul>
+        <li>hand</li>
+        <li>thrown, near</li>
+        <li>+1 damage</li>
+        <li>remove the dangerous tag</li>
+    </ul>
+</div>
 
 
-I love the word 'burn'.
-Like imagine,
-Everything's burning,
-I am on fire,
-You're on fire,
-The world is on fire,
-And I find it beautiful.
-Burning beautiful. 
-It's the burning out part that's scary.
+<h3 class="BasicMoveName">Fighting Fire with Fire</h3>
 
-https://hellopoetry.com/poem/1212584/burning-beautiful/
+<p>When you take damage, and that damage is odd (after armor) the flames within you come to your aid. Roll 1d4 and either add that many uses to your burning brand (if active), take that result forward to summon your burning brand, or reduce the damage by that amount, your choice.</p>
+
+<h3 class="BasicMoveName">Give Me Fuel, Give Me Fire</h3>
+
+<p>When you <strong>gaze intensely into someones eyes</strong>, you may ask their player “what fuels the flames of your desire?” they’ll answer with the truth, even if the character does not know or would otherwise keep this hidden.</p>
+
+<h3 class="BasicMoveName">Zuko Style</h3>
+
+<p>When you <strong>bend a flame to your will</strong>, roll+WIS. On a 10+ it does as you command, taking the shape and movement you desire for as long as it has fuel on which to burn. On a 7-9 the effect is short-lived, lasting only a moment.</p>
+
+<h3 class="BasicMoveName">Hand Crafted</h3>
+
+<p>You may use your hands in place of tools and fire to craft metal objects. Mundane weapons, armor and metal jewellery can all be formed from their raw components. You may unmake these things, as well, but to do so without time and safety might require that you Defy Danger first.</p>
+
+<h2>Alignment</h2>
+
+<p class="InstructionsAfterHeader">Choose an alignment:</p>
+
+<div id="alignment">
+    <h3 class="MoveName">Evil</h3>
+
+    <p>Sacrifice an unwilling victim to the flames.</p>
+
+    <h3 class="MoveName">Chaotic</h3>
+
+    <p>Spread a dangerous new idea.</p>
+
+    <h3 class="MoveName">Neutral</h3>
+
+    <p>Exchange a sacrifice, freely given, for a service rendered.</p>
+</div>
+
+<h2>Gear</h2>
+
+<div id="gear">
+    <p>Your load is 9+STR. You carry no weapons and need no armor but the flames that burn within you. You begin with:</p>
+
+    <ul>
+        <li class="Option">A <strong>Symbol</strong> of your sacrifices past, describe it: ______________</li>
+
+        <li class="Option">Adventuring Gear (5 uses, 1 weight)</li>
+
+        <li class="Option">1 Healing Potion (0 weight)</li>
+    </ul>
+
+    <p><em>Choose two:</em></p>
+
+    <ul>
+        <li class="Option">Dungeon Rations (5 uses, ration, 1 weight)</li>
+
+        <li class="Option">1 Healing Potion (0 weight)</li>
+
+        <li class="Option">10 Coins</li>
+    </ul>
+</div>
+
+<h2>Bonds</h2>
+
+<div id="bonds">
+    <p>Fill in at least one with the name of a companion, or write your own.</p>
+
+    <p>____________________ has felt the hellish touch of fire, now they know my strength.</p>
+
+    <p>I will teach ______________ the true meaning of sacrifice.</p>
+
+    <p>I cast something into the fire for ________________ and still owe them their due.</p>
+</div>
+
+<h2>Advanced Moves</h2>
+
+<div id="moves">
+    <p class="InstructionsAfterHeader">When you gain a level from 2–5, choose from these moves.</p>
+
+    <h3 class="MoveName">Lore Of Flame</h3>
+
+    <p>When you <strong>stare into a source of fire</strong>, looking for answers, roll+WIS. On a hit, the GM will tell you something new and interesting about the current situation. On a 10+, the GM will give you good detail. On a 7–9, the GM will give you an impression. If you already know all there is to know, the GM will tell you that.</p>
+
+    <h3 class="MoveName">Burns Twice As Bright</h3>
+
+    <p>When you <strong>channel the flames of fate</strong>, you may treat a missed roll as a 7-9 or a 7-9 result as a 10+. This may be a roll you or another character has made. Tell the GM something you’ve lost; an emotion, a memory or some innate piece of your being. You may not use this move again until you’ve used Burns Half As Long.</p>
+
+    <h3 class="MoveName">Burns Half As Long</h3>
+
+    <p class="Requirement">You gain this move when you gain Burns Twice As Bright</p>
+        
+    <p>When you <strong>sacrifice a victory to the flames of fate</strong>, treat any roll of 10+ as a miss.</p>
+
+    <h3 class="MoveName">This Killing Fire</h3>
+
+    <p>Add the following tags to your options for Burning Brand: <em>messy, forceful, reach, near, far</em>.</p>
+
+    <h3 class="MoveName">Firebrand</h3>
+
+    <p>When you <strong>introduce a new idea to an NPC</strong>, roll+CHA. On a 10+ They believe the idea to be their own and take to it with fervour On a 7-9, Their passion fades after a day or two. On a miss, they respond negatively, speaking out against the idea.</p>
+
+    <h3 class="MoveName">Ogdru Jahad</h3>
+
+    <p>Gain the Wizard move Ritual. The GM will always tell you what you have to sacrifice to gain the effect you desire.</p>
+
+    <h3 class="MoveName">Moth To The Flame</h3>
+
+    <p>When you <strong>tempt a weak mind with your inner fire</strong>, roll+WIS. On a 10+ their will is suppressed, they’ll follow you and do as you desire, so long as nothing startles or surprises them. On a 7-9, the effect is only strong enough to distract or confuse them. On a miss, they become agitated and upset, your fire having sparked their hidden desires.</p>
+
+    <h3 class="MoveName">Indestructible Hunger</h3>
+
+    <p>When you <strong>would take your last breath</strong>, don’t. Instead, you may erase one of your Bonds. This is permanent and lowers your total available Bonds forever. You are alive and have 1d6 hp. If you have no more Bonds, take your last breath as normal.</p>
+
+    <h3 class="MoveName">The Enkindler</h3>
+
+    <p>When you <strong>bolster the courage of others</strong> roll+CHA. On a 10+ they shake off all fear and doubt, becoming brave in an instant. On a 7-9, this effect is fleeting, they realize its superficiality and resort to cowardice after a moment or two. On a miss, they’re cowed or terrified by your presence.</p>
+
+    <h3 class="MoveName">Sick Burn</h3>
+
+    <p>When you <strong>insult an NPC</strong>, roll + CHA. On a 10+ you leave them no room to react, they bear your insult and the scorn of all who hear it. On a 7-9 you cross a line, they will have their revenge, someday. On a miss you've gone too far, they blow up here and now.</p>
+
+    <p class="InstructionsAfterHeader">When you gain a level from 6–10, choose from these moves.</p>
+
+    <h3 class="MoveName">From Hell’s Heart</h3>
+
+    <p>When you <strong>summon</strong> fire with any of your moves, you can replace it with the black fires of hell itself. This fire does not burn with heat and ignores armor, scorching the soul itself. Those creatures without souls cannot be harmed by this type of flame.</p>
+    
+    <h3 class="MoveName">Burning Ring Of Fire</h3>
+    <p>When you <strong>fuse a willing person’s soul to yours</strong>, roll+CHA. On a hit you are bound together, able to sense each other at any distance, as well as sharing your emotional state. On a 7-9, the connection is unstable and dangerous, when you take a debility, so do they (and vice versa). On a miss, the branding is rejected and you both erase any Bonds you have to each other. You may write new Bonds with them at the End of Session as usual. This fusion, once performed, cannot be undone by mortal means.</p>
+
+    <h3 class="MoveName">Fanning The Flames</h3>
+
+    <p class="Requirement">Requires: Firebrand</p>
+
+    <p>You may apply the effects of your Firebrand move to a group of people - a dozen or so - all at once.</p>
+    
+    <h3 class="MoveName">Watch The World Burn</h3>
+    
+    <p>When you <strong>a channel to the burning planes</strong> and call a firestorm, tell the GM what you’re sacrificing and roll+WIS. The sky opens up and fire pours like rain from it within an area about equal to a small village. Everyone and everything in the area takes damage as appropriate. On a 10+ you can extinguish the storm with a little effort. On a 7-9 the fires rage out of your control, spreading and gusting where they are carried by wind and weather. On a miss, something cruel, intelligent and hungry comes with the storm.</p>
+</div>
+
+
+
+
+
+
+  </main>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,"script","http://www.google-analytics.com/analytics.js","ga");
+
+    ga("create", "UA-42061955-1", "dwgazetteer.com");
+    ga("send", "pageview");
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/dwbook.js"></script>
+</body>
+</html>
